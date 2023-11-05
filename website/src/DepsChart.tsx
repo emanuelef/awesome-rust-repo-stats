@@ -14,11 +14,6 @@ const columns: GridColDef[] = [
     field: "dep",
     headerName: "Module",
     width: 220,
-    renderCell: (params) => (
-      <Linkweb href={GitHubURL + params.value} target="_blank">
-        {params.value}
-      </Linkweb>
-    ),
   },
   {
     field: "awesome_rust_repos_using_dep",
@@ -60,7 +55,9 @@ function DepsChart() {
             paginationModel: { page: 0, pageSize: 25 },
           },
           sorting: {
-            sortModel: [{ field: "awesome_rust_repos_using_dep", sort: "desc" }],
+            sortModel: [
+              { field: "awesome_rust_repos_using_dep", sort: "desc" },
+            ],
           },
         }}
         pageSizeOptions={[5, 10, 50]}
