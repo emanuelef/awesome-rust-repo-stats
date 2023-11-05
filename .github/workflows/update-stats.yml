@@ -1,0 +1,48 @@
+name: Update Awesome Go stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # runs at 06:00 UTC everyday
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.21"
+
+      - name: Install dependencies
+        run: go get .
+
+      - name: Run
+        run: go run main.go
+        env:
+          PAT: ${{ secrets.PAT }}
+          OTEL_EXPORTER_OTLP_HEADERS: ${{ secrets.OTEL_EXPORTER_OTLP_HEADERS }}
+          OTEL_SERVICE_NAME: ${{ vars.OTEL_SERVICE_NAME }}
+          OTEL_EXPORTER_OTLP_ENDPOINT: ${{ vars.OTEL_EXPORTER_OTLP_ENDPOINT }}
+          FILE_SUFFIX: "latest"
+
+      - name: Set last update date
+        run: |
+          current_day=$(date +"%Y-%m-%d")
+          echo "${current_day}" > "last-update.txt"
+
+      - name: Push generated files to the repo
+        uses: stefanzweifel/git-auto-commit-action@v4
+
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: generated-stats-csv
+          path: |
+            ./*.csv
+            ./last-update.txt
