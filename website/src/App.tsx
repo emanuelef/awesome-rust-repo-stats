@@ -157,6 +157,18 @@ const columns: GridColDef[] = [
 
 // https://raw.githubusercontent.com/emanuelef/awesome-rust-repo-stats/main/analysis-latest.csv
 
+function removeDuplicates(array, key) {
+  const seen = new Set();
+  return array.filter((item) => {
+    const keyValue = item[key];
+    if (!seen.has(keyValue)) {
+      seen.add(keyValue);
+      return true;
+    }
+    return false;
+  });
+}
+
 function App() {
   const fetchReposData = () => {
     fetch(csvURL)
@@ -164,6 +176,10 @@ function App() {
       .then((text) => Papa.parse(text, { header: true, skipEmptyLines: true }))
       .then(function (result) {
         console.log(result);
+
+        // Remove duplicates
+        result.data = removeDuplicates(result.data, "repo");
+
         setDataRows(result.data);
         setFilteredDataRows(result.data);
       })
