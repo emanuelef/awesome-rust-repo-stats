@@ -157,7 +157,7 @@ func main() {
 		scanner := bufio.NewScanner(reader)
 
 		// * [dust](https://github.com/bootandy/dust) — A more intuitive version of du
-		exp := regexp.MustCompile(`\* \[(.+?)\]\(https:\/\/github.com\/(.+?)\) - .*`)
+		exp := regexp.MustCompile(`\* \[([^\]]+)]\(https:\/\/github\.com\/([^\/\s]+\/[^\/\s]+)\) - .*`)
 
 		mainCategory := "General"
 		subCategory := ""
@@ -186,11 +186,11 @@ func main() {
 			if len(subMatch) >= 2 {
 				repo := subMatch[2]
 
+				fmt.Printf("line : %s\n", line)
 				fmt.Printf("repo : %d %s\n", i, repo)
 				i += 1
 
 				result, err := client.GetAllStats(ctx, repo)
-
 				if err != nil {
 					log.Fatal(err)
 				}
