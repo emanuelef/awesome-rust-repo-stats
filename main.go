@@ -190,6 +190,11 @@ func main() {
 				i += 1
 
 				result, err := client.GetAllStats(ctx, repo)
+
+				if err != nil {
+					log.Fatal(err)
+				}
+
 				if err == nil {
 					daysSinceLastStar := int(currentTime.Sub(result.LastStarDate).Hours() / 24)
 					daysSinceLastCommit := int(currentTime.Sub(result.LastCommitDate).Hours() / 24)
