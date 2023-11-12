@@ -12,6 +12,7 @@ root.render(
         <GitHubCorners
           position="right"
           href="https://github.com/emanuelef/awesome-rust-repo-stats"
+          fixed={true}
         />
         <App />
       </HashRouter>

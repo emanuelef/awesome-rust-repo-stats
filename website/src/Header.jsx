@@ -17,8 +17,8 @@ function Header({ lastUpdate }) {
   };
 
   const githubButtonStyle = {
-    marginLeft: "auto", // Push GitHub button to the right
-    marginRight: "20px",
+    marginTop: "5px",
+    marginRight: "30px",
   };
 
   return (
