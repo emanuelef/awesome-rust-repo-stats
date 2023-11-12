@@ -469,7 +469,7 @@ function App() {
           </MenuItem>
           <MenuItem
             component={
-              <Link to="/starstimeline/:user/:repository" className="link" />
+              <Link to="/starstimeline/juspay/hyperswitch" className="link" />
             }
             icon={<TimelineRoundedIcon />}
           >
