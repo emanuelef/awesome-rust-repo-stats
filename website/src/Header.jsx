@@ -23,7 +23,7 @@ function Header({ lastUpdate }) {
 
   return (
     <div className="header" style={headerStyle}>
-      <p>Last Update: {lastUpdate}</p>
+      <p>Awesome Rust Last Update: {lastUpdate}</p>
       <Linkweb href={csvURL} download>
         Link to CSV
       </Linkweb>
