@@ -12,6 +12,27 @@ const csvURL =
 
 const logBase = (n, base) => Math.log(n) / Math.log(base);
 
+const categories = [
+  "Applications",
+  "Development tools",
+  "Libraries",
+  "Registries",
+  "Resources",
+];
+
+const mapCategoryToColor = (category) => {
+  const colorMappings = {
+    [categories[0]]: "rgb(93, 164, 214)",
+    [categories[1]]: "rgb(55, 44, 184)",
+    [categories[2]]: "rgb(44, 160, 101)",
+    [categories[3]]: "rgb(244, 60, 101)",
+    [categories[4]]: "rgb(244, 160, 71)",
+  };
+
+  // Return the color for the given category, or a default color if not found
+  return colorMappings[category] || "rgb(0, 0, 0)"; // Default to black if not found
+};
+
 const clickActions = [
   { label: "GH Repo", action: "gh" },
   { label: "Last 30d stars", action: "30d" },
@@ -112,35 +133,45 @@ const BubbleChart = ({ dataRows }) => {
       }
     });
 
-    const trace = {
-      x: updatedData.map((row) => row[selectedXAxis.metric]),
-      y: updatedData.map((row) => row[selectedYAxis.metric]),
-      repo: updatedData.map((row) => `${row.repo}`),
-      text: updatedData.map(
-        (row) =>
-          `${row.repo}<br>Total Stars: ${formatStars(
-            row.stars
-          )}<br>Last commit: ${
-            row["days-last-commit"]
-          } days ago<br>Age: ${calculateAge(row["days-since-creation"])}`
-      ),
-      mode: "markers",
-      marker: {
-        size:
-          selectedSize.metric == "stars"
-            ? updatedData.map((row) => Math.sqrt(row["stars"]) * 7)
-            : updatedData.map((row) => 600),
-        sizemode: "diameter",
-        sizeref: 20.03,
-        color: updatedData.map((row) =>
-          row["archived"] == "true" ? "red" : "orange"
-        ),
-      },
-      type: "scatter",
-      //name: "ciao",
-    };
+    let filteredData = [];
 
-    setData([trace]);
+    categories.forEach((category) => {
+      console.log(category);
+
+      let updatedCategoryData = updatedData.filter(
+        (row) => row["main-category"] === category
+      );
+
+      const trace = {
+        x: updatedCategoryData.map((row) => row[selectedXAxis.metric]),
+        y: updatedCategoryData.map((row) => row[selectedYAxis.metric]),
+        repo: updatedCategoryData.map((row) => `${row.repo}`),
+        text: updatedCategoryData.map(
+          (row) =>
+            `${row.repo}<br>Total Stars: ${formatStars(
+              row.stars
+            )}<br>Last commit: ${
+              row["days-last-commit"]
+            } days ago<br>Age: ${calculateAge(row["days-since-creation"])}`
+        ),
+        mode: "markers",
+        marker: {
+          size:
+            selectedSize.metric == "stars"
+              ? updatedCategoryData.map((row) => Math.sqrt(row["stars"]) * 7)
+              : updatedCategoryData.map((row) => 600),
+          sizemode: "diameter",
+          sizeref: 20.03,
+          color: mapCategoryToColor(category),
+        },
+        type: "scatter",
+        name: category,
+      };
+
+      filteredData.push(trace);
+    });
+
+    setData(filteredData);
   };
 
   const loadData = async () => {
@@ -188,7 +219,7 @@ const BubbleChart = ({ dataRows }) => {
     color: "main-category",
     hovermode: "closest",
     hover_name: "repo",
-    showlegend: false,
+    showlegend: true,
     margin: {
       t: 30, // Adjusted top margin
       r: 20,
