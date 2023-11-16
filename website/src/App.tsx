@@ -12,7 +12,6 @@ import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Routes, Route, Link } from "react-router-dom";
 
 import TimeSeriesChart from "./TimeSeriesChart";
-import WaffleChart from "./WaffleChart";
 import DepsChart from "./DepsChart";
 
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
@@ -27,6 +26,15 @@ import GitHubButton from "react-github-btn";
 
 // Import the Header component
 import Header from "./Header";
+
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 /*
 archived
@@ -288,8 +296,10 @@ function App() {
               />
             )}
             value={mainCategory}
-            onChange={(e, v) => {
-              if (v) {
+            onChange={(e, v, reason) => {
+              if (reason === "clear") {
+                setMainCategory("All");
+              } else {
                 setMainCategory(v);
               }
             }}
@@ -321,8 +331,10 @@ function App() {
               />
             )}
             value={subCategory}
-            onChange={(e, v) => {
-              if (v) {
+            onChange={(e, v, reason) => {
+              if (reason === "clear") {
+                setSubCategory("All");
+              } else {
                 setSubCategory(v);
               }
             }}
@@ -336,7 +348,7 @@ function App() {
             }}
           />
         </div>
-        <div style={{ marginLeft: "10px" }}>
+        <div style={{ marginLeft: "10px", marginRight: "90px", height: "86%" }}>
           <DataGrid
             getRowId={(row) => row.repo}
             rows={filteredDataRows}
@@ -391,12 +403,18 @@ function App() {
               />
             )}
             value={selectedRepo}
-            onChange={(e, v) => {
-              console.log(v?.label);
-              setSelectedRepo(v?.label);
-              navigate(`/starstimeline/${v?.label}`, {
-                replace: false,
-              });
+            onChange={(e, v, reason) => {
+              if (reason === "clear") {
+                setSelectedRepo("denoland/deno");
+                navigate(`/starstimeline/denoland/deno`, {
+                  replace: false,
+                });
+              } else {
+                setSelectedRepo(v?.label);
+                navigate(`/starstimeline/${v?.label}`, {
+                  replace: false,
+                });
+              }
             }}
             onBlur={() => {
               navigate(`/starstimeline/denoland/deno}`, {
@@ -433,64 +451,74 @@ function App() {
   };
 
   return (
-    <div style={{ display: "flex", height: "100vh" }}>
-      <Sidebar className="app" collapsed={collapsed}>
-        <Menu>
-          <MenuItem
-            component={<Link to="/" className="link" />}
-            className="menu1"
-            icon={
-              <MenuRoundedIcon
-                onClick={() => {
-                  setCollapsed(!collapsed);
-                }}
-              />
-            }
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <div style={{ display: "flex", height: "100vh" }}>
+        <Sidebar
+          className="app"
+          collapsed={collapsed}
+          backgroundColor="rgb(51, 117, 117)"
+        >
+          <Menu
+            menuItemStyles={{
+              button: ({ level, active, disabled }) => {
+                if (level >= 0)
+                  return {
+                    color: disabled ? "#f5d9ff" : "#07100d",
+                    backgroundColor: active ? "#00cef9" : "undefined",
+                  };
+              },
+            }}
           >
-            <h2>Awesome Rust Stats</h2>
-          </MenuItem>
-          <MenuItem
-            component={<Link to="/table" className="link" />}
-            icon={<ViewListRoundedIcon />}
-          >
-            Table
-          </MenuItem>
-          <MenuItem
-            component={<Link to="/deps" className="link" />}
-            icon={<LibraryBooksRoundedIcon />}
-          >
-            Dependencies
-          </MenuItem>
-          <MenuItem
-            component={<Link to="/waffle" className="link" />}
-            icon={<ViewModuleRoundedIcon />}
-          >
-            Waffle
-          </MenuItem>
-          <MenuItem
-            component={
-              <Link to="/starstimeline/juspay/hyperswitch" className="link" />
-            }
-            icon={<TimelineRoundedIcon />}
-          >
-            StarsTimeline
-          </MenuItem>
-        </Menu>
-      </Sidebar>
-      <section>
-        <Header lastUpdate={lastUpdate} />
-        <Routes>
-          <Route path="/" element={<Table />} />
-          <Route path="/table" element={<Table />} />
-          <Route path="/deps" element={<DepsChart />} />
-          <Route path="/waffle" element={<WaffleChart dataRows={dataRows} />} />
-          <Route
-            path="/starstimeline/:user/:repository"
-            element={<StarsTimeline />}
-          />
-        </Routes>
-      </section>
-    </div>
+            <MenuItem
+              component={<Link to="/" className="link" />}
+              className="menu1"
+              icon={
+                <MenuRoundedIcon
+                  onClick={() => {
+                    setCollapsed(!collapsed);
+                  }}
+                />
+              }
+            >
+              <h2 style={{ color: "black" }}>Awesome Rust Stats</h2>
+            </MenuItem>
+            <MenuItem
+              component={<Link to="/table" className="link" />}
+              icon={<ViewListRoundedIcon />}
+            >
+              Table
+            </MenuItem>
+            <MenuItem
+              component={<Link to="/deps" className="link" />}
+              icon={<LibraryBooksRoundedIcon />}
+            >
+              Dependencies
+            </MenuItem>
+            <MenuItem
+              component={
+                <Link to="/starstimeline/juspay/hyperswitch" className="link" />
+              }
+              icon={<TimelineRoundedIcon />}
+            >
+              StarsTimeline
+            </MenuItem>
+          </Menu>
+        </Sidebar>
+        <section style={{ width: "100%" }}>
+          <Header lastUpdate={lastUpdate} />
+          <Routes>
+            <Route path="/" element={<Table />} />
+            <Route path="/table" element={<Table />} />
+            <Route path="/deps" element={<DepsChart />} />
+            <Route
+              path="/starstimeline/:user/:repository"
+              element={<StarsTimeline />}
+            />
+          </Routes>
+        </section>
+      </div>
+    </ThemeProvider>
   );
 }
 
