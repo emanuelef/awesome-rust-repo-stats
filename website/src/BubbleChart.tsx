@@ -397,7 +397,7 @@ const BubbleChart = ({ dataRows }) => {
           }
           onChange={(e, v, reason) => {
             if (reason === "clear") {
-              setSelectedSize(axisMetrics[0]);
+              setSelectedSize(sizeMetrics[0]);
             } else {
               setSelectedSize(v);
             }
