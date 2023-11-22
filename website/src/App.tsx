@@ -128,6 +128,16 @@ const hexToRgb = (hex) => {
   return hexDigits.map((value) => parseInt(value, 16));
 };
 
+const calculateAge = (days) => {
+  const years = Math.floor(days / 365);
+  const months = Math.floor((days % 365) / 30);
+  const remainingDays = days % 30;
+
+  return `${years !== 0 ? `${years}y ` : ""}${
+    months !== 0 ? `${months}m ` : ""
+  }${remainingDays}d`;
+};
+
 const columns: GridColDef[] = [
   {
     field: "repo",
@@ -176,6 +186,18 @@ const columns: GridColDef[] = [
     valueGetter: (val) => parseFloat(val.row["stars-per-mille-30d"]),
   },
   {
+    field: "new-commits-last-30d",
+    headerName: "Commits 30d",
+    width: 100,
+    valueGetter: (params) => parseInt(params.value),
+  },
+  {
+    field: "unique-contributors",
+    headerName: "Commits Authors 30d",
+    width: 100,
+    valueGetter: (params) => parseInt(params.value),
+  },
+  {
     field: "mentionable-users",
     headerName: "Ment. users",
     width: 110,
@@ -189,9 +211,10 @@ const columns: GridColDef[] = [
   },
   {
     field: "days-since-creation",
-    headerName: "Created days ago",
+    headerName: "Age",
     width: 130,
     valueGetter: (params) => parseInt(params.value),
+    renderCell: (params) => calculateAge(params.value),
   },
   {
     field: "archived",
