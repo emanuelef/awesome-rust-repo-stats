@@ -196,7 +196,14 @@ func main() {
 
 				result, err := client.GetAllStats(ctx, repo)
 				if err != nil {
-					log.Fatal(err)
+					// retry once
+					fmt.Println("retrying after 5 minutes")
+					time.Sleep(5 * time.Minute)
+					result, err = client.GetAllStats(ctx, repo)
+					if err != nil {
+						log.Fatal(err)
+					}
+
 				}
 
 				if err == nil {
