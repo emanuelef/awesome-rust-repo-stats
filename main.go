@@ -195,7 +195,6 @@ func main() {
 				i += 1
 
 				result, err := client.GetAllStats(ctx, repo)
-
 				if err != nil {
 					log.Fatal(err)
 				}
