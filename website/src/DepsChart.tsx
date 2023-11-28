@@ -4,16 +4,23 @@ import Papa from "papaparse";
 import "./App.css";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 
-const GitHubURL = "https://";
+const CratesURL = "https://crates.io/crates/";
 
 const csvURL =
   "https://raw.githubusercontent.com/emanuelef/awesome-rust-repo-stats/main/dep-repo-latest.csv";
+
+CratesURL;
 
 const columns: GridColDef[] = [
   {
     field: "dep",
     headerName: "Module",
     width: 220,
+    renderCell: (params) => (
+      <Linkweb href={CratesURL + params.value} target="_blank">
+        {params.value}
+      </Linkweb>
+    ),
   },
   {
     field: "awesome_rust_repos_using_dep",
