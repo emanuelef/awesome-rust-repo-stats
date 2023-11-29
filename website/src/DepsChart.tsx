@@ -44,11 +44,35 @@ const columns: GridColDef[] = [
     valueGetter: (params) => parseInt(params.value),
   },
   {
+    field: "crate_category",
+    headerName: "Category",
+    width: 140,
+  },
+  {
     field: "crate_total_downloads",
     headerName: "Total Downloads",
-    width: 100,
+    width: 140,
     valueGetter: (params) => parseInt(params.value),
     renderCell: (params) => formatNumber(params.value),
+  },
+  {
+    field: "crate_recent_downloads",
+    headerName: "Recent Downloads",
+    width: 140,
+    valueGetter: (params) => parseInt(params.value),
+    renderCell: (params) => formatNumber(params.value),
+  },
+  {
+    field: "repo_url",
+    headerName: "GH URL",
+    width: 240,
+    renderCell: (params) => (
+      <Linkweb href={params.value} target="_blank">
+        {params.value.startsWith("https://github.com/")
+          ? params.value.substring("https://github.com/".length)
+          : params.value}
+      </Linkweb>
+    ),
   },
 ];
 
@@ -77,7 +101,7 @@ function DepsChart() {
       style={{
         marginLeft: "10px",
         marginTop: "10px",
-        width: "400px",
+        width: "1000px",
         height: "86%",
       }}
     >
