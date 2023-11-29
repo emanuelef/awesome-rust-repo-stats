@@ -29,7 +29,7 @@ function formatNumber(number) {
 const columns: GridColDef[] = [
   {
     field: "dep",
-    headerName: "Module",
+    headerName: "Crate",
     width: 220,
     renderCell: (params) => (
       <Linkweb href={CratesURL + params.value} target="_blank">
