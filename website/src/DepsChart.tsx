@@ -9,7 +9,22 @@ const CratesURL = "https://crates.io/crates/";
 const csvURL =
   "https://raw.githubusercontent.com/emanuelef/awesome-rust-repo-stats/main/dep-repo-latest.csv";
 
-CratesURL;
+function formatNumber(number) {
+  const absNumber = Math.abs(number);
+
+  if (absNumber >= 1e6) {
+    // Millions
+    return (number / 1e6).toFixed(1) + "M";
+  } else if (absNumber >= 1e3) {
+    // Thousands
+    return (number / 1e3).toFixed(1) + "K";
+  } else {
+    // Less than 1000
+    return number.toString();
+  }
+}
+
+// renderCell: (params) => calculateAge(params.value),
 
 const columns: GridColDef[] = [
   {
@@ -24,9 +39,16 @@ const columns: GridColDef[] = [
   },
   {
     field: "awesome_rust_repos_using_dep",
-    headerName: "Repos #",
+    headerName: "Repos in Awesome Rust using it",
     width: 100,
     valueGetter: (params) => parseInt(params.value),
+  },
+  {
+    field: "crate_total_downloads",
+    headerName: "Total Downloads",
+    width: 100,
+    valueGetter: (params) => parseInt(params.value),
+    renderCell: (params) => formatNumber(params.value),
   },
 ];
 

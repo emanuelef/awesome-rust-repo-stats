@@ -29,7 +29,20 @@ import (
 
 const (
 	AwesomeGoMarkdownUrl = "https://raw.githubusercontent.com/rust-unofficial/awesome-rust/main/README.md"
+	CrateAPIUrl          = "https://crates.io/api/v1/crates/%s"
 )
+
+type CrateData struct {
+	Categories []struct {
+		Category string `json:"category"`
+	} `json:"categories"`
+	Crate struct {
+		Description     string `json:"description"`
+		Downloads       int    `json:"downloads"`
+		RecentDownloads int    `json:"recent_downloads"`
+		RepoUrl         string `json:"repository"`
+	} `json:"crate"`
+}
 
 func getEnv(key, defaultValue string) string {
 	value := os.Getenv(key)
@@ -39,7 +52,7 @@ func getEnv(key, defaultValue string) string {
 	return value
 }
 
-func writeGoDepsMapFile(deps map[string]int) {
+func writeGoDepsMapFile(ctx context.Context, deps map[string]int, restyClient *resty.Client) {
 	currentTime := time.Now()
 	outputFile, err := os.Create(fmt.Sprintf("dep-repo-%s.csv", getEnv("FILE_SUFFIX", (currentTime.Format("02-01-2006")))))
 	if err != nil {
@@ -52,7 +65,8 @@ func writeGoDepsMapFile(deps map[string]int) {
 	defer csvWriter.Flush()
 
 	headerRow := []string{
-		"dep", "awesome_rust_repos_using_dep",
+		"dep", "awesome_rust_repos_using_dep", "crate_category",
+		"crate_total_downloads", "crate_recent_downloads", "repo_url",
 	}
 
 	err = csvWriter.Write(headerRow)
@@ -61,12 +75,44 @@ func writeGoDepsMapFile(deps map[string]int) {
 		log.Fatal(err)
 	}
 
-	for k, v := range deps {
-		if v > 10 {
+	for dep, occurrences := range deps {
+		if occurrences > 10 {
+			restyReq := restyClient.R().SetResult(&CrateData{})
+			restyReq.SetContext(ctx)
+			resp, err := restyReq.Get(fmt.Sprintf(CrateAPIUrl, dep))
+
+			if err != nil {
+				continue
+				// log.Fatal(err)
+			}
+
+			if resp.StatusCode() != 200 {
+				continue
+				// log.Fatalf("Non-200 status code received: %d", resp.StatusCode())
+			}
+
+			data := resp.Result().(*CrateData)
+
+			firstCategory := ""
+			totalDownloads := data.Crate.Downloads
+			recentDownloads := data.Crate.RecentDownloads
+
+			for _, category := range data.Categories {
+				if category.Category != "No standard library" {
+					firstCategory = category.Category
+					break
+				}
+			}
+
 			err = csvWriter.Write([]string{
-				k,
-				fmt.Sprintf("%d", v),
+				dep,
+				fmt.Sprintf("%d", occurrences),
+				firstCategory,
+				fmt.Sprintf("%d", totalDownloads),
+				fmt.Sprintf("%d", recentDownloads),
+				data.Crate.RepoUrl,
 			})
+
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -256,7 +302,7 @@ func main() {
 			}
 		}
 
-		writeGoDepsMapFile(depsUse)
+		writeGoDepsMapFile(ctx, depsUse, restyClient)
 
 		jsonData, _ := json.MarshalIndent(starsHistory, "", " ")
 		_ = os.WriteFile("stars-history-30d.json", jsonData, 0o644)
