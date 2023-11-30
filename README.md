@@ -1,5 +1,11 @@
 # awesome-rust-repo-stats
 
+
+
+https://github.com/emanuelef/awesome-rust-repo-stats/assets/48717/3df7809f-9095-484e-a6a6-3128399d6a13
+
+
+
 ## Introduction
 
 This project offers a comprehensive analysis of repositories curated in the list found at [awesome-rust](https://github.com/rust-unofficial/awesome-rust). You can access the live deployment at [awesome-rust-repo-stats](https://emanuelef.github.io/awesome-rust-repo-stats), with daily updates to keep you informed.
