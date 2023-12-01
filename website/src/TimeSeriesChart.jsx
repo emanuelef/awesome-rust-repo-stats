@@ -3,7 +3,8 @@ import FusionCharts from "fusioncharts";
 import TimeSeries from "fusioncharts/fusioncharts.timeseries";
 import ReactFC from "react-fusioncharts";
 import CandyTheme from "fusioncharts/themes/fusioncharts.theme.candy";
-import schema from "./schema";
+import schemaStars from "./schema_stars";
+import schemaCommits from "./schema_commits";
 
 ReactFC.fcRoot(FusionCharts, TimeSeries, CandyTheme);
 const chart_props = {
@@ -13,17 +14,8 @@ const chart_props = {
     height: "80%",
     dataEmptyMessage: "Fetching data...",
     dataSource: {
-      caption: { text: "Daily Stars" },
+      caption: { text: "" },
       data: null,
-      yAxis: [
-        {
-          plot: [
-            {
-              value: "New Stars",
-            },
-          ],
-        },
-      ],
       chart: {
         animation: "0",
         theme: "candy",
@@ -35,10 +27,12 @@ const chart_props = {
   },
 };
 
-const API_URL =
-  "https://raw.githubusercontent.com/emanuelef/awesome-rust-repo-stats/main/stars-history-30d.json";
+const API_BASE_URL =
+  "https://raw.githubusercontent.com/emanuelef/awesome-rust-repo-stats/main";
+const API_STARS_URL = `${API_BASE_URL}/stars-history-30d.json`;
+const API_COMMITS_URL = `${API_BASE_URL}/commits-history-30d.json`;
 
-function TimeSeriesChart({ repo }) {
+function TimeSeriesChart({ repo, metric }) {
   const [ds, setds] = useState(chart_props);
   const [dataLoaded, setDataLoaded] = useState(false);
   const dataRef = useRef([]);
@@ -46,9 +40,11 @@ function TimeSeriesChart({ repo }) {
   const loadData = async () => {
     try {
       if (dataRef.current.length === 0) {
-        console.log("load all data");
+        console.log("load all data " + metric);
 
-        const response = await fetch(API_URL);
+        const response = await fetch(
+          metric == "Stars" ? API_STARS_URL : API_COMMITS_URL
+        );
         const data = await response.json();
 
         console.log(data);
@@ -71,17 +67,15 @@ function TimeSeriesChart({ repo }) {
         throw new Error("No data");
       }
 
-      console.log("Shouldn't be here");
-
       const dataRepo = dataRef.current[repo];
       const fusionTable = new FusionCharts.DataStore().createDataTable(
         dataRepo,
-        schema
+        metric == "Stars" ? schemaStars : schemaCommits
       );
       const options = { ...ds };
       options.timeseriesDs.dataSource.data = fusionTable;
       options.timeseriesDs.dataSource.caption = {
-        text: `Daily Stars ${repo}`,
+        text: `${repo}`,
       };
       options.timeseriesDs.dataSource.chart.exportFileName = `${repo.replace(
         "/",

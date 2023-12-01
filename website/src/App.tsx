@@ -79,6 +79,8 @@ const lastUpdateURL =
 const fullStarsHistoryURL =
   "https://emanuelef.github.io/gh-repo-stats-server/#/";
 
+const TimelineMetrics = ["Stars", "Commits"];
+
 const getColorFromValue = (value) => {
   // Normalize the value to a scale from 0 to 1
   const normalizedValue = value / 100;
@@ -328,6 +330,9 @@ function App() {
   const [mainCategory, setMainCategory] = useState("All");
   const [subCategory, setSubCategory] = useState("All");
   const [subCategories, setSubCategories] = useState([]);
+  const [selectedTimelineMetric, setSelectedTimelineMetric] = useState(
+    TimelineMetrics[0]
+  );
 
   const navigate = useNavigate();
 
@@ -517,17 +522,29 @@ function App() {
                 });
               }
             }}
-            onBlur={() => {
-              navigate(`/starstimeline/denoland/deno`, {
-                replace: false,
-              });
-            }}
-            clearOnBlur={false}
-            clearOnEscape
-            onClear={() => {
-              navigate(`/starstimeline/denoland/deno`, {
-                replace: false,
-              });
+          />
+          <Autocomplete
+            disablePortal
+            style={{ marginLeft: "10px", marginRight: "20px" }}
+            id="actions-combo-box"
+            size="small"
+            options={TimelineMetrics}
+            sx={{ width: 220 }}
+            renderInput={(params) => (
+              <TextField
+                {...params}
+                label="Select a metric"
+                variant="outlined"
+                size="small"
+              />
+            )}
+            value={selectedTimelineMetric}
+            onChange={(e, v, reason) => {
+              if (reason === "clear") {
+                setSelectedTimelineMetric(TimelineMetrics[0]);
+              } else {
+                setSelectedTimelineMetric(v);
+              }
             }}
           />
           <GitHubButton
@@ -545,7 +562,7 @@ function App() {
             Full Stars History
           </Linkweb>
         </div>
-        <TimeSeriesChart repo={selectedRepo} />
+        <TimeSeriesChart repo={selectedRepo} metric={selectedTimelineMetric} />
       </>
     );
   };
