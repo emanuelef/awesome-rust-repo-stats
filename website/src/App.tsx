@@ -518,14 +518,14 @@ function App() {
               }
             }}
             onBlur={() => {
-              navigate(`/starstimeline/denoland/deno}`, {
+              navigate(`/starstimeline/denoland/deno`, {
                 replace: false,
               });
             }}
             clearOnBlur={false}
             clearOnEscape
             onClear={() => {
-              navigate(`/starstimeline/denoland/deno}`, {
+              navigate(`/starstimeline/denoland/deno`, {
                 replace: false,
               });
             }}

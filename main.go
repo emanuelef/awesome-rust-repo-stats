@@ -80,7 +80,6 @@ func writeGoDepsMapFile(ctx context.Context, deps map[string]int, restyClient *r
 			restyReq := restyClient.R().SetResult(&CrateData{})
 			restyReq.SetContext(ctx)
 			resp, err := restyReq.Get(fmt.Sprintf(CrateAPIUrl, dep))
-			
 			if err != nil {
 				continue
 				// log.Fatal(err)
