@@ -1,125 +1,126 @@
 dep,awesome_rust_repos_using_dep,crate_category,crate_total_downloads,crate_recent_downloads,repo_url
-image,32,Encoding,23983513,3494471,https://github.com/image-rs/image
-fnv,18,,147217372,18557293,https://github.com/servo/rust-fnv
-serde_yaml,34,Parser implementations,54276337,7672271,https://github.com/dtolnay/serde-yaml
-ignore,11,,28056163,4488001,https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore
-ahash,18,Data structures,135394934,22718804,https://github.com/tkaitchuck/ahash
-memchr,15,,232804760,31653885,https://github.com/BurntSushi/memchr
-prost,15,Encoding,63124450,11311190,https://github.com/tokio-rs/prost
-which,14,Operating systems,90699140,12524024,https://github.com/harryfei/which-rs.git
-mime,17,,111183981,14978939,https://github.com/hyperium/mime
-proc-macro2,17,Procedural macro helpers,315712185,38452459,https://github.com/dtolnay/proc-macro2
-openssl,18,Cryptography,86177960,9568924,https://github.com/sfackler/rust-openssl
-nix,26,Unix APIs,127275042,18717369,https://github.com/nix-rust/nix
-num,21,Algorithms,47015801,5905824,https://github.com/rust-num/num
-libc,93,Operating systems,310248333,37043576,https://github.com/rust-lang/libc
-percent-encoding,25,,167726796,21809931,https://github.com/servo/rust-url/
-crossbeam-channel,27,Data structures,130820648,15175152,https://github.com/crossbeam-rs/crossbeam
-hyper,41,HTTP server,134193306,17339578,https://github.com/hyperium/hyper
-byteorder,35,Parsing tools,165397857,20053551,https://github.com/BurntSushi/byteorder
-rustyline,13,Command-line interface,8551695,1005872,https://github.com/kkawakam/rustyline
-serde_derive,48,No dynamic allocation,244955171,32474304,https://github.com/serde-rs/serde
-parking_lot,46,Concurrency,208426990,24281858,https://github.com/Amanieu/parking_lot
-atty,15,,141118726,11024459,https://github.com/softprops/atty
-cargo_metadata,11,,37577704,5779173,https://github.com/oli-obk/cargo_metadata
-http,31,Web programming,129056165,18653497,https://github.com/hyperium/http
-pin-project,11,No dynamic allocation,113622797,13353601,https://github.com/taiki-e/pin-project
-rayon,47,Concurrency,97105779,14003276,https://github.com/rayon-rs/rayon
-zeroize,12,Operating systems,75177524,11530898,https://github.com/RustCrypto/utils/tree/master/zeroize
-dirs,35,,66400149,6344414,https://github.com/soc/dirs-rs
-tracing,53,Asynchronous,137922829,20143494,https://github.com/tokio-rs/tracing
-serde_with,17,No dynamic allocation,35791300,6581892,https://github.com/jonasbb/serde_with/
-hex,42,Encoding,112762136,14840357,https://github.com/KokaKiwi/rust-hex
-glob,22,Filesystem,99722473,13563016,https://github.com/rust-lang/glob
-linked-hash-map,11,,76842463,7773628,https://github.com/contain-rs/linked-hash-map
-encoding_rs,11,Web programming,97327125,13309560,https://github.com/hsivonen/encoding_rs
-flate2,40,Compression,113651982,15989111,https://github.com/rust-lang/flate2-rs
-anyhow,95,Rust patterns,156932855,23055240,https://github.com/dtolnay/anyhow
-indicatif,23,Command-line interface,25759707,3853402,https://github.com/console-rs/indicatif
-colored,27,,33351355,4268055,https://github.com/mackwic/colored
-reqwest,53,HTTP client,91422508,12295390,https://github.com/seanmonstar/reqwest
-backtrace,11,,105104868,12688890,https://github.com/rust-lang/backtrace-rs
-axum,12,HTTP server,36017488,8452512,https://github.com/tokio-rs/axum
-winit,12,GUI,8832196,1171201,https://github.com/rust-windowing/winit
-base64,55,Encoding,257174206,36327739,https://github.com/marshallpierce/rust-base64
-strum_macros,20,Parsing tools,74274466,12677621,https://github.com/Peternator7/strum
-tower,12,Asynchronous,50706595,8564070,https://github.com/tower-rs/tower
-smallvec,34,Data structures,211223012,26551969,https://github.com/servo/rust-smallvec
-memmap2,11,,41686698,8380642,https://github.com/RazrFalcon/memmap2-rs
-uuid,50,Parser implementations,127636226,19010177,https://github.com/uuid-rs/uuid
-serde,235,No dynamic allocation,275107860,34340357,https://github.com/serde-rs/serde
-tower-http,11,Web programming,28128009,4705313,https://github.com/tower-rs/tower-http
-thiserror,97,Rust patterns,173615952,26499198,https://github.com/dtolnay/thiserror
-ron,11,Encoding,11857814,2057377,https://github.com/ron-rs/ron
-clap,149,Command-line interface,204582956,26618186,https://github.com/clap-rs/clap
-lru,13,Caching,36666326,6910531,https://github.com/jeromefroe/lru-rs.git
-structopt,16,Command-line interface,40120730,2562090,https://github.com/TeXitoi/structopt
-crossterm,21,Command-line interface,19015989,2994965,https://github.com/crossterm-rs/crossterm
-tonic,16,Asynchronous,41777592,8366299,https://github.com/hyperium/tonic
-strum,35,Parsing tools,69468594,11952634,https://github.com/Peternator7/strum
-clap_complete,18,Command-line interface,11893029,2492779,https://github.com/clap-rs/clap/tree/master/clap_complete
-nom,11,Parsing tools,130296207,16320842,https://github.com/Geal/nom
-getrandom,11,Operating systems,245186302,30800367,https://github.com/rust-random/getrandom
-once_cell,68,Memory management,217355585,30060270,https://github.com/matklad/once_cell
-paste,14,Development tools,93222897,13230387,https://github.com/dtolnay/paste
-futures-util,36,,145070793,21058695,https://github.com/rust-lang/futures-rs
-url,72,Parser implementations,161980631,20533877,https://github.com/servo/rust-url
-ratatui,11,,1175867,507795,https://github.com/ratatui-org/ratatui
-log,155,Debugging,237099725,28222997,https://github.com/rust-lang/log
-bincode,20,Network programming,56945705,7443379,https://github.com/bincode-org/bincode
-dialoguer,12,Command-line interface,13565656,1952306,https://github.com/console-rs/dialoguer
-tempfile,50,,132666810,20450843,https://github.com/Stebalien/tempfile
-criterion,15,Profiling,38779930,5719975,https://github.com/bheisler/criterion.rs
-ctrlc,17,Operating systems,21861555,2982441,https://github.com/Detegr/rust-ctrlc.git
-syn,20,Parser implementations,409574327,61448365,https://github.com/dtolnay/syn
-tokio,113,Asynchronous,163255744,21107457,https://github.com/tokio-rs/tokio
-async-std,11,Concurrency,21113330,2458754,https://github.com/async-rs/async-std
-lazy_static,87,Rust patterns,218439903,23632848,https://github.com/rust-lang-nursery/lazy-static.rs
-derivative,14,Rust patterns,44092822,6220975,https://github.com/mcarton/rust-derivative
-humantime,14,Date and time,110310823,11912816,https://github.com/tailhook/humantime
-pin-project-lite,11,Rust patterns,171626654,22331955,https://github.com/taiki-e/pin-project-lite
-indexmap,32,Data structures,205540362,35905148,https://github.com/indexmap-rs/indexmap
-itertools,68,Algorithms,176211585,29608493,https://github.com/rust-itertools/itertools
-walkdir,31,Filesystem,105850387,14623205,https://github.com/BurntSushi/walkdir
-num-traits,41,Science,210939087,25720586,https://github.com/rust-num/num-traits
-derive_more,15,Procedural macro helpers,55710201,7326586,https://github.com/JelteF/derive_more
-bitflags,39,,286488152,47400301,https://github.com/bitflags/bitflags
-zip,17,,27441361,4130126,https://github.com/zip-rs/zip.git
-async-trait,56,Asynchronous,112768241,16398700,https://github.com/dtolnay/async-trait
-num_cpus,35,Hardware support,173604084,19747341,https://github.com/seanmonstar/num_cpus
-tar,20,,34304806,4923431,https://github.com/alexcrichton/tar-rs
-quote,18,Procedural macro helpers,313244412,36476331,https://github.com/dtolnay/quote
-zstd,11,Compression,53696963,9787157,https://github.com/gyscos/zstd-rs
-socket2,14,Network programming,168094558,27975448,https://github.com/rust-lang/socket2
-tokio-stream,21,Asynchronous,69541478,10590376,https://github.com/tokio-rs/tokio
-actix-web,11,Asynchronous,17644616,2098671,https://github.com/actix/actix-web
-dashmap,11,Algorithms,50094622,8373542,https://github.com/xacrimon/dashmap
-bytes,57,Data structures,182729497,21443733,https://github.com/tokio-rs/bytes
-num-bigint,15,Algorithms,99845606,13352287,https://github.com/rust-num/num-bigint
-hashbrown,23,Data structures,253891502,45648407,https://github.com/rust-lang/hashbrown
-serde_json,170,Parser implementations,234248525,30294748,https://github.com/serde-rs/json
-unicode-width,28,,138942260,14482506,https://github.com/unicode-rs/unicode-width
-rusqlite,13,Database interfaces,14801246,2173616,https://github.com/rusqlite/rusqlite
-ring,14,Cryptography,93623093,19593424,https://github.com/briansmith/ring
-env_logger,60,Debugging,129439030,14648819,https://github.com/rust-cli/env_logger
-tracing-subscriber,38,Profiling,82160378,13432070,https://github.com/tokio-rs/tracing
-toml,65,Parsing tools,146058150,20759798,https://github.com/toml-rs/toml
-unicode-segmentation,14,,108818688,11845528,https://github.com/unicode-rs/unicode-segmentation
-rand,128,Algorithms,291615631,29251986,https://github.com/rust-random/rand
-time,53,Parser implementations,222802783,22611607,https://github.com/time-rs/time
-cfg-if,26,,289977382,30893307,https://github.com/alexcrichton/cfg-if
-tokio-util,34,Asynchronous,140410224,18224305,https://github.com/tokio-rs/tokio
-notify,22,Filesystem,22157332,2924156,https://github.com/notify-rs/notify.git
-rustls-pemfile,17,Network programming,64720243,14078336,https://github.com/rustls/pemfile
-sysinfo,15,Operating systems,20010492,3308684,https://github.com/GuillaumeGomez/sysinfo
-csv,16,Parser implementations,45624291,4842851,https://github.com/BurntSushi/rust-csv
-rustls,20,Network programming,104295292,18527593,https://github.com/rustls/rustls
-pretty_assertions,15,Development tools,33549997,4624810,https://github.com/rust-pretty-assertions/rust-pretty-assertions
-crossbeam,17,Memory management,31646864,3390882,https://github.com/crossbeam-rs/crossbeam
-chrono,100,Date and time,148014682,19760935,https://github.com/chronotope/chrono
-regex,106,Text processing,226896914,28822946,https://github.com/rust-lang/regex
-futures,79,Asynchronous,145639915,18925286,https://github.com/rust-lang/futures-rs
-semver,33,Data structures,192243547,23829492,https://github.com/dtolnay/semver
-sha2,35,Cryptography,143563059,19815780,https://github.com/RustCrypto/hashes
-directories,16,,15799128,1858934,https://github.com/soc/directories-rs
-bytemuck,11,Encoding,38669035,6932733,https://github.com/Lokathor/bytemuck
+fnv,18,,147230150,18478227,https://github.com/servo/rust-fnv
+ignore,11,,28058861,4465411,https://github.com/BurntSushi/ripgrep/tree/master/crates/ignore
+zeroize,12,Operating systems,75186907,11491917,https://github.com/RustCrypto/utils/tree/master/zeroize
+serde_json,170,Parser implementations,234279171,30166572,https://github.com/serde-rs/json
+glob,22,Filesystem,99734007,13509503,https://github.com/rust-lang/glob
+hyper,41,HTTP server,134209891,17287847,https://github.com/hyperium/hyper
+indexmap,32,Data structures,205573961,35770985,https://github.com/indexmap-rs/indexmap
+crossbeam-channel,27,Data structures,130838328,15118592,https://github.com/crossbeam-rs/crossbeam
+criterion,15,Profiling,38782173,5699935,https://github.com/bheisler/criterion.rs
+serde_yaml,34,Parser implementations,54284648,7649013,https://github.com/dtolnay/serde-yaml
+notify,22,Filesystem,22159473,2908688,https://github.com/notify-rs/notify.git
+futures,80,Asynchronous,145657614,18859951,https://github.com/rust-lang/futures-rs
+memchr,15,,232829021,31508838,https://github.com/BurntSushi/memchr
+crossbeam,17,Memory management,31650340,3378565,https://github.com/crossbeam-rs/crossbeam
+url,72,Parser implementations,162002613,20455647,https://github.com/servo/rust-url
+rayon,47,Concurrency,97119179,13943470,https://github.com/rayon-rs/rayon
+bincode,21,Network programming,56954250,7413745,https://github.com/bincode-org/bincode
+clap,150,Command-line interface,204609674,26516526,https://github.com/clap-rs/clap
+serde,236,No dynamic allocation,275140811,34186317,https://github.com/serde-rs/serde
+mime,17,,111200506,14929001,https://github.com/hyperium/mime
+getrandom,11,Operating systems,245215646,30680578,https://github.com/rust-random/getrandom
+pretty_assertions,15,Development tools,33554276,4612804,https://github.com/rust-pretty-assertions/rust-pretty-assertions
+smallvec,34,Data structures,211246543,26432526,https://github.com/servo/rust-smallvec
+hex,42,Encoding,112773439,14775842,https://github.com/KokaKiwi/rust-hex
+pin-project-lite,11,Rust patterns,171641579,22231406,https://github.com/taiki-e/pin-project-lite
+async-std,11,Concurrency,21115565,2451894,https://github.com/async-rs/async-std
+tokio-util,34,Asynchronous,140427543,18164294,https://github.com/tokio-rs/tokio
+chrono,101,Date and time,148039643,19694800,https://github.com/chronotope/chrono
+bytemuck,11,Encoding,38677152,6901649,https://github.com/Lokathor/bytemuck
+memmap2,11,,41694872,8337794,https://github.com/RazrFalcon/memmap2-rs
+tower-http,11,Web programming,28132023,4693103,https://github.com/tower-rs/tower-http
+paste,14,Development tools,93237751,13183724,https://github.com/dtolnay/paste
+rustyline,13,Command-line interface,8552692,1001106,https://github.com/kkawakam/rustyline
+zip,17,,27444942,4115433,https://github.com/zip-rs/zip.git
+quote,19,Procedural macro helpers,313282256,36315688,https://github.com/dtolnay/quote
+proc-macro2,18,Procedural macro helpers,315751968,38282869,https://github.com/dtolnay/proc-macro2
+tracing,54,Asynchronous,137937926,20060426,https://github.com/tokio-rs/tracing
+tracing-subscriber,38,Profiling,82170818,13382304,https://github.com/tokio-rs/tracing
+parking_lot,47,Concurrency,208445839,24175678,https://github.com/Amanieu/parking_lot
+num-bigint,15,Algorithms,99859815,13297775,https://github.com/rust-num/num-bigint
+zstd,11,Compression,53710159,9757323,https://github.com/gyscos/zstd-rs
+base64,55,Encoding,257220196,36212024,https://github.com/marshallpierce/rust-base64
+num,21,Algorithms,47024780,5892103,https://github.com/rust-num/num
+tonic,16,Asynchronous,41786375,8348142,https://github.com/hyperium/tonic
+tower,12,Asynchronous,50714360,8538870,https://github.com/tower-rs/tower
+sha2,35,Cryptography,143580962,19742907,https://github.com/RustCrypto/hashes
+actix-web,11,Asynchronous,17646305,2091832,https://github.com/actix/actix-web
+nom,11,Parsing tools,130308682,16250511,https://github.com/Geal/nom
+cfg-if,26,,289999283,30740631,https://github.com/alexcrichton/cfg-if
+indicatif,23,Command-line interface,25763090,3835309,https://github.com/console-rs/indicatif
+time,53,Parser implementations,222827531,22528976,https://github.com/time-rs/time
+ctrlc,17,Operating systems,21863685,2969009,https://github.com/Detegr/rust-ctrlc.git
+rust_decimal,11,Data structures,16305265,2578273,https://github.com/paupino/rust-decimal
+tempfile,50,,132689415,20370700,https://github.com/Stebalien/tempfile
+regex,107,Text processing,226926096,28701047,https://github.com/rust-lang/regex
+openssl,18,Cryptography,86187488,9534280,https://github.com/sfackler/rust-openssl
+env_logger,61,Debugging,129455594,14597493,https://github.com/rust-cli/env_logger
+csv,17,Parser implementations,45631802,4829556,https://github.com/BurntSushi/rust-csv
+serde_with,17,No dynamic allocation,35798759,6567242,https://github.com/jonasbb/serde_with/
+strum_macros,21,Parsing tools,74290058,12641650,https://github.com/Peternator7/strum
+semver,33,Data structures,192264755,23736078,https://github.com/dtolnay/semver
+tar,20,,34309875,4905056,https://github.com/alexcrichton/tar-rs
+cargo_metadata,11,,37579406,5753396,https://github.com/oli-obk/cargo_metadata
+winit,12,GUI,8832897,1164304,https://github.com/rust-windowing/winit
+ahash,19,Data structures,135415983,22636297,https://github.com/tkaitchuck/ahash
+rustls,20,Network programming,104318974,18475664,https://github.com/rustls/rustls
+num_cpus,35,Hardware support,173624146,19668211,https://github.com/seanmonstar/num_cpus
+rand,129,Algorithms,291640342,29135451,https://github.com/rust-random/rand
+colored,27,,33355214,4247048,https://github.com/mackwic/colored
+prost,15,Encoding,63134954,11284166,https://github.com/tokio-rs/prost
+rusqlite,13,Database interfaces,14802793,2165427,https://github.com/rusqlite/rusqlite
+backtrace,11,,105118616,12639728,https://github.com/rust-lang/backtrace-rs
+nix,26,Unix APIs,127290068,18641420,https://github.com/nix-rust/nix
+percent-encoding,25,,167748383,21724332,https://github.com/servo/rust-url/
+crossterm,21,Command-line interface,19018396,2982728,https://github.com/crossterm-rs/crossterm
+hashbrown,23,Data structures,253932633,45460805,https://github.com/rust-lang/hashbrown
+atty,15,,141130492,10979887,https://github.com/softprops/atty
+rustls-pemfile,17,Network programming,64734699,14040595,https://github.com/rustls/pemfile
+bytes,58,Data structures,182746488,21354751,https://github.com/tokio-rs/bytes
+encoding_rs,11,Web programming,97340592,13262124,https://github.com/hsivonen/encoding_rs
+dirs,36,,66405116,6312123,https://github.com/soc/dirs-rs
+futures-util,36,,145087827,20977525,https://github.com/rust-lang/futures-rs
+itertools,69,Algorithms,176244298,29506348,https://github.com/rust-itertools/itertools
+image,32,Encoding,23990011,3478479,https://github.com/image-rs/image
+strum,35,Parsing tools,69483617,11918877,https://github.com/Peternator7/strum
+socket2,14,Network programming,168117695,27861452,https://github.com/rust-lang/socket2
+ratatui,11,,1176088,505773,https://github.com/ratatui-org/ratatui
+serde_derive,48,No dynamic allocation,244986709,32332570,https://github.com/serde-rs/serde
+http,31,Web programming,129073444,18594263,https://github.com/hyperium/http
+which,14,Operating systems,90710433,12473956,https://github.com/harryfei/which-rs.git
+derivative,14,Rust patterns,44096316,6196933,https://github.com/mcarton/rust-derivative
+once_cell,68,Memory management,217385886,29915900,https://github.com/matklad/once_cell
+anyhow,95,Rust patterns,156955142,22967513,https://github.com/dtolnay/anyhow
+byteorder,35,Parsing tools,165418052,19974478,https://github.com/BurntSushi/byteorder
+thiserror,98,Rust patterns,173638837,26382297,https://github.com/dtolnay/thiserror
+humantime,14,Date and time,110323609,11868027,https://github.com/tailhook/humantime
+sysinfo,15,Operating systems,20014191,3296964,https://github.com/GuillaumeGomez/sysinfo
+pin-project,11,No dynamic allocation,113633553,13311076,https://github.com/taiki-e/pin-project
+uuid,50,Parser implementations,127655030,18949404,https://github.com/uuid-rs/uuid
+libc,93,Operating systems,310286563,36867902,https://github.com/rust-lang/libc
+tokio,114,Asynchronous,163274943,21026319,https://github.com/tokio-rs/tokio
+clap_complete,18,Command-line interface,11896008,2481557,https://github.com/clap-rs/clap/tree/master/clap_complete
+syn,21,Parser implementations,409634589,61165362,https://github.com/dtolnay/syn
+ring,14,Cryptography,93646235,19537127,https://github.com/briansmith/ring
+structopt,16,Command-line interface,40123470,2554935,https://github.com/TeXitoi/structopt
+ron,11,Encoding,11861683,2052893,https://github.com/ron-rs/ron
+linked-hash-map,11,,76849516,7747403,https://github.com/contain-rs/linked-hash-map
+unicode-width,28,,138956075,14417910,https://github.com/unicode-rs/unicode-width
+dashmap,11,Algorithms,50105530,8347305,https://github.com/xacrimon/dashmap
+async-trait,57,Asynchronous,112784094,16338977,https://github.com/dtolnay/async-trait
+directories,16,,15801848,1852346,https://github.com/soc/directories-rs
+reqwest,53,HTTP client,91435977,12259762,https://github.com/seanmonstar/reqwest
+num-traits,41,Science,210960799,25602232,https://github.com/rust-num/num-traits
+toml,65,Parsing tools,146072287,20669446,https://github.com/toml-rs/toml
+lru,13,Caching,36672768,6887590,https://github.com/jeromefroe/lru-rs.git
+flate2,40,Compression,113671681,15927321,https://github.com/rust-lang/flate2-rs
+bitflags,39,,286527857,47186075,https://github.com/bitflags/bitflags
+lazy_static,88,Rust patterns,218457182,23523561,https://github.com/rust-lang-nursery/lazy-static.rs
+log,156,Debugging,237130219,28105377,https://github.com/rust-lang/log
+walkdir,31,Filesystem,105861497,14557861,https://github.com/BurntSushi/walkdir
+axum,12,HTTP server,36026692,8431787,https://github.com/tokio-rs/axum
+derive_more,15,Procedural macro helpers,55716400,7302016,https://github.com/JelteF/derive_more
+unicode-segmentation,14,,108833000,11800980,https://github.com/unicode-rs/unicode-segmentation
+tokio-stream,21,Asynchronous,69550750,10554711,https://github.com/tokio-rs/tokio
+dialoguer,12,Command-line interface,13566944,1943342,https://github.com/console-rs/dialoguer
