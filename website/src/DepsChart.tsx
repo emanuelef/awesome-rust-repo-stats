@@ -41,7 +41,7 @@ const columns: GridColDef[] = [
     field: "awesome_rust_repos_using_dep",
     headerName: "Repos in Awesome Rust using it",
     width: 100,
-    valueGetter: (params) => parseInt(params.value),
+    valueGetter: (val) => parseInt(val),
   },
   {
     field: "crate_category",
@@ -52,14 +52,14 @@ const columns: GridColDef[] = [
     field: "crate_total_downloads",
     headerName: "Total Downloads",
     width: 140,
-    valueGetter: (params) => parseInt(params.value),
+    valueGetter: (val) => parseInt(val),
     renderCell: (params) => formatNumber(params.value),
   },
   {
     field: "crate_recent_downloads",
     headerName: "Recent Downloads",
     width: 140,
-    valueGetter: (params) => parseInt(params.value),
+    valueGetter: (val) => parseInt(val),
     renderCell: (params) => formatNumber(params.value),
   },
   {
