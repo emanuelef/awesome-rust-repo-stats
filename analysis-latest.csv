@@ -1,799 +1,798 @@
 repo,stars,new-stars-last-30d,new-stars-last-14d,new-stars-last-7d,new-stars-last-24H,stars-per-mille-30d,days-last-star,days-last-commit,days-since-creation,mentionable-users,language,archived,dependencies,main-category,sub-category,liveness,unique-contributors,new-commits-last-30d
-alacritty/alacritty,53993,989,444,245,45,18.317,0,2,3036,425,Rust,false,0,Applications,,100.000,8,9
-cch123/asm-cli-rust,303,2,2,1,0,6.601,4,21,1971,5,Rust,false,9,Applications,,24.000,2,2
-cloudflare/boringtun,5899,53,21,12,2,8.985,0,230,2068,87,Rust,false,0,Applications,,40.000,0,0
-apache/datafusion,5336,193,87,39,10,36.169,0,0,1150,594,Rust,false,53,Applications,,100.000,62,223
-defguard/defguard,714,58,22,11,2,81.232,0,13,600,9,TypeScript,false,0,Applications,,60.000,1,1
-denoland/deno,93247,385,196,104,18,4.129,0,0,2219,927,Rust,false,140,Applications,,100.000,39,182
-doprz/dipc,169,5,0,0,0,29.586,16,307,422,4,Rust,false,9,Applications,,4.000,0,0
-EasyTier/EasyTier,395,132,55,27,4,334.177,0,0,255,3,Rust,false,0,Applications,,100.000,2,30
-snowplow/factotum,219,1,1,0,0,4.566,9,1219,3027,41,Rust,false,17,Applications,,5.000,0,0
-fcsonline/drill,2002,31,15,6,0,15.485,3,294,2580,25,Rust,false,18,Applications,,25.000,0,0
-printfn/fend,563,35,16,3,0,62.167,2,17,1410,26,Rust,false,1,Applications,,37.000,2,5
-fractalide/fractalide,856,2,0,0,0,2.336,26,1880,3109,13,Racket,false,0,Applications,,4.000,0,0
-habitat-sh/habitat,2583,15,9,5,1,5.807,0,0,3307,180,Rust,false,0,Applications,,91.000,4,84
-imjacobclark/Herd,110,1,0,0,0,9.091,17,473,3298,3,Rust,false,7,Applications,,2.000,0,0
-tonarino/innernet,4873,27,16,8,3,5.541,0,48,1169,31,Rust,false,0,Applications,,41.000,0,0
-awslabs/flowgger,816,7,1,1,0,8.578,6,18,3228,24,Rust,false,16,Applications,,24.000,3,5
-PaddiM8/kalker,1574,25,11,6,1,15.883,0,20,1467,21,Rust,false,0,Applications,,47.000,2,2
-hcavarsan/kftray,577,139,134,63,13,240.901,0,4,198,3,Rust,false,0,Applications,,100.000,2,39
-changlan/kytan,467,7,1,0,0,14.989,13,263,3058,6,Rust,false,13,Applications,,7.000,0,0
-linkerd/linkerd2-proxy,1941,14,5,3,1,7.213,0,0,2165,57,Rust,false,0,Applications,,86.000,2,43
-rust-lang/mdBook,17019,229,109,52,7,13.456,0,25,3262,312,Rust,false,28,Applications,,82.000,4,38
-metalbear-co/mirrord,3478,70,34,22,1,20.127,0,0,860,30,Rust,false,38,Applications,,100.000,5,37
-nicohman/eidolon,125,0,0,0,0,0.000,85,1695,2395,3,Rust,false,10,Applications,,0.000,0,0
-withoutboats/notty,2294,6,2,0,0,2.616,12,2632,3130,13,Rust,false,5,Applications,,7.000,0,0
-sebadob/rauthy,209,21,16,11,2,100.478,0,0,346,6,Rust,false,75,Applications,,95.000,2,150
-raphamorim/rio,3089,152,103,86,10,49.207,0,0,614,51,Rust,false,29,Applications,,100.000,6,111
-cloudhead/rx,3046,27,10,4,0,8.864,2,344,1762,17,Rust,false,19,Applications,,25.000,0,0
-servo/servo,26319,220,111,57,5,8.359,0,0,4506,1187,HTML,false,0,Applications,,100.000,20,148
-cfal/shoes,172,8,2,2,0,46.512,3,277,863,1,Rust,false,30,Applications,,12.000,0,0
-shuttle-hq/shuttle,5711,108,49,31,8,18.911,0,4,842,103,Rust,false,76,Applications,,88.000,4,19
-GyulyVGC/sniffnet,14183,257,118,70,12,18.120,0,4,680,39,Rust,false,18,Applications,,100.000,3,37
-swc-project/swc,30255,206,107,52,6,6.809,0,0,2362,271,Rust,false,99,Applications,,100.000,4,159
-osa1/tiny,979,9,6,3,0,9.193,3,38,3079,19,Rust,false,0,Applications,,23.000,0,0
-upvpn/upvpn-app,155,9,6,5,1,58.065,0,107,362,1,Rust,false,0,Applications,,27.000,0,0
-wasmerio/wasmer,18082,188,75,44,7,10.397,0,0,2069,179,Rust,false,28,Applications,,100.000,11,272
-serayuzgur/weld,293,4,3,0,0,13.652,9,186,2629,4,Rust,false,13,Applications,,7.000,0,0
-wez/wezterm,14579,652,312,133,24,44.722,0,1,2316,282,Rust,false,0,Applications,,100.000,9,53
-wasmerio/winterjs,2883,91,48,17,2,31.564,0,3,263,80,JavaScript,false,1,Applications,,86.000,2,15
-zellij-org/zellij,18918,957,428,232,34,50.587,0,14,1378,137,Rust,false,8,Applications,,82.000,3,10
-kimono-koans/dano,132,4,1,0,0,30.303,12,55,665,1,Rust,false,10,Applications,Audio and Music,13.000,0,0
-DasEtwas/enginesound,290,4,3,1,0,13.793,4,492,1877,2,Rust,false,21,Applications,Audio and Music,12.000,0,0
-hinto-janai/festival,259,8,4,2,0,30.888,2,75,445,1,Rust,false,30,Applications,Audio and Music,12.000,0,0
-chaosprint/glicol,2045,44,24,14,1,21.516,0,42,1428,5,Rust,false,0,Applications,Audio and Music,46.000,0,0
-hrkfdn/ncspot,4741,82,39,25,2,17.296,0,0,2039,80,Rust,false,34,Applications,Audio and Music,100.000,3,5
-madeofpendletonwool/PinePods,149,35,8,2,0,234.899,1,3,647,5,Rust,false,0,Applications,Audio and Music,65.000,3,73
-agersant/polaris,1392,18,7,2,0,12.931,3,32,2857,16,Rust,false,36,Applications,Audio and Music,27.000,0,0
-aome510/spotify-player,1341,94,48,26,3,70.097,0,9,1069,44,Rust,false,0,Applications,Audio and Music,72.000,2,3
-Spotifyd/spotifyd,9627,55,30,11,2,5.713,0,28,3470,114,Rust,false,0,Applications,Audio and Music,50.000,1,1
-tramhao/termusic,914,60,32,16,1,65.646,0,5,1105,16,Rust,false,74,Applications,Audio and Music,90.000,2,84
-sergree/whatbpm,66,1,0,0,0,15.152,20,395,581,1,Rust,false,11,Applications,Audio and Music,2.000,0,0
-paradigmxyz/artemis,2126,34,17,11,1,15.992,0,250,412,29,Rust,false,2,Applications,Blockchain,35.000,0,0
-eigerco/beerus,238,12,7,3,0,50.420,3,0,579,42,Rust,false,8,Applications,Blockchain,81.000,4,27
-starkware-libs/cairo,1443,45,28,19,3,31.185,0,0,753,168,Rust,false,59,Applications,Blockchain,100.000,21,205
-lambdaclass/cairo-vm,484,13,7,4,1,26.860,0,3,776,71,Rust,false,33,Applications,Blockchain,67.000,4,20
-chainx-org/ChainX,321,2,0,0,0,6.231,17,96,2069,14,Rust,false,1,Applications,Blockchain,4.000,0,0
-citahub/cita,1308,1,1,0,0,0.765,11,1243,2517,54,Rust,false,0,Applications,Blockchain,5.000,0,0
-inv2004/coinbase-pro-rs,143,0,0,0,0,0.000,76,647,2121,19,Rust,false,17,Applications,Blockchain,0.000,0,0
-diem/diem,16711,17,7,4,0,1.017,4,356,1896,188,Rust,false,0,Applications,Blockchain,21.000,0,0
-romanz/electrs,1006,30,14,8,2,29.821,0,0,2255,55,Rust,false,18,Applications,Blockchain,87.000,3,5
-rust-ethereum/ethabi,509,5,4,2,0,9.823,3,320,2961,55,Rust,false,0,Applications,Blockchain,12.000,0,0
-Limeth/ethaddrgen,173,0,0,0,0,0.000,37,1829,2566,1,Rust,false,11,Applications,Blockchain,0.000,0,0
-gakonst/ethers-rs,2411,33,11,3,0,13.687,5,56,1478,266,Rust,false,57,Applications,Blockchain,31.000,0,0
-quilt/etk,348,4,2,1,0,11.494,6,16,1218,10,Rust,false,0,Applications,Blockchain,24.000,2,4
-ChainSafe/forest,608,9,7,3,1,14.803,0,0,1673,60,Rust,false,161,Applications,Blockchain,87.000,9,52
-foundry-rs/foundry,7751,162,82,39,6,20.901,0,0,1006,388,Rust,false,97,Applications,Blockchain,100.000,24,113
-holochain/holochain,1128,12,6,3,1,10.638,0,0,1610,45,Rust,false,0,Applications,Blockchain,91.000,6,110
-hyperlane-xyz/hyperlane-monorepo,221,12,4,2,0,54.299,4,0,910,47,Rust,false,0,Applications,Blockchain,76.000,17,50
-informalsystems/hermes,427,6,4,3,0,14.052,3,0,1568,131,Rust,false,92,Applications,Blockchain,72.000,7,28
-interlay/interbtc,244,2,0,0,0,8.197,27,11,1532,16,Rust,false,0,Applications,Blockchain,26.000,2,3
-Joystream/joystream,1422,2,2,1,0,1.406,6,46,1921,58,Rust,false,0,Applications,Blockchain,18.000,0,0
-sigp/lighthouse,2779,33,19,12,0,11.875,2,0,2166,185,Rust,false,138,Applications,Blockchain,85.000,12,47
-keep-starknet-strange/madara,510,8,5,4,2,15.686,0,4,486,107,Rust,false,148,Applications,Blockchain,58.000,10,16
-flashbots/mev-inspect-rs,541,4,4,1,0,7.394,5,1051,1310,10,Rust,false,16,Applications,Blockchain,12.000,0,0
-near/nearcore,2293,24,11,5,0,10.467,3,0,2078,166,Rust,false,248,Applications,Blockchain,85.000,29,159
-nervosnetwork/ckb,1127,7,1,0,0,6.211,11,3,2030,50,Rust,false,5,Applications,Blockchain,43.000,5,12
-gakonst/opensea-rs,241,0,0,0,0,0.000,42,1015,1032,3,Rust,false,0,Applications,Blockchain,0.000,0,0
-paritytech/parity-bitcoin,727,1,0,0,0,1.376,28,921,2856,51,Rust,false,20,Applications,Blockchain,2.000,0,0
-Phala-Network/phala-blockchain,328,1,0,0,0,3.049,22,11,1616,35,Rust,false,0,Applications,Blockchain,32.000,2,31
-paritytech/polkadot-sdk,1561,102,49,24,5,65.343,0,0,311,290,Rust,false,13,Applications,Blockchain,100.000,54,151
-bluealloy/revm,1438,43,20,11,0,29.903,1,0,985,117,Rust,false,0,Applications,Blockchain,85.000,16,65
-rust-bitcoin/rust-bitcoin,1948,50,23,12,3,25.667,0,0,3615,135,Rust,false,0,Applications,Blockchain,100.000,12,134
-ergoplatform/sigma-rust,69,0,0,0,0,0.000,114,2,1531,30,Rust,false,48,Applications,Blockchain,42.000,2,10
-solana-labs/solana,12536,206,105,60,7,16.433,0,80,2309,498,Rust,false,293,Applications,Blockchain,62.000,0,0
-subspace/subspace,362,12,4,1,0,33.149,4,0,1023,35,Rust,false,0,Applications,Blockchain,76.000,10,169
-MystenLabs/sui,5817,72,37,17,3,12.378,0,0,945,330,Rust,false,351,Applications,Blockchain,100.000,64,348
-alloy-rs/svm-rs,233,4,2,0,0,17.167,7,17,1003,18,Rust,false,6,Applications,Blockchain,19.000,2,5
-informalsystems/tendermint-rs,583,12,1,1,0,20.583,6,10,1785,121,Rust,false,0,Applications,Blockchain,42.000,8,12
-zcash/zcash,4922,17,7,3,0,3.454,2,18,3489,491,C++,false,0,Applications,Blockchain,37.000,7,20
-cozodb/cozo,3206,79,51,31,0,24.641,1,33,605,15,Rust,false,0,Applications,Database,56.000,0,0
-datafuselabs/databend,7330,117,41,23,4,15.962,0,0,1340,186,Rust,false,191,Applications,Database,100.000,24,207
-dbpunk-labs/db3,344,4,2,0,0,11.628,12,32,809,11,Rust,false,7,Applications,Database,13.000,0,0
-erikgrinaker/toydb,5929,35,20,11,3,5.903,0,2,1870,8,Rust,false,20,Applications,Database,85.000,1,43
-KipData/FnckSQL,510,18,6,3,1,35.294,0,43,372,13,Rust,false,33,Applications,Database,37.000,0,0
-lucid-kv/lucid,371,2,1,0,0,5.391,7,682,1780,5,Rust,false,23,Applications,Database,7.000,0,0
-MaterializeInc/materialize,5625,51,16,8,1,9.067,0,0,1935,133,Rust,false,0,Applications,Database,95.000,38,802
-neondatabase/neon,12992,606,463,63,8,46.644,0,0,1172,108,Rust,false,182,Applications,Database,100.000,29,193
-paritytech/parity-db,262,5,2,0,0,19.084,7,38,1533,42,Rust,false,13,Applications,Database,13.000,0,0
-PumpkinDB/PumpkinDB,1372,2,2,1,0,1.458,2,2492,2686,10,Rust,false,0,Applications,Database,12.000,0,0
-qdrant/qdrant,18505,437,186,84,7,23.615,0,13,1472,110,Rust,false,65,Applications,Database,92.000,14,97
-RisingWaveLabs/risingwave,6465,112,62,40,6,17.324,0,0,864,156,Rust,false,109,Applications,Database,100.000,32,234
-seppo0010/rsedis,1759,4,0,0,0,2.274,15,370,3349,9,Rust,false,9,Applications,Database,4.000,0,0
-skytable/skytable,2315,21,8,6,1,9.071,0,9,1441,9,Rust,false,0,Applications,Database,61.000,1,14
-orbitinghail/sqlsync,1845,118,101,88,84,63.957,0,91,381,2,Rust,false,28,Applications,Database,70.000,0,0
-surrealdb/surrealdb,25875,310,152,84,14,11.981,0,0,914,106,Rust,false,42,Applications,Database,100.000,11,47
-terminusdb/terminusdb-store,359,2,1,1,0,5.571,3,91,1784,12,Rust,false,26,Applications,Database,12.000,0,0
-tikv/tikv,14645,104,54,25,2,7.101,0,0,3085,422,Rust,false,156,Applications,Database,100.000,17,27
-unum-cloud/usearch,1806,92,36,28,3,50.941,0,42,474,37,C++,false,0,Applications,Database,56.000,0,0
-naomijub/wooridb,131,1,0,0,0,7.634,26,351,1233,5,Rust,false,0,Applications,Database,2.000,0,0
-ColinEberhardt/wasm-rust-chip8,256,0,0,0,0,0.000,47,1848,2376,5,Rust,false,0,Applications,Emulators,0.000,0,0
-starrhorne/chip8-rust,139,0,0,0,0,0.000,34,2532,2532,1,Rust,false,2,Applications,Emulators,0.000,0,0
-kondrak/rust64,256,1,1,0,0,3.906,10,338,3209,4,Rust,false,6,Applications,Emulators,5.000,0,0
-ruffle-rs/ruffle,14691,174,105,43,10,11.844,0,0,1873,170,Rust,false,26,Applications,Emulators,100.000,15,240
-Gekkio/mooneye-gb,885,6,3,0,0,6.780,11,763,3462,6,Rust,false,15,Applications,Emulators,7.000,0,0
-joamag/boytacean,612,5,2,0,0,8.170,10,2,574,1,Rust,false,3,Applications,Emulators,53.000,1,13
-mohanson/gameboy,1338,6,4,2,1,4.484,0,155,1880,9,Rust,false,5,Applications,Emulators,22.000,0,0
-mvdnes/rboy,577,3,1,0,0,5.199,8,59,3790,7,Rust,false,5,Applications,Emulators,13.000,0,0
-michelhe/rustboyadvance-ng,585,4,1,1,0,6.838,5,120,1816,5,Rust,false,0,Applications,Emulators,12.000,0,0
-OpenGMK/OpenGMK,263,5,2,0,0,19.011,10,32,1933,12,Rust,false,0,Applications,Emulators,13.000,0,0
-dbalsom/martypc,488,13,8,5,0,26.639,1,1,750,4,Rust,false,27,Applications,Emulators,63.000,2,10
-mohanson/i8080,108,0,0,0,0,0.000,49,155,1871,1,Rust,false,1,Applications,Emulators,0.000,0,0
-touchHLE/touchHLE,2557,32,19,6,0,12.515,3,2,557,16,Rust,false,18,Applications,Emulators,71.000,2,20
-daniel5151/clicky,156,3,3,1,0,19.231,6,13,1736,2,Rust,false,0,Applications,Emulators,34.000,2,10
-koute/pinky,766,2,0,0,0,2.611,18,196,2787,4,Rust,false,0,Applications,Emulators,4.000,0,0
-pcwalton/sprocketnes,748,0,0,0,0,0.000,43,1958,4257,9,Rust,false,4,Applications,Emulators,0.000,0,0
-gopher64/gopher64,77,14,8,1,0,181.818,5,6,257,1,Rust,false,15,Applications,Emulators,53.000,2,10
-kelpsyberry/dust,188,5,2,0,0,26.596,6,32,347,3,Rust,false,0,Applications,Emulators,13.000,0,0
-obhq/obliteration,572,10,5,1,0,17.483,4,8,635,7,Rust,false,0,Applications,Emulators,34.000,2,8
-rustzx/rustzx,195,4,2,1,0,20.513,4,415,3052,4,Rust,false,5,Applications,Emulators,12.000,0,0
-Canop/broot,10257,114,48,25,7,11.114,0,4,2034,81,Rust,false,46,Applications,File manager,84.000,2,8
-kamiyaa/joshuto,3319,45,27,22,6,13.558,0,22,2160,69,Rust,false,37,Applications,File manager,54.000,3,4
-sayanarijit/xplr,4016,59,32,15,2,14.691,0,32,1202,33,Rust,false,28,Applications,File manager,56.000,0,0
-sxyazi/yazi,9594,1267,346,167,24,132.062,0,2,338,70,Rust,false,0,Applications,File manager,100.000,8,35
-thomas-mauran/chess-tui,334,13,4,4,0,38.922,1,29,209,12,Rust,false,6,Applications,Games,28.000,2,2
-citybound/citybound,7659,26,11,4,2,3.395,0,1298,2928,20,Rust,false,6,Applications,Games,35.000,0,0
-cristicbz/rust-doom,2321,4,2,1,1,1.723,0,959,3553,11,Rust,false,8,Applications,Games,22.000,0,0
-doukutsu-rs/doukutsu-rs,839,27,9,3,2,32.181,0,13,1393,18,Rust,false,34,Applications,Games,57.000,2,3
-garkimasera/rusted-ruins,477,0,0,0,0,0.000,45,482,2298,5,Rust,false,0,Applications,Games,0.000,0,0
-gorilla-devs/ferium,1047,12,7,3,1,11.461,0,0,1010,12,Rust,false,17,Applications,Games,83.000,1,8
-lifthrasiir/angolmois-rust,100,0,0,0,0,0.000,157,3477,4033,3,Rust,false,3,Applications,Games,0.000,0,0
-maras-archive/rsnake,127,1,0,0,0,7.874,23,275,1877,3,Rust,false,3,Applications,Games,2.000,0,0
-mcthesw/game-save-manager,419,36,19,10,1,85.919,0,4,866,5,Vue,false,0,Applications,Games,75.000,1,22
-mtkennerly/ludusavi,1979,112,66,34,4,56.594,0,0,1451,11,Rust,false,42,Applications,Games,100.000,1,32
-ozkriff/zemeroth,1385,7,1,0,0,5.054,11,367,2525,14,Rust,false,14,Applications,Games,7.000,0,0
-dpc/rhex,153,1,0,0,0,6.536,25,910,3406,9,Rust,false,11,Applications,Games,2.000,0,0
-rsaarelm/magog,366,0,0,0,0,0.000,56,1010,4657,3,Rust,false,15,Applications,Games,0.000,0,0
-SoftbearStudios/mk48,314,3,3,1,0,9.554,2,186,1129,7,Rust,false,0,Applications,Games,12.000,0,0
-swatteau/sokoban-rs,151,2,1,0,0,13.245,7,1748,3209,3,Rust,false,4,Applications,Games,7.000,0,0
-thetawavegame/thetawave-legacy,192,0,0,0,0,0.000,38,1054,1848,9,Rust,false,0,Applications,Games,0.000,0,0
-Thinkofname/rust-quake,69,0,0,0,0,0.000,111,1776,2501,1,Rust,false,10,Applications,Games,0.000,0,0
-ozkriff/zoc,375,1,1,1,0,2.667,2,1673,3399,7,Rust,false,11,Applications,Games,10.000,0,0
-dps/rust-raytracer,230,2,1,1,0,8.696,6,888,900,1,Rust,false,0,Applications,Graphics,12.000,0,0
-flxzt/rnote,6348,231,141,81,6,36.389,0,1,1040,133,Rust,false,65,Applications,Graphics,100.000,5,8
-ivanceras/svgbob,3754,29,9,3,2,7.725,0,91,2801,15,Rust,false,0,Applications,Graphics,35.000,0,0
-KaminariOS/rustracer,64,0,0,0,0,0.000,30,242,457,1,Rust,false,24,Applications,Graphics,0.000,0,0
-Limeth/euclider,212,0,0,0,0,0.000,155,2012,2948,1,Rust,false,20,Applications,Graphics,0.000,0,0
-RazrFalcon/resvg,2586,47,19,10,0,18.175,1,0,2783,54,Rust,false,0,Applications,Graphics,81.000,4,12
-rodrigorc/papercraft,109,5,1,1,0,45.872,2,2,756,1,Rust,false,24,Applications,Graphics,58.000,1,14
-rustq/vue-skia,253,4,2,1,0,15.810,2,44,527,5,Rust,false,3,Applications,Graphics,18.000,0,0
-Twinklebear/tray_rust,512,0,0,0,0,0.000,58,1160,3456,4,Rust,false,16,Applications,Graphics,0.000,0,0
-wahn/rs_pbrt,801,4,3,0,0,4.994,11,133,2728,3,Rust,false,22,Applications,Graphics,7.000,0,0
-imager-io/imager,621,23,5,1,0,37.037,6,1318,1681,2,Rust,false,0,Applications,Image processing,20.000,0,0
-locka99/opcua,463,6,3,2,0,12.959,4,7,2711,27,Rust,false,0,Applications,Industrial automation,32.000,1,1
-slowtec/tokio-modbus,368,5,3,1,0,13.587,5,48,2424,26,Rust,false,12,Applications,Industrial automation,18.000,0,0
-avito-tech/bioyino,225,0,0,0,0,0.000,68,486,2443,14,Rust,false,41,Applications,Observability,0.000,0,0
-openobserve/openobserve,9981,258,118,66,13,25.849,0,0,495,49,Rust,false,118,Applications,Observability,100.000,13,120
-quickwit-oss/quickwit,6742,580,403,197,14,86.028,0,0,1154,74,Rust,false,0,Applications,Observability,100.000,10,75
-hubblo-org/scaphandre,1519,20,7,2,0,13.167,4,119,1333,24,Rust,false,21,Applications,Observability,21.000,0,0
-vectordotdev/vector,16806,197,87,32,5,11.722,0,0,2114,443,Rust,false,168,Applications,Observability,100.000,13,74
-0x59616e/SteinsOS,114,3,1,1,0,26.316,4,970,1004,1,Rust,false,0,Applications,Operating systems,12.000,0,0
-Andy-Python-Programmer/aero,1101,11,3,3,1,9.991,0,52,1189,10,Rust,false,0,Applications,Operating systems,32.000,0,0
-DragonOS-Community/DragonOS,808,67,22,12,0,82.921,1,6,877,56,Rust,false,0,Applications,Operating systems,66.000,8,16
-thepowersgang/rust_os,706,3,3,1,0,4.249,2,69,3566,3,Rust,false,0,Applications,Operating systems,12.000,0,0
-theseus-os/Theseus,2765,19,10,3,1,6.872,0,158,2516,38,Rust,false,0,Applications,Operating systems,31.000,0,0
-tock/tock,5141,140,116,58,1,27.232,0,0,3301,182,Rust,false,0,Applications,Operating systems,100.000,10,91
-juspay/hyperswitch,10677,214,126,69,42,20.043,0,0,602,191,Rust,false,1,Applications,Payments,100.000,40,201
-ast-grep/ast-grep,6317,347,82,50,5,54.931,0,0,710,40,Rust,false,13,Applications,Productivity,100.000,5,98
-espanso/espanso,9338,142,65,26,2,15.207,0,27,1746,29,Rust,false,18,Applications,Productivity,70.000,1,1
-lakoliu/Furtherance,238,6,2,1,0,25.210,1,5,843,23,Rust,false,18,Applications,Productivity,44.000,1,4
-lldap/lldap,3606,79,36,16,3,21.908,0,1,1196,97,Rust,false,0,Applications,Productivity,90.000,1,1
-pier-cli/pier,510,5,4,1,0,9.804,5,28,1924,10,Rust,false,10,Applications,Productivity,24.000,2,2
-holo-routing/holo,219,20,12,11,0,91.324,2,13,425,4,Rust,false,47,Applications,Routing protocols,43.000,1,9
-osrg/rustybgp,465,2,0,0,0,4.301,20,346,1658,9,Rust,false,0,Applications,Routing protocols,4.000,0,0
-AFLplusplus/LibAFL,1878,25,13,6,1,13.312,0,0,1327,192,Rust,false,0,Applications,Security tools,95.000,17,104
-kongbytes/arp-scan-rs,79,5,2,2,1,63.291,0,149,1131,2,Rust,false,12,Applications,Security tools,22.000,0,0
-blst-security/cherrybomb,1067,15,5,3,1,14.058,0,194,936,14,Rust,false,14,Applications,Security tools,26.000,0,0
-replydev/cotp,214,9,1,0,0,42.056,10,0,1268,10,Rust,false,26,Applications,Security tools,63.000,3,14
-epi052/feroxbuster,5450,134,63,42,8,24.587,0,45,1388,29,Rust,false,27,Applications,Security tools,68.000,0,0
-inspektor-dev/inspektor,279,0,0,0,0,0.000,34,697,954,7,Rust,false,30,Applications,Security tools,0.000,0,0
-kpcyrd/authoscope,388,2,0,0,0,5.155,22,809,2279,6,Rust,false,33,Applications,Security tools,4.000,0,0
-kpcyrd/rshijack,446,11,5,2,0,24.664,2,121,2300,2,Rust,false,6,Applications,Security tools,16.000,0,0
-kpcyrd/sn0int,1893,31,10,5,3,16.376,0,138,2076,10,Rust,false,52,Applications,Security tools,35.000,0,0
-kpcyrd/sniffglue,1072,17,9,3,0,15.858,1,155,2463,11,Rust,false,26,Applications,Security tools,21.000,0,0
-0x727/ObserverWard,1018,49,23,11,3,48.134,0,7,1024,5,Rust,false,0,Applications,Security tools,66.000,2,14
-Raspirus/Raspirus,95,16,5,2,1,168.421,0,1,628,4,Rust,false,0,Applications,Security tools,76.000,3,60
-RustScan/RustScan,12945,288,115,54,4,22.248,0,2,1430,60,Rust,false,22,Applications,Security tools,100.000,4,10
-rustodon/rustodon,861,6,4,1,0,6.969,3,1601,2365,14,Rust,false,31,Applications,Social networks,12.000,0,0
-imsnif/bandwhich,8950,252,156,41,1,28.156,0,9,1739,48,Rust,false,21,Applications,System tools,80.000,1,1
-ClementTsang/bottom,9201,252,163,39,4,27.388,0,4,1748,54,Rust,false,27,Applications,System tools,92.000,1,6
-brocode/fblog,396,7,3,1,0,17.677,6,9,2531,9,Rust,false,12,Applications,System tools,34.000,2,4
-vrmiguel/bustd,210,1,1,1,0,4.762,2,224,1071,4,Rust,false,6,Applications,System tools,10.000,0,0
-buster/rrun,113,0,0,0,0,0.000,85,2304,3499,3,Rust,false,9,Applications,System tools,0.000,0,0
-cantino/mcfly,6732,95,26,10,1,14.112,0,10,2157,63,Rust,false,17,Applications,System tools,66.000,3,14
-sstadick/crabz,316,1,1,1,0,3.165,3,82,1023,4,Rust,false,12,Applications,System tools,10.000,0,0
-cristianoliveira/funzzy,222,1,1,0,0,4.505,9,28,3003,6,Rust,false,8,Applications,System tools,15.000,1,1
-dalance/procs,4864,71,22,8,1,14.597,0,0,1960,41,Rust,false,18,Applications,System tools,100.000,3,22
-darakian/ddh,439,3,1,1,0,6.834,0,575,2350,8,Rust,false,6,Applications,System tools,12.000,0,0
-imsnif/diskonaut,2238,65,23,8,3,29.044,0,842,1570,20,Rust,false,8,Applications,System tools,40.000,0,0
-bootandy/dust,7973,128,58,30,7,16.054,0,35,2278,47,Rust,false,16,Applications,System tools,68.000,0,0
-eza-community/eza,8383,721,314,161,29,86.007,0,5,318,76,Rust,false,22,Applications,System tools,100.000,7,12
-extrawurst/gitui,17673,624,122,62,8,35.308,0,3,1547,112,Rust,false,39,Applications,System tools,100.000,6,34
-amrdeveloper/gql,3107,63,48,27,4,20.277,0,2,371,15,Rust,false,8,Applications,System tools,100.000,1,41
-kimono-koans/httm,1223,14,8,3,0,11.447,3,18,826,3,Rust,false,21,Applications,System tools,31.000,1,1
-j0ru/kickoff,349,22,20,17,2,63.037,0,6,1267,4,Rust,false,22,Applications,System tools,67.000,1,7
-tbillington/kondo,1664,26,13,8,1,15.625,0,82,1597,31,Rust,false,0,Applications,System tools,35.000,0,0
-ilya-zlobintsev/LACT,946,65,30,11,2,68.710,0,2,1332,18,Rust,false,9,Applications,System tools,82.000,1,8
-lodosgroup/lpm,63,0,0,0,0,0.000,34,113,846,3,Rust,false,0,Applications,System tools,0.000,0,0
-lotabout/skim,4907,57,30,13,2,11.616,0,403,2934,58,Rust,false,21,Applications,System tools,40.000,0,0
-lsd-rs/lsd,12651,190,91,46,11,15.019,0,2,2025,149,Rust,false,0,Applications,System tools,100.000,2,2
-Luminarys/synapse,850,1,1,0,0,1.176,9,376,2486,33,Rust,false,38,Applications,System tools,5.000,0,0
-m4b/bingrep,1692,2,2,0,0,1.182,8,490,2661,7,Rust,false,12,Applications,System tools,7.000,0,0
-mdgaziur/findex,544,8,7,2,0,14.706,5,5,953,8,Rust,false,0,Applications,System tools,49.000,1,2
-mitnk/cicada,970,0,0,0,0,0.000,39,303,2650,8,Rust,false,16,Applications,System tools,0.000,0,0
-mmstick/concurr,103,0,0,0,0,0.000,62,2173,2447,2,Rust,false,17,Applications,System tools,0.000,0,0
-mmstick/fontfinder,276,0,0,0,0,0.000,34,423,2405,7,Rust,false,13,Applications,System tools,0.000,0,0
-mmstick/tv-renamer,148,0,0,0,0,0.000,155,2553,2956,2,Rust,false,4,Applications,System tools,0.000,0,0
-mxseev/logram,97,0,0,0,0,0.000,51,867,2409,4,Rust,false,16,Applications,System tools,0.000,0,0
-Chleba/netscanner,709,36,11,8,2,50.776,0,12,183,6,Rust,false,37,Applications,System tools,61.000,2,17
-nivekuil/rip,1308,24,11,5,1,18.349,0,1253,2841,6,Rust,false,4,Applications,System tools,35.000,0,0
-nushell/nushell,30631,442,220,102,15,14.430,0,0,1858,621,Rust,false,130,Applications,System tools,100.000,25,123
-orhun/kmon,2434,28,13,7,1,11.504,0,15,1679,15,Rust,false,8,Applications,System tools,47.000,2,4
-orhun/systeroid,1232,12,7,3,0,9.740,1,6,967,6,Rust,false,2,Applications,System tools,53.000,2,3
-ouch-org/ouch,2039,50,22,13,5,24.522,0,8,1179,28,Rust,false,24,Applications,System tools,62.000,1,3
-pkolaczk/fclones,1779,38,19,5,0,21.360,1,36,1465,13,Rust,false,0,Applications,System tools,31.000,0,0
-pop-os/popsicle,611,8,4,2,0,13.093,4,124,2442,47,Rust,false,14,Applications,System tools,12.000,0,0
-nukesor/pueue,4628,47,23,10,2,10.156,0,4,3202,37,Rust,false,15,Applications,System tools,76.000,2,20
-qarmin/czkawka,18120,469,195,93,19,25.883,0,104,1378,60,Rust,false,0,Applications,System tools,62.000,0,0
-redox-os/ion,1443,4,1,0,0,2.772,13,63,3169,119,Rust,false,0,Applications,System tools,7.000,0,0
-sharkdp/bat,47235,522,247,131,25,11.051,0,10,2242,334,Rust,false,30,Applications,System tools,91.000,4,11
-sharkdp/fd,32221,477,221,110,16,14.804,0,8,2589,170,Rust,false,18,Applications,System tools,84.000,3,10
-sitkevij/hex,499,5,4,1,0,10.020,4,160,2281,11,Rust,false,3,Applications,System tools,12.000,0,0
-supercilex/fuc,310,5,3,3,0,16.129,2,63,931,4,Rust,false,0,Applications,System tools,12.000,0,0
-fujiapple852/trippy,3136,99,59,43,2,31.569,0,0,805,11,Rust,false,9,Applications,System tools,100.000,3,39
-uutils/coreutils,17015,124,50,27,3,7.288,0,0,3965,491,Rust,false,186,Applications,System tools,100.000,11,101
-watchexec/watchexec,5002,76,43,19,1,15.194,0,26,2822,64,Rust,false,5,Applications,System tools,62.000,2,3
-XAMPPRocky/tokei,10387,326,76,41,8,31.385,0,28,3303,258,Rust,false,25,Applications,System tools,74.000,5,5
-ynqa/jnv,4503,138,100,53,7,30.646,0,8,84,6,Rust,false,8,Applications,System tools,88.000,1,20
-ynqa/sig,456,456,360,30,1,1000.000,0,9,17,2,Rust,false,11,Applications,System tools,90.000,2,41
-BinChengZhao/delicate,677,11,2,1,1,16.248,0,751,1205,2,Rust,false,0,Applications,Task scheduling,26.000,0,0
-emacs-ng/emacs-ng,1636,17,9,3,0,10.391,1,39,1387,956,Emacs Lisp,false,0,Applications,Text editors,27.000,0,0
-gchp/iota,1617,7,1,0,0,4.329,11,1748,3533,21,Rust,false,10,Applications,Text editors,7.000,0,0
-helix-editor/helix,30815,636,337,151,20,20.639,0,0,1471,859,Rust,false,3,Applications,Text editors,100.000,23,31
-ilai-deutel/kibi,1393,13,6,3,0,9.332,2,113,1582,21,Rust,false,1,Applications,Text editors,21.000,0,0
-lapce/lapce,33365,400,183,73,13,11.989,0,0,2316,167,Rust,false,45,Applications,Text editors,100.000,5,60
-mathall/rim,601,1,0,0,0,1.664,20,1241,3420,3,Rust,false,13,Applications,Text editors,2.000,0,0
-curlpipe/ox,3244,18,11,2,0,5.549,2,1296,1413,9,Rust,false,10,Applications,Text editors,21.000,0,0
-zed-industries/zed,35869,2170,953,471,68,60.498,0,0,1207,375,Rust,false,236,Applications,Text editors,100.000,88,462
-ashvardanian/StringZilla,1845,38,17,11,0,20.596,1,44,1396,22,C++,false,0,Applications,Text processing,31.000,0,0
-pemistahl/grex,6949,163,64,17,1,23.457,0,53,1710,9,Rust,false,8,Applications,Text processing,66.000,0,0
-Lisprez/so_stupid_search,160,1,1,0,0,6.250,12,509,2992,4,Rust,false,4,Applications,Text processing,5.000,0,0
-yoav-lavi/melody,4604,13,7,3,0,2.824,1,330,848,12,Rust,false,0,Applications,Text processing,21.000,0,0
-phiresky/ripgrep-all,6348,147,111,31,7,23.157,0,9,1833,24,Rust,false,41,Applications,Text processing,84.000,2,3
-replicadse/complate,35,0,0,0,0,0.000,35,180,1596,2,Rust,false,18,Applications,Text processing,0.000,0,0
-your-tools/ruplacer,417,3,1,1,0,7.194,3,37,2406,12,Rust,false,6,Applications,Text processing,18.000,0,0
-sstadick/hck,683,2,1,0,0,2.928,12,56,1082,8,Rust,false,17,Applications,Text processing,13.000,0,0
-vishaltelangre/ff,329,0,0,0,0,0.000,47,1531,1935,1,Rust,false,8,Applications,Text processing,0.000,0,0
-whitfin/runiq,205,0,0,0,0,0.000,35,122,2234,3,Rust,false,10,Applications,Text processing,0.000,0,0
-1History/1History,426,8,2,0,0,18.779,13,77,870,2,JavaScript,false,0,Applications,Utilities,7.000,0,0
-brycx/checkpwn,119,1,0,0,0,8.403,26,279,2208,5,Rust,false,8,Applications,Utilities,2.000,0,0
-AchetaGames/Epic-Asset-Manager,353,11,5,3,0,31.161,2,0,1206,6,Rust,false,28,Applications,Utilities,72.000,3,12
-evansmurithi/cloak,279,2,2,1,0,7.168,6,643,2159,3,Rust,false,9,Applications,Utilities,12.000,0,0
-fcsonline/tmux-thumbs,871,16,8,5,3,18.370,0,447,1953,24,Rust,false,6,Applications,Utilities,31.000,0,0
-guoxbin/dtool,364,1,1,1,1,2.747,0,265,1649,5,Rust,false,30,Applications,Utilities,20.000,0,0
-thewh1teagle/mobslide,330,7,4,2,0,21.212,2,18,205,2,TypeScript,false,0,Applications,Utilities,24.000,2,2
-pvolok/mprocs,1373,30,14,9,2,21.850,0,2,1015,17,Rust,false,0,Applications,Utilities,77.000,1,8
-nix-community/nix-init,762,20,14,7,1,26.247,0,112,509,9,Rust,false,39,Applications,Utilities,31.000,0,0
-nix-community/nix-melt,201,7,1,1,0,34.826,1,112,412,7,Rust,false,13,Applications,Utilities,12.000,0,0
-yaa110/nomino,548,3,1,0,0,5.474,11,4,1516,3,Rust,false,9,Applications,Utilities,39.000,1,2
-raftario/licensor,192,1,1,1,0,5.208,5,498,1726,4,Rust,false,6,Applications,Utilities,10.000,0,0
-aaronriekenberg/rust-parallel,115,17,5,2,0,147.826,3,1,567,3,Rust,false,11,Applications,Utilities,58.000,2,10
-rustdesk/rustdesk,65823,1523,696,295,27,23.138,0,0,1351,258,Rust,false,37,Applications,Utilities,100.000,16,115
-Skallwar/suckit,716,3,2,1,0,4.190,5,97,1686,19,Rust,false,14,Applications,Utilities,12.000,0,0
-shshemi/tabiew,101,85,20,4,1,841.584,0,1,44,3,Rust,false,7,Applications,Utilities,85.000,3,53
-tversteeg/emplace,249,3,0,0,0,12.048,25,0,1737,8,Rust,false,19,Applications,Utilities,60.000,4,16
-thewh1teagle/vibe,320,165,46,24,4,515.625,0,0,155,6,TypeScript,false,0,Applications,Utilities,100.000,3,388
-warpdotdev/Warp,19383,441,209,99,36,22.752,0,40,1068,18,,false,0,Applications,Utilities,76.000,0,0
-alvaro17f/wrestic,76,3,2,2,0,39.474,5,49,311,2,Rust,false,17,Applications,Utilities,18.000,0,0
-gyroflow/gyroflow,6242,102,42,20,4,16.341,0,4,942,26,Rust,false,40,Applications,Video,90.000,3,51
-harlanc/xiu,1560,47,27,15,3,30.128,0,2,1394,15,Rust,false,0,Applications,Video,86.000,4,12
-TGotwig/vidmerger,109,3,1,0,0,27.523,8,15,1466,2,Rust,false,11,Applications,Video,19.000,1,6
-xiph/rav1e,3614,29,12,3,1,8.024,0,5,2451,121,Assembly,false,0,Applications,Video,67.000,4,6
-containers/youki,5929,95,52,18,4,16.023,0,0,1171,120,Rust,false,0,Applications,Virtualization,100.000,8,30
-firecracker-microvm/firecracker,24363,211,104,62,9,8.661,0,0,2426,250,Rust,false,0,Applications,Virtualization,100.000,11,40
-kata-containers/kata-containers,5046,109,41,18,1,21.601,0,0,2378,352,Rust,false,0,Applications,Virtualization,100.000,34,265
-tailhook/vagga,1856,3,2,0,0,1.616,11,727,3597,34,Rust,false,40,Applications,Virtualization,7.000,0,0
-cfal/tobaru,163,1,1,1,0,6.135,1,287,1148,2,Rust,false,18,Applications,Web,10.000,0,0
-LemmyNet/lemmy,12901,94,39,21,7,7.286,0,3,1943,238,Rust,false,71,Applications,Web,92.000,8,62
-libreddit/libreddit,5008,31,15,5,1,6.190,0,39,1399,84,Rust,false,22,Applications,Web,41.000,0,0
-MASQ-Project/Node,167,1,1,0,0,5.988,13,12,1159,17,Rust,false,0,Applications,Web,27.000,2,3
-Plume-org/Plume,2075,6,4,0,0,2.892,7,355,2242,65,Rust,false,30,Applications,Web,7.000,0,0
-revoltchat/backend,1075,18,5,2,0,16.744,2,1,1091,21,Rust,false,0,Applications,Web,62.000,2,11
-cloudflare/pingora,19947,419,182,87,9,21.006,0,3,402,100,Rust,false,10,Applications,Web Servers,100.000,8,30
-emanuele-em/proxelar,363,8,2,1,0,22.039,5,49,508,8,Rust,false,0,Applications,Web Servers,18.000,0,0
-mu-arch/skyfolder,113,3,1,0,0,26.549,13,245,388,1,Rust,false,14,Applications,Web Servers,7.000,0,0
-mufeedvh/binserve,964,8,4,2,1,8.299,0,114,1348,9,Rust,false,23,Applications,Web Servers,22.000,0,0
-orhun/rustypaste,701,21,6,5,1,29.957,0,1,1049,21,Rust,false,30,Applications,Web Servers,77.000,3,10
-ronanyeah/rust-hasura,139,0,0,0,0,0.000,132,784,1764,1,Rust,false,13,Applications,Web Servers,0.000,0,0
-static-web-server/static-web-server,1261,59,30,11,3,46.788,0,0,1743,30,Rust,false,33,Applications,Web Servers,100.000,3,25
-svenstaro/miniserve,5710,97,34,15,4,16.988,0,1,2237,52,Rust,false,39,Applications,Web Servers,96.000,2,11
-thecoshman/http,438,5,2,1,0,11.416,4,7,2737,9,Rust,false,21,Applications,Web Servers,42.000,1,162
-TheWaWaR/simple-http-server,2497,41,19,9,3,16.420,0,85,2571,21,Rust,false,21,Applications,Web Servers,35.000,0,0
-wyhaya/see,202,1,0,0,0,4.950,18,424,1921,4,Rust,false,16,Applications,Web Servers,2.000,0,0
-Julien-cpsn/ATAC,1186,127,37,26,2,107.083,0,14,126,9,Rust,false,34,Development tools,,62.000,2,6
-Canop/bacon,1549,88,47,17,4,56.811,0,7,1320,24,Rust,false,16,Development tools,,72.000,2,7
-clog-tool/clog-cli,835,2,1,1,0,2.395,0,2647,3559,18,Rust,false,5,Development tools,,12.000,0,0
-comtrya/comtrya,461,6,3,1,0,13.015,2,28,1194,25,Rust,false,0,Development tools,,22.000,1,1
-Wulf/create-rust-app,1479,18,5,1,0,12.170,6,21,1129,9,Rust,false,0,Development tools,,28.000,1,3
-dan-t/rusty-tags,401,3,0,0,0,7.481,17,97,3473,20,Rust,false,12,Development tools,,4.000,0,0
-datanymizer/datanymizer,496,7,1,1,0,14.113,3,173,1294,8,Rust,false,0,Development tools,,12.000,0,0
-dotenv-linter/dotenv-linter,1775,14,6,2,0,7.887,1,52,1654,90,Rust,false,3,Development tools,,27.000,0,0
-envio-cli/envio,753,11,3,1,0,14.608,4,63,448,6,Rust,false,18,Development tools,,16.000,0,0
-FrolicOrg/Frolic,179,2,1,0,0,11.173,13,301,320,2,Rust,false,0,Development tools,,7.000,0,0
-brocode/fw,521,0,0,0,0,0.000,61,9,2636,14,Rust,false,18,Development tools,,22.000,2,2
-geiger-rs/cargo-geiger,1348,33,12,9,0,24.481,1,82,2182,33,Rust,false,0,Development tools,,25.000,0,0
-orhun/git-cliff,7825,143,65,34,2,18.275,0,2,1107,58,Rust,false,6,Development tools,,100.000,6,32
-rksm/hot-lib-reloader-rs,559,27,17,8,1,48.301,0,42,680,5,Rust,false,8,Development tools,,41.000,0,0
-lasantosr/intelli-shell,197,3,1,0,0,15.228,12,233,507,3,Rust,false,21,Development tools,,7.000,0,0
-casey/just,18133,624,290,165,22,34.412,0,2,2916,157,Rust,false,34,Development tools,,100.000,15,80
-jacobdeichert/mask,1017,17,1,0,0,16.716,12,15,1801,14,Rust,false,0,Development tools,,23.000,1,2
-fiatjaf/module-linker,250,1,0,0,0,4.000,25,1165,3029,6,JavaScript,false,9,Development tools,,2.000,0,0
-dalance/ptags,125,1,0,0,0,8.000,25,7,2282,4,Rust,false,11,Development tools,,28.000,3,16
-racer-rust/racer,3359,2,1,0,0,0.595,8,794,3752,168,Rust,false,10,Development tools,,7.000,0,0
-huhu/rust-search-extension,1180,11,2,0,0,9.322,11,3,2049,27,JavaScript,false,0,Development tools,,51.000,2,32
-rust-lang/rustup,5982,82,45,22,3,13.708,0,1,3181,391,Rust,false,53,Development tools,,100.000,7,165
-igor-petruk/scriptisto,851,251,244,48,1,294.947,0,2,1693,10,Rust,false,15,Development tools,,100.000,5,14
-frewsxcv/cargo-all-features,130,2,2,0,0,15.385,10,267,1478,8,Rust,false,4,Development tools,Build system,7.000,0,0
-cargo-generate/cargo-generate,1833,32,16,9,3,17.458,0,34,2204,86,Rust,false,33,Development tools,Build system,41.000,0,0
-dtolnay/cargo-expand,2483,32,21,14,1,12.888,0,25,2928,12,Rust,false,15,Development tools,Build system,52.000,1,7
-Devolutions/CMakeRust,167,1,1,1,1,5.988,0,823,2666,136,CMake,false,0,Development tools,Build system,20.000,0,0
-SiegeLord/RustCMake,109,0,0,0,0,0.000,89,3154,3816,3,CMake,false,0,Development tools,Build system,0.000,0,0
-icepuma/rust-action,78,0,0,0,0,0.000,155,376,1963,2,Dockerfile,false,0,Development tools,Build system,0.000,0,0
-peaceiris/actions-mdbook,282,4,3,1,0,14.184,3,63,1657,2,TypeScript,false,0,Development tools,Build system,12.000,0,0
-nix-community/fenix,596,23,11,7,1,38.591,0,2,1255,18,Nix,false,0,Development tools,Build system,75.000,2,28
-cs01/gdbgui,9735,41,20,11,2,4.212,0,236,2784,43,TypeScript,false,0,Development tools,Debugging,35.000,0,0
-emk/rust-musl-builder,1525,10,4,2,1,6.557,0,37,2976,17,Dockerfile,false,0,Development tools,Deployment,28.000,0,0
-kpcyrd/mini-docker-rust,203,3,1,0,0,14.778,12,155,2600,4,Dockerfile,false,0,Development tools,Deployment,7.000,0,0
-liuchong/docker-rustup,92,1,0,0,0,10.870,27,1049,2978,2,Dockerfile,false,0,Development tools,Deployment,2.000,0,0
-LukeMathWalker/cargo-chef,1586,52,24,13,2,32.787,0,20,1330,57,Rust,false,13,Development tools,Deployment,50.000,1,1
-rust-cross/rust-musl-cross,587,11,4,3,2,18.739,0,9,2434,11,Shell,false,0,Development tools,Deployment,48.000,2,5
-rust-lang/docker-rust,421,6,3,1,0,14.252,2,18,2505,23,Dockerfile,false,0,Development tools,Deployment,24.000,2,2
-Stavrospanakakis/is_ready,122,4,1,0,0,32.787,13,39,351,2,Rust,false,2,Development tools,Deployment,13.000,0,0
-emk/heroku-buildpack-rust,519,2,1,1,0,3.854,2,1881,3665,14,Shell,false,0,Development tools,Deployment,12.000,0,0
-avr-rust/ruduino,691,3,1,1,0,4.342,2,712,2896,6,Rust,false,5,Development tools,Embedded,12.000,0,0
-japaric/rust-cross,2486,8,3,1,0,3.218,2,2454,3063,7,Shell,false,0,Development tools,Embedded,12.000,0,0
-japaric/xargo,1085,3,2,1,0,2.765,3,725,2998,27,Rust,false,9,Development tools,Embedded,12.000,0,0
-oreboot/oreboot,1498,12,5,4,1,8.011,0,7,1925,434,Rust,false,0,Development tools,Embedded,48.000,1,7
-nrf-rs/nrf-hal,478,6,4,1,0,12.552,1,13,2118,63,Rust,false,0,Development tools,Embedded,42.000,4,30
-mozilla/cbindgen,2242,31,12,6,1,13.827,0,7,2616,129,Rust,false,11,Development tools,FFI,61.000,9,18
-Sean1708/rusty-cheddar,191,0,0,0,0,0.000,34,2172,3164,5,Rust,false,3,Development tools,FFI,0.000,0,0
-Cysharp/csbindgen,590,21,11,5,1,35.593,0,54,470,17,Rust,false,0,Development tools,FFI,41.000,0,0
-dtolnay/cxx,5612,82,36,19,1,14.612,0,0,1628,57,Rust,false,2,Development tools,FFI,100.000,2,15
-rust-lang/rust-bindgen,4186,50,25,9,2,11.945,0,20,2910,356,Rust,false,0,Development tools,FFI,52.000,2,2
-rusterlium/rustler,4207,47,13,6,1,11.172,0,2,3219,74,Rust,false,0,Development tools,FFI,81.000,3,16
-benanders/rjni,72,0,0,0,0,0.000,54,2730,3475,1,Rust,false,1,Development tools,FFI,0.000,0,0
-drrb/java-rust-example,335,0,0,0,0,0.000,70,2490,3889,1,Java,false,0,Development tools,FFI,0.000,0,0
-jcmoyer/rust-lua53,157,0,0,0,0,0.000,155,206,3504,15,C,false,0,Development tools,FFI,0.000,0,0
-lilyball/rust-lua,126,0,0,0,0,0.000,155,1602,3841,4,Rust,false,1,Development tools,FFI,0.000,0,0
-mlua-rs/mlua,1394,65,27,10,1,46.628,0,2,1655,28,Rust,false,11,Development tools,FFI,82.000,1,6
-tomaka/hlua,500,3,1,1,0,6.000,4,55,3658,19,C,false,0,Development tools,FFI,18.000,0,0
-anima-engine/mrusty,205,0,0,0,0,0.000,65,2610,3048,5,Rust,false,1,Development tools,FFI,0.000,0,0
-infinyon/node-bindgen,486,6,5,5,1,12.346,0,4,1589,29,Rust,false,4,Development tools,FFI,54.000,2,4
-neon-bindings/neon,7830,45,24,14,2,5.747,0,7,3187,71,Rust,false,0,Development tools,FFI,70.000,1,23
-zhangyuang/node-ffi-rs,108,20,10,6,2,185.185,0,5,329,3,Rust,false,8,Development tools,FFI,71.000,1,24
-SSheldon/rust-objc,381,3,1,0,0,7.874,12,1487,3648,11,Rust,false,3,Development tools,FFI,7.000,0,0
-phper-framework/phper,262,5,4,0,0,19.084,7,104,1643,6,Rust,false,6,Development tools,FFI,7.000,0,0
-dgrunwald/rust-cpython,1799,4,3,1,0,2.223,6,252,3444,46,Rust,false,6,Development tools,FFI,12.000,0,0
-getsentry/milksnake,788,2,1,1,0,2.538,6,426,2442,23,Python,false,0,Development tools,FFI,12.000,0,0
-PyO3/PyO3,11296,209,87,42,9,18.502,0,0,2586,314,Rust,false,22,Development tools,FFI,100.000,14,35
-RustPython/RustPython,17962,291,119,32,1,16.201,0,14,2205,380,Rust,false,62,Development tools,FFI,76.000,7,16
-d-unsed/ruru,827,1,0,0,0,1.209,15,2366,3109,11,Rust,false,2,Development tools,FFI,2.000,0,0
-danielpclark/rutie,914,5,3,1,0,5.470,3,176,2183,25,Rust,false,2,Development tools,FFI,12.000,0,0
-rhysd/wain,413,9,1,1,0,21.792,3,44,1575,5,Rust,false,5,Development tools,FFI,18.000,0,0
-rustwasm/wasm-bindgen,7390,79,34,14,3,10.690,0,9,2366,437,Rust,false,4,Development tools,FFI,72.000,7,7
-rustwasm/wasm-pack,6021,64,33,11,0,10.629,1,86,2310,134,Rust,false,24,Development tools,FFI,40.000,0,0
-dprint/dprint,3015,55,24,17,7,18.242,0,2,1822,35,Rust,false,0,Development tools,Formatters,84.000,1,8
-jinxdash/prettier-plugin-rust,170,0,0,0,0,0.000,30,381,685,1,Rust,false,0,Development tools,Formatters,0.000,0,0
-rust-lang/rustfmt,5827,54,28,14,1,9.267,0,7,3383,489,Rust,false,23,Development tools,Formatters,62.000,5,5
-eclipse-corrosion/corrosion,217,1,0,0,0,4.608,25,10,2380,14,Java,false,0,Development tools,IDEs,24.000,1,10
-racer-rust/emacs-racer,399,1,1,0,0,2.506,11,1192,3205,32,Emacs Lisp,false,0,Development tools,IDEs,5.000,0,0
-flycheck/flycheck-rust,119,0,0,0,0,0.000,91,34,3589,20,Emacs Lisp,false,0,Development tools,IDEs,6.000,0,0
-rust-lang/rust-mode,1091,11,4,2,0,10.082,2,21,3421,122,Emacs Lisp,false,0,Development tools,IDEs,28.000,3,5
-brotzeit/rustic,707,7,2,2,0,9.901,1,481,2377,123,Emacs Lisp,false,0,Development tools,IDEs,12.000,0,0
-intellij-rust/intellij-rust,4529,12,7,3,0,2.650,2,150,3190,176,Kotlin,false,0,Development tools,IDEs,21.000,0,0
-lapce/lapce,33365,400,182,73,13,11.989,0,0,2316,167,Rust,false,45,Development tools,IDEs,100.000,5,60
-madeso/ride,172,0,0,0,0,0.000,52,89,3419,1,C++,false,0,Development tools,IDEs,0.000,0,0
-rust-lang/rust-enhanced,771,2,1,1,0,2.594,6,49,3806,11,Python,false,0,Development tools,IDEs,18.000,0,0
-autozimu/LanguageClient-neovim,3546,2,0,0,0,0.564,19,734,2677,118,Rust,false,25,Development tools,IDEs,4.000,0,0
-Saecki/crates.nvim,785,15,7,2,0,19.108,3,4,1021,15,Lua,false,0,Development tools,IDEs,57.000,2,20
-rust-lang/rust.vim,3811,24,11,7,0,6.298,1,561,3421,146,Vim Script,false,0,Development tools,IDEs,25.000,0,0
-racer-rust/vim-racer,628,0,0,0,0,0.000,53,1164,3191,50,Vim Script,false,0,Development tools,IDEs,0.000,0,0
-ZoeyR/rls-vs2017,110,0,0,0,0,0.000,155,1837,2379,2,C#,false,0,Development tools,IDEs,0.000,0,0
-PistonDevelopers/VisualRust,701,0,0,0,0,0.000,99,2563,3590,138,C#,false,0,Development tools,IDEs,0.000,0,0
-serayuzgur/crates,232,3,0,0,0,12.931,14,137,2227,21,TypeScript,false,0,Development tools,IDEs,4.000,0,0
-bencherdev/bencher,428,35,19,10,1,81.776,0,0,1416,9,MDX,false,0,Development tools,Profiling,95.000,2,177
-bheisler/criterion.rs,4226,47,20,7,0,11.122,2,70,3668,108,Rust,false,22,Development tools,Profiling,25.000,0,0
-koute/bytehound,4358,501,62,15,1,114.961,0,318,1852,8,C,false,0,Development tools,Profiling,60.000,0,0
-nvzqz/divan,800,33,16,5,0,41.250,1,16,347,6,Rust,false,7,Development tools,Profiling,37.000,3,3
-ellisonch/rust-stopwatch,80,0,0,0,0,0.000,155,2393,3450,6,Rust,false,1,Development tools,Profiling,0.000,0,0
-llogiq/flame,688,2,1,1,0,2.907,1,1105,3163,17,Rust,false,5,Development tools,Profiling,12.000,0,0
-mrhooray/torch,131,0,0,0,0,0.000,87,2395,3213,2,Perl,false,0,Development tools,Profiling,0.000,0,0
-sharkdp/hyperfine,20497,396,221,78,9,19.320,0,9,2340,96,Rust,false,12,Development tools,Profiling,84.000,1,2
-deps-rs/deps.rs,419,6,3,2,0,14.320,3,12,2328,19,Sass,false,0,Development tools,Services,34.000,2,4
-facebookexperimental/mirai,975,13,6,5,1,13.333,0,205,2043,28,Rust,false,0,Development tools,Static analysis,31.000,0,0
-japaric/trust,1251,1,0,0,0,0.799,27,1656,2812,12,Shell,false,0,Development tools,Testing,2.000,0,0
-AlKass/polish,52,0,0,0,0,0.000,155,506,2599,2,Rust,false,3,Development tools,Testing,0.000,0,0
-wfxr/rlt,118,6,3,1,0,50.847,6,44,79,2,Rust,false,22,Development tools,Testing,18.000,0,0
-cksac/fake-rs,832,15,9,5,0,18.029,4,33,2903,43,Rust,false,0,Development tools,Testing,27.000,0,0
-alexliesenfeld/httpmock,434,7,3,1,0,16.129,6,32,1736,19,Rust,false,25,Development tools,Testing,18.000,0,0
-rust-fuzz/afl.rs,1586,14,10,5,0,8.827,1,0,3351,44,Rust,false,0,Development tools,Testing,73.000,3,10
-BayesWitnesses/m2cgen,2737,20,7,2,1,7.307,0,614,1976,12,Python,false,0,Development tools,Transpiling,31.000,0,0
-immunant/c2rust,3735,45,17,8,1,12.048,0,39,2244,62,Rust,false,0,Development tools,Transpiling,41.000,0,0
-jameysharp/corrode,2142,0,0,0,0,0.000,46,2616,2958,21,Haskell,false,0,Development tools,Transpiling,0.000,0,0
-larksuite/perf-monitor-rs,195,1,1,1,0,5.128,2,348,1148,5,Rust,false,2,Libraries,,10.000,0,0
-innoave/genevo,167,5,2,1,1,29.940,0,820,2545,3,Rust,false,5,Libraries,Artificial Intelligence,22.000,0,0
-m-decoster/RsGenetic,76,0,0,0,0,0.000,79,1235,3103,8,Rust,false,2,Libraries,Artificial Intelligence,0.000,0,0
-Martin1887/oxigen,161,2,1,0,0,12.422,12,1198,2125,3,Rust,false,0,Libraries,Artificial Intelligence,7.000,0,0
-pkalivas/radiate,145,2,1,0,0,13.793,12,874,1667,5,Rust,false,0,Libraries,Artificial Intelligence,7.000,0,0
-willi-kappler/darwin-rs,113,1,0,0,0,8.850,18,700,3086,4,Rust,false,3,Libraries,Artificial Intelligence,2.000,0,0
-autumnai/leaf,5555,3,3,1,0,0.540,1,2339,3150,14,Rust,false,9,Libraries,Artificial Intelligence,12.000,0,0
-tracel-ai/burn,7522,337,165,58,6,44.802,0,0,693,112,Rust,false,81,Libraries,Artificial Intelligence,100.000,22,63
-coreylowman/dfdx,1655,37,10,5,4,22.356,0,137,973,39,Rust,false,6,Libraries,Artificial Intelligence,35.000,0,0
-huggingface/tokenizers,8593,112,55,32,3,13.034,0,0,1683,238,Rust,false,0,Libraries,Artificial Intelligence,100.000,3,3
-LaurentMazare/tch-rs,3967,88,43,22,4,22.183,0,38,1941,75,Rust,false,15,Libraries,Artificial Intelligence,56.000,0,0
-maciejkula/rustlearn,611,0,0,0,0,0.000,36,1451,3112,8,Rust,false,4,Libraries,Artificial Intelligence,0.000,0,0
-rust-ml/linfa,3489,62,33,18,1,17.770,0,72,2258,46,Rust,false,9,Libraries,Artificial Intelligence,50.000,0,0
-smartcorelib/smartcore,663,11,6,4,0,16.591,1,98,1861,20,Rust,false,8,Libraries,Artificial Intelligence,21.000,0,0
-tensorflow/rust,5062,45,27,15,1,8.890,0,191,3049,57,Rust,false,11,Libraries,Artificial Intelligence,40.000,0,0
-cds-astro/aladin-lite,92,2,1,0,0,21.739,12,0,2469,12,JavaScript,false,9,Libraries,Astronomy,63.000,4,18
-saurvs/astro-rust,258,3,0,0,0,11.628,23,2166,3139,5,Rust,false,0,Libraries,Astronomy,4.000,0,0
-dpc/mioco,145,0,0,0,0,0.000,96,1919,2608,4,Rust,false,8,Libraries,Asynchronous,0.000,0,0
-tokio-rs/mio,6125,39,19,13,1,6.367,0,0,3582,231,Rust,false,1,Libraries,Asynchronous,95.000,1,23
-rust-lang/futures-rs,5265,27,14,3,0,5.128,3,39,2994,348,Rust,false,0,Libraries,Asynchronous,31.000,0,0
-TeaEntityLab/fpRust,115,0,0,0,0,0.000,53,1024,2170,2,Rust,false,2,Libraries,Asynchronous,0.000,0,0
-tokio-rs/tokio,25142,311,144,54,7,12.370,0,0,2831,808,Rust,false,0,Libraries,Asynchronous,100.000,23,38
-Xudong-Huang/may,1826,90,70,6,1,49.288,0,6,2636,9,Rust,false,10,Libraries,Asynchronous,92.000,1,2
-zonyitoo/coio-rs,454,0,0,0,0,0.000,34,2117,3220,8,Rust,false,11,Libraries,Asynchronous,0.000,0,0
-jhasse/ears,89,0,0,0,0,0.000,51,1519,3829,1,Rust,false,2,Libraries,Audio and Music,0.000,0,0
-musitdev/portmidi-rs,75,0,0,0,0,0.000,155,333,3803,15,Rust,false,0,Libraries,Audio and Music,0.000,0,0
-ozankasikci/rust-music-theory,616,0,0,0,0,0.000,34,746,1608,7,Rust,false,5,Libraries,Audio and Music,0.000,0,0
-pdeljanov/Symphonia,2172,46,25,13,3,21.179,0,92,1935,40,Rust,false,0,Libraries,Audio and Music,40.000,0,0
-RustAudio/cpal,2481,47,15,7,2,18.944,0,29,3469,148,Rust,false,1,Libraries,Audio and Music,47.000,2,2
-RustAudio/rodio,1639,33,15,5,4,20.134,0,4,3246,94,Rust,false,8,Libraries,Audio and Music,71.000,2,17
-RustAudio/rust-portaudio,366,2,1,1,0,5.464,6,36,3931,50,Rust,false,4,Libraries,Audio and Music,18.000,0,0
-Keats/jsonwebtoken,1585,27,13,4,1,17.035,0,66,3144,74,Rust,false,5,Libraries,Authentication,35.000,0,0
-ramosbugs/oauth2-rs,852,14,6,0,0,16.432,7,34,3631,55,Rust,false,12,Libraries,Authentication,22.000,0,0
-HeroicKatora/oxide-auth,643,13,3,1,0,20.218,4,8,2385,25,Rust,false,0,Libraries,Authentication,42.000,2,18
-sgrust01/jwtvault,67,0,0,0,0,0.000,155,1477,1578,3,Rust,false,9,Libraries,Authentication,0.000,0,0
-dermesser/yup-oauth2,210,5,0,0,0,23.810,17,0,3392,55,Rust,false,21,Libraries,Authentication,60.000,5,16
-aisk/rust-memcache,128,3,1,1,0,23.438,3,67,3988,17,Rust,false,6,Libraries,Caching,12.000,0,0
-al8n/stretto,400,1,0,0,0,2.500,27,38,1049,11,Rust,false,14,Libraries,Caching,8.000,0,0
-jaemk/cached,1419,24,16,5,1,16.913,0,34,2627,45,Rust,false,17,Libraries,Caching,41.000,0,0
-moka-rs/moka,1399,36,18,4,0,25.733,1,2,1527,17,Rust,false,16,Libraries,Caching,71.000,2,13
-zkat/cacache-rs,490,24,6,4,1,48.980,0,65,1848,15,Rust,false,19,Libraries,Caching,35.000,0,0
-awslabs/aws-sdk-rust,2897,38,21,8,1,13.117,0,3,1155,145,Rust,false,0,Libraries,Cloud,80.000,4,61
-rusoto/rusoto,2723,11,6,4,2,4.040,0,778,3254,167,Rust,false,0,Libraries,Cloud,31.000,0,0
-bparli/convey,333,0,0,0,0,0.000,64,1089,1994,4,Rust,false,19,Libraries,Cloud,0.000,0,0
-Qovery/engine,2239,16,6,3,0,7.146,2,96,1328,6,Rust,false,74,Libraries,Cloud,21.000,0,0
-ivanceras/titik,120,0,0,0,0,0.000,43,836,1556,1,Rust,false,9,Libraries,Command-line,0.000,0,0
-dropbox/rust-brotli,792,5,5,2,0,6.313,0,14,2977,34,Rust,false,4,Libraries,Compression,32.000,2,26
-ende76/brotli-rs,64,2,0,0,0,31.250,22,1526,3155,6,Rust,false,0,Libraries,Compression,4.000,0,0
-alexcrichton/bzip2-rs,93,0,0,0,0,0.000,34,522,3549,21,C,false,0,Libraries,Compression,0.000,0,0
-rust-lang/flate2-rs,845,11,7,5,2,13.018,0,42,3616,98,Rust,false,6,Libraries,Compression,37.000,0,0
-alexcrichton/tar-rs,608,7,7,3,1,11.513,0,6,3616,65,Rust,false,1,Libraries,Compression,59.000,4,8
-gyscos/zstd-rs,468,8,4,2,0,17.094,1,17,3034,48,Rust,false,1,Libraries,Compression,24.000,2,3
-mikkyang/rust-blas,82,0,0,0,0,0.000,155,3018,3593,6,Rust,false,2,Libraries,Computation,0.000,0,0
-calebwin/emu,1596,7,5,3,0,4.386,2,1172,1901,8,Rust,false,0,Libraries,Computation,12.000,0,0
-dimforge/nalgebra,3793,45,18,10,1,11.864,0,36,4045,196,Rust,false,33,Libraries,Computation,41.000,0,0
-GuillaumeGomez/rust-GSL,189,1,0,0,0,5.291,29,71,3605,21,Rust,false,2,Libraries,Computation,2.000,0,0
-blas-lapack-rs/lapack,80,0,0,0,0,0.000,110,1149,3535,8,Rust,false,3,Libraries,Computation,0.000,0,0
-arrayfire/arrayfire-rust,809,4,3,3,0,4.944,3,470,3311,34,Rust,false,5,Libraries,Computation,12.000,0,0
-autumnai/collenchyma,474,1,1,1,0,2.110,3,2983,3127,9,Rust,false,8,Libraries,Computation,10.000,0,0
-luqmana/rust-opencl,170,1,1,1,0,5.882,3,2711,4251,14,Rust,false,2,Libraries,Computation,10.000,0,0
-cpmech/russell,83,10,3,3,0,120.482,1,7,1086,1,Rust,false,0,Libraries,Computation,42.000,1,76
-indigits/scirust,262,0,0,0,0,0.000,35,1816,3522,5,Rust,false,0,Libraries,Computation,0.000,0,0
-statrs-dev/statrs,535,24,9,3,0,44.860,2,3,3013,37,Rust,false,4,Libraries,Computation,65.000,6,54
-crossbeam-rs/crossbeam,6930,73,29,15,0,10.534,1,17,3316,136,Rust,false,5,Libraries,Concurrency,42.000,2,4
-rayon-rs/rayon,10435,138,47,30,2,13.225,0,39,3539,134,Rust,false,3,Libraries,Concurrency,56.000,0,0
-rustcc/coroutine-rs,413,0,0,0,0,0.000,34,1016,3393,20,Rust,false,3,Libraries,Concurrency,0.000,0,0
-zonyitoo/coio-rs,454,0,0,0,0,0.000,34,2117,3220,8,Rust,false,11,Libraries,Concurrency,0.000,0,0
-softprops/envy,810,8,6,4,2,9.877,0,3,2905,15,Rust,false,1,Libraries,Configuration,59.000,2,10
-arkworks-rs/circom-compat,224,3,1,1,0,13.393,3,320,1050,20,Rust,false,21,Libraries,Cryptography,12.000,0,0
-briansmith/ring,3613,37,16,7,0,10.241,3,5,3246,262,Assembly,false,0,Libraries,Cryptography,65.000,4,31
-briansmith/webpki,456,3,1,0,0,6.579,12,113,3210,18,Rust,false,2,Libraries,Cryptography,7.000,0,0
-DaGenix/rust-crypto,1374,7,4,0,0,5.095,8,2834,3898,50,Rust,false,4,Libraries,Cryptography,7.000,0,0
-dalek-cryptography/curve25519-dalek,844,11,7,5,1,13.033,0,7,2741,104,Rust,false,0,Libraries,Cryptography,51.000,1,1
-dalek-cryptography/ed25519-dalek,668,5,2,2,0,7.485,3,303,2741,42,Rust,false,8,Libraries,Cryptography,12.000,0,0
-dalek-cryptography/x25519-dalek,326,4,3,2,0,12.270,3,303,2463,24,Rust,false,4,Libraries,Cryptography,12.000,0,0
-debris/tiny-keccak,190,0,0,0,0,0.000,39,1460,3118,13,Rust,false,1,Libraries,Cryptography,0.000,0,0
-facebook/opaque-ke,276,2,1,1,0,7.246,5,145,1468,125,Rust,false,14,Libraries,Cryptography,12.000,0,0
-iddm/randomorg,8,0,0,0,0,0.000,155,188,2540,2,Rust,false,6,Libraries,Cryptography,0.000,0,0
-klutzy/suruga,124,0,0,0,0,0.000,41,3066,3648,6,Rust,false,4,Libraries,Cryptography,0.000,0,0
-kornelski/rust-security-framework,228,4,2,1,0,17.544,6,20,3217,50,Rust,false,0,Libraries,Cryptography,24.000,2,2
-libOctavo/octavo,140,0,0,0,0,0.000,155,2431,3241,10,Rust,false,4,Libraries,Cryptography,0.000,0,0
-orion-rs/orion,536,1,0,0,0,1.866,17,20,2316,14,Rust,false,6,Libraries,Cryptography,14.000,1,3
-RustCrypto/hashes,1723,39,16,6,1,22.635,0,14,2761,71,Rust,false,0,Libraries,Cryptography,47.000,4,6
-rustls/rustls,5614,100,36,21,4,17.813,0,0,2961,142,Rust,false,0,Libraries,Cryptography,100.000,8,107
-sfackler/rust-native-tls,462,7,4,4,2,15.152,0,14,2977,37,Rust,false,0,Libraries,Cryptography,34.000,2,4
-sfackler/rust-openssl,1336,10,3,2,0,7.485,2,34,3817,349,Rust,false,0,Libraries,Cryptography,18.000,0,0
-w3f/schnorrkel,304,5,1,0,0,16.447,12,42,2037,26,Rust,false,14,Libraries,Cryptography,13.000,0,0
-amv-dev/yata,299,7,4,2,0,23.411,2,95,1362,8,Rust,false,1,Libraries,Data processing,12.000,0,0
-rust-ndarray/ndarray,3393,54,25,11,2,15.915,0,14,3598,92,Rust,false,10,Libraries,Data processing,52.000,3,10
-kernelmachine/utah,142,1,0,0,0,7.042,14,2148,2822,2,Rust,false,8,Libraries,Data processing,2.000,0,0
-pola-rs/polars,27057,611,277,137,15,22.582,0,0,1489,416,Rust,false,83,Libraries,Data processing,100.000,38,376
-weld-project/weld,2986,3,2,0,0,1.005,11,1528,2920,43,Rust,false,0,Libraries,Data processing,7.000,0,0
-ArroyoSystems/arroyo,3387,72,37,17,2,21.258,0,0,437,17,Rust,false,20,Libraries,Data streaming,100.000,2,14
-infinyon/fluvio,2733,59,30,14,2,21.588,0,0,1746,62,Rust,false,125,Libraries,Data streaming,100.000,7,30
-ashvardanian/SimSIMD,766,35,10,5,0,45.692,4,11,454,18,C,false,0,Libraries,Data structures,55.000,2,30
-danielpclark/array_tool,75,0,0,0,0,0.000,64,758,3155,3,Rust,false,0,Libraries,Data structures,0.000,0,0
-fizyk20/generic-array,399,4,1,0,0,10.025,11,75,3182,38,Rust,false,5,Libraries,Data structures,7.000,0,0
-mrhooray/kdtree-rs,218,4,2,1,1,18.349,0,129,3240,16,Rust,false,4,Libraries,Data structures,22.000,0,0
-RoaringBitmap/roaring-rs,704,17,13,12,2,24.148,0,3,3454,64,Rust,false,3,Libraries,Data structures,67.000,3,20
-rust-itertools/itertools,2583,38,11,8,0,14.712,2,14,3605,155,Rust,false,1,Libraries,Data structures,45.000,3,28
-milliams/plotlib,460,0,0,0,0,0.000,31,789,2650,12,Rust,false,2,Libraries,Data visualization,0.000,0,0
-plotly/plotly.rs,992,24,11,5,0,24.194,4,14,1597,109,Rust,false,0,Libraries,Data visualization,37.000,3,4
-plotters-rs/plotters,3623,69,43,29,13,19.045,0,5,1874,85,Rust,false,0,Libraries,Data visualization,84.000,3,9
-rerun-io/rerun,5486,229,93,47,2,41.743,0,0,794,52,Rust,false,201,Libraries,Data visualization,100.000,11,146
-saresend/Gust,131,1,0,0,0,7.634,14,2320,2442,4,Rust,false,4,Libraries,Data visualization,2.000,0,0
-krojew/cdrs-tokio,130,4,1,1,0,30.769,3,21,1302,33,Rust,false,7,Libraries,Database,24.000,3,5
-Metaswitch/cassandra-rs,128,6,3,2,0,46.875,3,80,2555,41,Rust,false,8,Libraries,Database,12.000,0,0
-softprops/dynomite,214,0,0,0,0,0.000,38,922,2301,13,Rust,false,0,Libraries,Database,0.000,0,0
-driftluo/InfluxDBClient-rs,82,0,0,0,0,0.000,82,735,2556,15,Rust,false,5,Libraries,Database,0.000,0,0
-skade/leveldb,182,1,1,1,0,5.495,3,1359,3733,8,Rust,false,3,Libraries,Database,10.000,0,0
-seladb/pickledb-rs,249,1,0,0,0,4.016,23,504,1981,7,Rust,false,5,Libraries,Database,2.000,0,0
-PoloDB/PoloDB,791,19,9,4,1,24.020,0,6,1409,11,Rust,false,0,Libraries,Database,61.000,1,1
-cberner/redb,2993,54,29,10,1,18.042,0,1,2087,20,Rust,false,2,Libraries,Database,82.000,2,6
-redis-rs/redis-rs,3482,35,11,7,0,10.052,2,0,3816,187,Rust,false,0,Libraries,Database,85.000,10,35
-rust-rocksdb/rust-rocksdb,1748,18,14,6,0,10.297,1,3,3494,167,Rust,false,3,Libraries,Database,53.000,3,7
-surrealdb/surrealdb,25875,310,152,84,13,11.981,0,0,914,106,Rust,false,42,Libraries,Database,100.000,11,47
-zitsen/unqlite.rs,109,0,0,0,0,0.000,94,1285,3095,8,Rust,false,2,Libraries,Database,0.000,0,0
-Brendonovich/prisma-client-rust,1722,41,21,9,3,23.810,0,32,1113,37,Rust,false,15,Libraries,Database,46.000,0,0
-diesel-rs/diesel,12134,146,64,27,1,12.032,0,0,3208,342,Rust,false,0,Libraries,Database,100.000,12,87
-ivanceras/rustorm,249,1,1,0,0,4.016,12,1193,2371,6,Rust,false,25,Libraries,Database,5.000,0,0
-njord-rs/njord,261,13,2,1,0,49.808,4,7,429,4,Rust,false,0,Libraries,Database,46.000,2,24
-rbatis/rbatis,2166,26,13,8,1,12.004,0,8,1922,23,Rust,false,13,Libraries,Database,65.000,1,28
-SeaQL/sea-orm,6482,138,57,28,2,21.290,0,3,1217,202,Rust,false,20,Libraries,Database,100.000,4,24
-SeaQL/seaography,351,10,2,1,0,28.490,6,38,729,9,Rust,false,6,Libraries,Database,18.000,0,0
-sfackler/r2d2,1455,13,5,3,0,8.935,2,326,3598,29,Rust,false,3,Libraries,Database,16.000,0,0
-launchbadge/sqlx,12177,256,111,45,7,21.023,0,3,1626,399,Rust,false,18,Libraries,Database,98.000,14,16
-SeaQL/sea-query,1044,26,7,6,2,24.904,0,7,1273,83,Rust,false,14,Libraries,Database,57.000,2,3
-SeaQL/sea-schema,175,4,1,0,0,22.857,13,36,1184,17,Rust,false,7,Libraries,Database,13.000,0,0
-prisma/tiberius,302,4,2,1,0,13.245,1,4,1537,52,Rust,false,30,Libraries,Database,42.000,1,1
-AgilData/mysql-proxy-rs,193,1,0,0,0,5.181,18,2799,2833,8,Rust,false,5,Libraries,Database,2.000,0,0
-rusqlite/rusqlite,2822,53,28,14,1,18.781,0,18,3506,111,Rust,false,13,Libraries,Database,52.000,3,9
-chronotope/chrono,3184,44,17,12,2,13.819,0,0,3727,203,Rust,false,5,Libraries,Date and time,87.000,4,5
-time-rs/time,1037,21,9,3,2,20.251,0,12,3500,67,Rust,false,19,Libraries,Date and time,57.000,2,2
-kafka-rust/kafka-rust,1166,14,10,4,0,12.007,2,224,3322,22,Rust,false,11,Libraries,Distributed systems,21.000,0,0
-aya-rs/aya,2814,101,61,24,2,35.892,0,3,1237,69,Rust,false,44,Libraries,eBPF,92.000,3,9
-libbpf/libbpf-rs,665,17,6,2,0,25.564,4,0,1520,74,Rust,false,0,Libraries,eBPF,81.000,4,23
-gsquire/sendgrid-rs,103,1,0,0,0,9.709,21,81,3171,31,Rust,false,6,Libraries,Email,2.000,0,0
-jdrouet/catapulte,136,1,0,0,0,7.353,24,40,1479,4,Rust,false,16,Libraries,Email,8.000,0,0
-jdrouet/jolimail,134,1,1,0,0,7.463,12,506,1481,4,TypeScript,false,0,Libraries,Email,5.000,0,0
-jdrouet/mrml,314,4,1,1,0,12.739,6,4,1491,11,HTML,false,0,Libraries,Email,44.000,2,3
-lettre/lettre,1737,27,11,3,0,15.544,2,48,3780,81,Rust,false,36,Libraries,Email,31.000,0,0
-mailtutan/mailtutan,159,7,3,2,0,44.025,1,111,394,4,Rust,false,2,Libraries,Email,12.000,0,0
-meli/meli,619,14,5,3,0,22.617,2,2,1827,13,Rust,false,0,Libraries,Email,66.000,2,44
-tweedegolf/mailcrab,667,8,5,3,0,11.994,1,6,598,16,Rust,false,0,Libraries,Email,44.000,2,2
-alex/rust-asn1,96,1,0,0,0,10.417,27,8,3250,8,Rust,false,1,Libraries,Encoding,24.000,2,3
-bincode-org/bincode,2568,30,14,9,3,11.682,0,13,3555,98,Rust,false,3,Libraries,Encoding,55.000,1,1
-mongodb/bson-rust,382,2,0,0,0,5.236,25,5,3351,559,Rust,false,16,Libraries,Encoding,36.000,2,4
-BurntSushi/byteorder,944,6,4,3,1,6.356,0,70,3415,50,Rust,false,0,Libraries,Encoding,22.000,0,0
-capnproto/capnproto-rust,1971,14,10,3,1,7.103,0,9,3994,79,Rust,false,0,Libraries,Encoding,61.000,3,23
-lifthrasiir/rust-encoding,283,1,0,0,0,3.534,23,2526,3969,34,Rust,false,6,Libraries,Encoding,2.000,0,0
-mrhooray/crc-rs,181,1,0,0,0,5.525,24,63,3375,19,Rust,false,1,Libraries,Encoding,2.000,0,0
-BurntSushi/rust-csv,1624,14,6,4,1,8.621,0,244,3733,49,Rust,false,4,Libraries,Encoding,31.000,0,0
-frol/flatc-rust,105,3,1,0,0,28.571,13,121,1973,5,Rust,false,1,Libraries,Encoding,7.000,0,0
-servo/html5ever,2016,25,15,9,0,12.401,1,5,3743,119,Rust,false,0,Libraries,Encoding,57.000,1,3
-3Hren/msgpack-rust,1096,17,11,3,0,15.511,2,41,3370,46,Rust,false,0,Libraries,Encoding,27.000,0,0
-stepancheg/rust-protobuf,2705,35,14,5,0,12.939,3,106,3970,123,Rust,false,0,Libraries,Encoding,25.000,0,0
-tokio-rs/prost,3592,55,32,12,2,15.312,0,0,2554,174,Rust,false,0,Libraries,Encoding,100.000,9,19
-ron-rs/ron,3173,34,19,8,1,10.715,0,36,3339,60,Rust,false,6,Libraries,Encoding,41.000,0,0
-toml-rs/toml,641,18,7,5,1,28.081,0,7,2537,133,Rust,false,0,Libraries,Encoding,57.000,2,19
-Florob/RustyXML,102,0,0,0,0,0.000,45,1009,3970,3,Rust,false,1,Libraries,Encoding,0.000,0,0
-media-io/yaserde,171,1,0,0,0,5.848,21,6,2254,28,Rust,false,0,Libraries,Encoding,34.000,2,4
-netvl/xml-rs,459,0,0,0,0,0.000,116,71,3656,62,Rust,false,0,Libraries,Encoding,0.000,0,0
-shepmaster/sxd-document,152,0,0,0,0,0.000,124,1517,3495,11,Rust,false,2,Libraries,Encoding,0.000,0,0
-shepmaster/sxd-xpath,118,0,0,0,0,0.000,99,994,3495,10,Rust,false,3,Libraries,Encoding,0.000,0,0
-tafia/quick-xml,1116,17,4,1,0,15.233,6,0,3057,97,Rust,false,6,Libraries,Encoding,76.000,6,30
-chyh1990/yaml-rust,598,1,1,0,0,1.672,8,1064,3304,31,Rust,false,1,Libraries,Encoding,5.000,0,0
-webdesus/fs_extra,238,4,3,0,0,16.807,8,493,2680,12,Rust,false,0,Libraries,Filesystem,7.000,0,0
-Stebalien/tempfile,1095,20,3,1,0,18.265,6,31,3347,60,Rust,false,2,Libraries,Filesystem,22.000,0,0
-JasonShin/fp-core.rs,1310,11,6,3,0,8.397,1,1627,1839,11,Rust,false,0,Libraries,Functional Programming,21.000,0,0
-myrrlyn/tap,369,5,4,3,1,13.550,0,1214,1366,1,Rust,false,0,Libraries,Functional Programming,22.000,0,0
-SiegeLord/RustAllegro,95,0,0,0,0,0.000,58,15,4078,6,Rust,false,0,Libraries,Game development,12.000,1,2
-ozkriff/awesome-quads,169,6,4,2,0,35.503,1,59,1229,14,,false,0,Libraries,Game development,18.000,0,0
-rofrol/awesome-wgpu,402,9,3,2,1,22.388,0,1391,1610,3,,false,0,Libraries,Game development,22.000,0,0
-amethyst/specs,2431,15,11,5,2,6.170,0,3,2988,112,Rust,false,12,Libraries,Game development,63.000,3,4
-amethyst/legion,1589,14,8,4,1,8.811,0,981,1921,71,Rust,false,15,Libraries,Game development,31.000,0,0
-bevyengine/bevy,33116,613,286,143,28,18.511,0,0,1605,980,Rust,false,1,Libraries,Game development,100.000,86,236
-ggez/ggez,4147,27,13,5,1,6.511,0,336,3054,191,Rust,false,23,Libraries,Game development,35.000,0,0
-Ruddle/oxidator,292,1,1,0,0,3.425,12,1561,1710,1,Rust,false,26,Libraries,Game development,5.000,0,0
-unrust/unrust,374,0,0,0,0,0.000,50,2129,2324,4,Rust,false,17,Libraries,Game development,0.000,0,0
-brson/rust-sdl,178,0,0,0,0,0.000,130,3303,4503,40,Rust,false,3,Libraries,Game development,0.000,0,0
-Rust-SDL2/rust-sdl2,2636,20,12,7,0,7.587,1,59,3950,287,Rust,false,6,Libraries,Game development,27.000,0,0
-jeremyletang/rust-sfml,623,6,3,3,1,9.631,0,0,4030,42,Rust,false,5,Libraries,Game development,74.000,2,8
-tomassedovic/tcod-rs,229,0,0,0,0,0.000,89,1227,3646,30,C,false,0,Libraries,Game development,0.000,0,0
-iddm/toornament-rs,4,0,0,0,0,0.000,130,188,2566,2,Rust,false,5,Libraries,Game development,0.000,0,0
-maplibre/martin,1961,53,27,11,3,27.027,0,0,2445,43,Rust,false,57,Libraries,Geospatial,100.000,3,32
-gx0r/rrgeo,118,1,1,0,0,8.475,12,66,3084,4,Rust,false,0,Libraries,Geospatial,5.000,0,0
-neo4j-labs/graph,356,4,3,3,1,11.236,0,203,1095,8,Rust,false,47,Libraries,Graph algorithms,22.000,0,0
-petgraph/petgraph,2729,56,23,10,2,20.520,0,33,3458,104,Rust,false,6,Libraries,Graph algorithms,46.000,0,0
-RazrFalcon/rustybuzz,466,4,2,1,0,8.584,3,31,1611,16,Rust,false,9,Libraries,Graphics,18.000,0,0
-redox-os/rusttype,606,5,3,1,0,8.251,6,460,3048,32,Rust,false,5,Libraries,Graphics,12.000,0,0
-gfx-rs/gfx,5346,10,5,2,0,1.871,4,1042,3882,255,Rust,false,0,Libraries,Graphics,12.000,0,0
-gfx-rs/wgpu,11322,268,116,54,7,23.671,0,0,2097,412,Rust,false,91,Libraries,Graphics,100.000,23,70
-brendanzab/gl-rs,678,2,1,1,1,2.950,0,1494,4163,72,Rust,false,0,Libraries,Graphics,22.000,0,0
-glium/glium,3424,23,9,5,0,6.717,1,85,3538,172,Rust,false,8,Libraries,Graphics,25.000,0,0
-PistonDevelopers/glfw-rs,640,10,4,4,1,15.625,0,20,4287,207,Rust,false,7,Libraries,Graphics,34.000,2,4
-fschutt/printpdf,775,10,8,3,0,12.903,1,89,2589,43,Rust,false,9,Libraries,Graphics,17.000,0,0
-J-F-Liu/lopdf,1523,26,13,7,0,17.072,1,49,2737,53,Rust,false,16,Libraries,Graphics,31.000,0,0
-kaj/rust-pdf,143,0,0,0,0,0.000,39,854,3182,1,Rust,false,2,Libraries,Graphics,0.000,0,0
-autopilot-rs/autopilot-rs,368,4,1,1,0,10.870,6,320,2253,17,Rust,false,4,Libraries,GUI,12.000,0,0
-servo/core-foundation-rs,942,23,11,6,0,24.416,1,14,4302,177,Rust,false,0,Libraries,GUI,37.000,4,7
-dioxuslabs/dioxus,19011,485,261,70,7,25.512,0,0,1243,230,Rust,false,66,Libraries,GUI,100.000,16,41
-emilk/egui,20392,446,218,90,14,21.871,0,0,1975,405,Rust,false,35,Libraries,GUI,100.000,19,72
-emoon/rust_minifb,969,10,5,3,0,10.320,1,21,3123,68,Rust,false,1,Libraries,GUI,24.000,1,8
-fltk-rs/fltk-rs,1551,33,20,12,1,21.277,0,3,1691,40,Rust,false,0,Libraries,GUI,71.000,3,13
-cunarist/rinf,1630,151,104,47,3,92.638,0,1,481,19,Dart,false,0,Libraries,GUI,100.000,4,136
-flutter-rs/flutter-rs,2100,3,2,0,0,1.429,11,1397,2008,11,Rust,false,0,Libraries,GUI,7.000,0,0
-fzyzcjy/flutter_rust_bridge,3663,79,37,16,3,21.567,0,0,981,98,Dart,false,0,Libraries,GUI,100.000,4,3505
-fschutt/azul,5831,19,10,5,0,3.258,1,12,2337,37,Rust,false,0,Libraries,GUI,43.000,1,8
-gtk-rs/gtk4-rs,1710,37,12,7,2,21.637,0,2,1855,154,Rust,false,25,Libraries,GUI,85.000,8,39
-antoyo/relm,2410,4,1,0,0,1.660,13,52,2678,39,Rust,false,8,Libraries,GUI,13.000,0,0
-imgui-rs/imgui-rs,2583,30,12,3,1,11.614,0,3,3221,112,Rust,false,0,Libraries,GUI,67.000,3,7
-KISS-UI/kiss-ui,342,0,0,0,0,0.000,92,2303,3333,10,Rust,false,2,Libraries,GUI,0.000,0,0
-ivanceras/sauron-native,631,1,0,0,0,1.585,19,1159,1782,2,Rust,false,20,Libraries,GUI,2.000,0,0
-rust-native-ui/libui-rs,926,1,0,0,0,1.080,25,515,2344,21,Rust,false,0,Libraries,GUI,2.000,0,0
-snuk182/nuklear-rust,356,1,0,0,0,2.809,23,1330,2828,3,Rust,false,2,Libraries,GUI,2.000,0,0
-redox-os/orbtk,3780,5,2,2,0,1.323,1,606,3101,50,Rust,false,0,Libraries,GUI,12.000,0,0
-cyndis/qmlrs,435,0,0,0,0,0.000,66,2989,3467,8,Rust,false,1,Libraries,GUI,0.000,0,0
-woboq/qmetaobject-rs,613,9,5,2,0,14.682,6,103,2196,41,Rust,false,0,Libraries,GUI,12.000,0,0
-rise-ui/rise,72,0,0,0,0,0.000,128,1949,2273,4,Rust,false,24,Libraries,GUI,0.000,0,0
-saurvs/nfd-rs,155,1,1,0,0,6.452,13,1907,3021,5,Rust,false,0,Libraries,GUI,5.000,0,0
-sciter-sdk/rust-sciter,802,3,2,1,0,3.741,6,840,3017,20,Rust,false,2,Libraries,GUI,12.000,0,0
-tauri-apps/tauri,78810,1135,548,257,31,14.402,0,0,1794,364,Rust,false,0,Libraries,GUI,100.000,18,72
-tauri-apps/wry,3312,71,39,22,2,21.437,0,4,1429,89,Rust,false,0,Libraries,GUI,90.000,11,21
-linebender/xilem,3074,178,98,71,9,57.905,0,0,572,162,Rust,false,18,Libraries,GUI,100.000,8,32
-abonander/img_hash,297,1,0,0,0,3.367,20,1133,3492,10,Rust,false,5,Libraries,Image processing,2.000,0,0
-image-rs/image,4730,78,36,16,1,16.490,0,8,3669,299,Rust,false,18,Libraries,Image processing,72.000,4,7
-image-rs/imageproc,711,17,6,4,0,23.910,2,1,3179,90,Rust,false,12,Libraries,Image processing,71.000,7,37
-rust-cv/cv,779,15,9,5,0,19.255,1,326,1528,11,Rust,false,0,Libraries,Image processing,21.000,0,0
-twistedfall/opencv-rust,1835,31,12,5,2,16.894,0,13,3345,41,Rust,false,4,Libraries,Image processing,61.000,2,11
-shnewto/bnf,249,1,1,1,0,4.016,2,137,2423,13,Rust,false,8,Libraries,Language specification,10.000,0,0
-estk/log4rs,955,9,3,1,0,9.424,2,70,3422,47,Rust,false,20,Libraries,Logging,12.000,0,0
-rbatis/fast_log,212,2,1,0,0,9.434,13,93,1563,1,Rust,false,12,Libraries,Logging,7.000,0,0
-rust-lang/log,2084,21,13,7,1,10.077,0,70,3467,120,Rust,false,4,Libraries,Logging,35.000,0,0
-seanmonstar/pretty-env-logger,467,4,2,1,0,8.565,6,389,2791,18,Rust,false,2,Libraries,Logging,12.000,0,0
-slog-rs/slog,1551,13,6,2,0,8.382,2,157,2920,55,Rust,false,3,Libraries,Logging,21.000,0,0
-tokio-rs/tracing,5046,84,35,12,0,16.647,1,16,1977,304,Rust,false,0,Libraries,Logging,52.000,4,4
-mattgathu/cute,336,3,1,0,0,8.929,13,1899,2522,2,Rust,false,0,Libraries,Macro,7.000,0,0
-StardustDL/Linq-in-Rust,125,3,0,0,0,24.000,23,349,1946,3,Rust,false,0,Libraries,Macro,4.000,0,0
-pulldown-cmark/pulldown-cmark,1957,19,11,5,0,9.709,1,0,3295,79,Rust,false,0,Libraries,Markup language,77.000,3,14
-ivnsch/rust_android_ios,235,1,1,1,0,4.255,3,895,1770,2,Rust,false,2,Libraries,Mobile,10.000,0,0
-Geal/rust_on_mobile,170,1,1,1,0,5.882,3,2871,2912,1,Objective-C,false,0,Libraries,Mobile,10.000,0,0
-TimNN/cargo-lipo,519,7,4,3,0,13.487,3,14,3185,18,Rust,false,6,Libraries,Mobile,24.000,2,2
-Covertness/coap-rs,201,3,0,0,0,14.925,27,62,3256,21,Rust,false,17,Libraries,Network programming,4.000,0,0
-fussybeaver/bollard,759,18,10,9,2,23.715,0,29,2183,76,Rust,false,35,Libraries,Network programming,43.000,4,10
-mattnenterprise/rust-ftp,178,1,0,0,0,5.618,23,979,3489,16,Rust,false,5,Libraries,Network programming,2.000,0,0
-hyperium/tonic,9189,146,77,50,3,15.889,0,0,1767,231,Rust,false,0,Libraries,Network programming,100.000,10,27
-tikv/grpc-rs,1783,7,4,2,1,3.926,0,35,2607,126,Rust,false,10,Libraries,Network programming,28.000,0,0
-Orange-OpenSource/hurl,12077,470,116,50,8,38.917,0,0,1385,193,Rust,false,0,Libraries,Network programming,100.000,8,105
-achanda/ipnetwork,119,3,1,0,0,25.210,12,40,3342,26,Rust,false,2,Libraries,Network programming,13.000,0,0
-canndrew/netsim,134,2,1,1,0,14.925,3,1861,2355,3,Rust,false,19,Libraries,Network programming,12.000,0,0
-actix/actix,8428,40,21,10,2,4.746,0,1,2458,144,Rust,false,0,Libraries,Network programming,82.000,4,10
-dylanmckay/protocol,184,2,1,1,0,10.870,3,639,2830,5,Rust,false,0,Libraries,Network programming,12.000,0,0
-libpnet/libpnet,2208,25,17,9,2,11.322,0,7,3571,127,Rust,false,6,Libraries,Network programming,65.000,4,25
-smoltcp-rs/smoltcp,3608,37,14,10,1,10.255,0,14,2747,121,Rust,false,8,Libraries,Network programming,51.000,3,13
-lemunozm/message-io,1050,13,6,3,0,12.381,3,0,1438,14,Rust,false,11,Libraries,Network programming,71.000,1,1
-bytebeamio/rumqtt,1507,18,8,2,0,11.944,4,0,1700,88,Rust,false,0,Libraries,Network programming,73.000,7,9
-thehydroimpulse/nanomsg.rs,386,0,0,0,0,0.000,34,221,3929,26,Rust,false,2,Libraries,Network programming,0.000,0,0
-nats-io/nats.rs,968,15,6,4,0,15.496,3,14,1568,83,Rust,false,0,Libraries,Network programming,37.000,3,14
-libp2p/rust-libp2p,4238,47,24,11,0,11.090,1,0,2635,295,Rust,false,60,Libraries,Network programming,90.000,12,62
-aws/s2n-quic,1090,18,4,2,1,16.514,0,0,1446,56,Rust,false,0,Libraries,Network programming,86.000,4,22
-cloudflare/quiche,9039,90,36,19,4,9.957,0,21,2081,130,Rust,false,0,Libraries,Network programming,62.000,4,5
-mozilla/neqo,1780,18,5,2,0,10.112,0,0,1939,47,Rust,false,2,Libraries,Network programming,72.000,5,20
-quinn-rs/quinn,3539,68,31,12,3,19.214,0,2,2260,117,Rust,false,0,Libraries,Network programming,100.000,7,51
-Tencent/tquic,920,22,14,6,0,23.913,3,6,229,17,Rust,false,20,Libraries,Network programming,61.000,4,17
-b23r0/rust-raknet,214,1,1,0,0,4.673,10,560,822,3,Rust,false,3,Libraries,Network programming,5.000,0,0
-smallnest/rpcx-rs,123,1,0,0,0,8.130,28,89,1779,3,Rust,false,0,Libraries,Network programming,2.000,0,0
-alexcrichton/ssh2-rs,465,5,3,2,1,10.753,0,53,3554,69,Rust,false,4,Libraries,Network programming,28.000,0,0
-zslayton/stomp-rs,89,0,0,0,0,0.000,123,2166,3698,5,Rust,false,7,Libraries,Network programming,0.000,0,0
-DefGuard/wireguard-rs,116,6,2,0,0,51.724,9,18,291,7,Rust,false,4,Libraries,Network programming,19.000,2,2
-erickt/rust-zmq,882,6,4,2,1,6.803,0,506,4562,54,Rust,false,3,Libraries,Network programming,22.000,0,0
-Folyd/robotstxt,83,0,0,0,0,0.000,54,1213,1531,1,Rust,false,0,Libraries,Parsing,0.000,0,0
-freestrings/jsonpath,121,2,1,0,0,16.529,10,1007,1994,6,Rust,false,3,Libraries,Parsing,7.000,0,0
-igumnoff/shiva,137,12,6,3,0,87.591,1,0,84,18,Rust,false,0,Libraries,Parsing,81.000,7,71
-kevinmehall/rust-peg,1410,18,9,5,0,12.766,2,8,3949,50,Rust,false,2,Libraries,Parsing,41.000,1,1
-lalrpop/lalrpop,2923,32,14,6,0,10.948,1,3,3286,142,Rust,false,4,Libraries,Parsing,57.000,3,7
-m4rw3r/chomp,242,1,1,0,0,4.132,8,761,3130,8,Rust,false,7,Libraries,Parsing,5.000,0,0
-Marwes/combine,1273,4,3,2,0,3.142,4,61,3437,56,Rust,false,11,Libraries,Parsing,12.000,0,0
-pest-parser/pest,4442,59,16,11,2,13.282,0,40,2969,122,Rust,false,0,Libraries,Parsing,41.000,0,0
-ptal/oak,141,0,0,0,0,0.000,102,1245,3627,6,Rust,false,4,Libraries,Parsing,0.000,0,0
-replicadse/wavefront_rs,4,0,0,0,0,0.000,503,432,1506,2,Rust,false,0,Libraries,Parsing,0.000,0,0
-rust-bakery/nom,9131,89,39,21,5,9.747,0,28,3487,343,Rust,false,1,Libraries,Parsing,62.000,2,2
-s-panferov/queryst,71,0,0,0,0,0.000,83,394,3547,11,Rust,false,5,Libraries,Parsing,0.000,0,0
-tree-sitter/tree-sitter,16974,340,147,75,12,20.031,0,0,3869,276,Rust,false,44,Libraries,Parsing,100.000,8,26
-hannobraun/inotify-rs,250,4,3,1,1,16.000,0,122,3714,48,Rust,false,5,Libraries,Platform specific,22.000,0,0
-nix-rust/nix,2554,22,8,3,0,8.614,3,0,3595,386,Rust,false,5,Libraries,Platform specific,85.000,6,32
-bytecodealliance/rustix,1364,26,15,7,2,19.062,0,13,1365,86,Rust,false,5,Libraries,Platform specific,57.000,2,2
-zargony/fuse-rs,1039,6,1,0,0,5.775,11,1412,3898,23,Rust,false,5,Libraries,Platform specific,7.000,0,0
-microsoft/windows-rs,9977,114,55,33,9,11.426,0,0,1733,74,Rust,false,0,Libraries,Platform specific,100.000,4,32
-retep998/winapi-rs,1814,10,8,4,1,5.513,0,947,3562,150,Rust,false,0,Libraries,Platform specific,27.000,0,0
-rustq/3body-lang,164,5,1,0,0,30.488,10,31,488,8,Rust,false,3,Libraries,Scripting,13.000,0,0
-fleabitdev/glsp,389,0,0,0,0,0.000,41,825,1460,3,Rust,false,0,Libraries,Scripting,0.000,0,0
-gluon-lang/gluon,3140,23,13,6,2,7.325,0,177,3235,55,Rust,false,29,Libraries,Scripting,35.000,0,0
-kcl-lang/kcl,1374,44,21,11,1,32.023,0,5,767,31,Rust,false,0,Libraries,Scripting,80.000,8,67
-mun-lang/mun,1783,22,11,7,0,12.339,1,6,1787,20,Rust,false,0,Libraries,Scripting,55.000,1,1
-murarth/ketos,747,1,0,0,0,1.339,18,1606,3045,8,Rust,false,9,Libraries,Scripting,2.000,0,0
-PistonDevelopers/dyon,1732,6,1,0,0,3.464,8,103,3062,144,Rust,false,8,Libraries,Scripting,7.000,0,0
-rhaiscript/rhai,3553,46,13,5,1,12.947,0,5,3024,51,Rust,false,20,Libraries,Scripting,75.000,2,23
-rune-rs/rune,1607,42,20,5,2,26.136,0,12,1416,36,Rust,false,0,Libraries,Scripting,57.000,1,2
-BinChengZhao/delay-timer,295,7,6,2,0,23.729,6,22,1470,5,Rust,false,15,Libraries,Task scheduling,29.000,2,3
-sunng87/handlebars-rust,1211,10,4,1,0,8.258,5,18,3459,74,Rust,false,10,Libraries,Template engine,22.000,1,1
-zzau13/yarte,278,1,0,0,0,3.597,14,315,1801,2,Rust,false,11,Libraries,Template engine,2.000,0,0
-djc/askama,3195,77,44,21,5,24.100,0,3,2727,116,Rust,false,0,Libraries,Template engine,90.000,3,24
-kaj/ructe,429,4,3,3,1,9.324,0,1,2825,13,Rust,false,7,Libraries,Template engine,68.000,1,13
-Keats/tera,3286,52,27,12,0,15.825,1,12,3251,141,Rust,false,14,Libraries,Template engine,52.000,7,8
-lambda-fairy/maud,1964,26,14,6,0,13.238,1,7,3463,51,Rust,false,0,Libraries,Template engine,45.000,1,1
-Stebalien/horrorshow-rs,315,1,1,0,0,3.175,7,273,3327,10,Rust,false,0,Libraries,Template engine,5.000,0,0
-rustache/rustache,210,0,0,0,0,0.000,177,2396,3552,13,Rust,false,3,Libraries,Template engine,0.000,0,0
-BurntSushi/suffix,254,0,0,0,0,0.000,32,244,3453,6,Rust,false,0,Libraries,Text processing,0.000,0,0
-BurntSushi/tabwriter,244,0,0,0,0,0.000,52,166,3564,11,Rust,false,1,Libraries,Text processing,0.000,0,0
-probablykasper/cpc,116,2,1,0,0,17.241,7,149,1649,7,Rust,false,2,Libraries,Text processing,7.000,0,0
-greyblake/whatlang-rs,957,3,2,0,0,3.135,8,86,2774,23,Rust,false,5,Libraries,Text processing,7.000,0,0
-ps1dr3x/easy_reader,84,0,0,0,0,0.000,54,845,2234,3,Rust,false,2,Libraries,Text processing,0.000,0,0
-rust-lang/regex,3385,27,14,11,0,7.976,1,1,3469,186,Rust,false,4,Libraries,Text processing,71.000,3,11
-meilisearch/MeiliSearch,44076,579,276,169,33,13.136,0,0,2240,163,Rust,false,0,Libraries,Text search,100.000,8,105
-nathanbabcock/ffmpeg-sidecar,189,2,0,0,0,10.582,21,57,487,7,Rust,false,1,Libraries,Video,10.000,0,0
-beneills/quantum,264,2,0,0,0,7.576,17,2866,2884,1,Rust,false,2,Libraries,Virtualization,4.000,0,0
-bytecodealliance/wasmtime,14706,174,77,39,9,11.832,0,0,2477,497,Rust,false,131,Libraries,Virtualization,100.000,28,116
-oxidecomputer/propolis,169,1,0,0,0,5.917,15,13,1344,73,Rust,false,107,Libraries,Virtualization,24.000,3,4
-saurvs/hypervisor-rs,60,0,0,0,0,0.000,54,2630,2999,1,Rust,false,1,Libraries,Virtualization,0.000,0,0
-leptos-rs/leptos,15036,314,124,75,18,20.883,0,8,680,261,Rust,false,14,Libraries,Web programming,84.000,5,9
-ivanceras/sauron,1927,8,4,2,0,4.152,5,9,1883,12,Rust,false,3,Libraries,Web programming,32.000,1,1
-seed-rs/seed,3790,4,2,0,0,1.055,11,461,2018,57,Rust,false,15,Libraries,Web programming,7.000,0,0
-alexcrichton/curl-rust,996,3,1,1,0,3.012,6,96,3659,108,Rust,false,3,Libraries,Web programming,12.000,0,0
-async-graphql/async-graphql,3259,24,13,7,0,7.364,1,3,1562,215,Rust,false,52,Libraries,Web programming,65.000,6,26
-ducaale/xh,4878,96,40,16,3,19.680,0,2,1369,38,Rust,false,34,Libraries,Web programming,92.000,4,9
-graphql-rust/graphql-client,1118,7,4,2,1,6.261,0,76,2200,57,Rust,false,0,Libraries,Web programming,22.000,0,0
-hyperium/hyper,14005,139,75,40,4,9.925,0,7,3572,377,Rust,false,16,Libraries,Web programming,82.000,5,9
-seanmonstar/reqwest,9317,124,51,26,4,13.309,0,6,2902,316,Rust,false,12,Libraries,Web programming,92.000,4,8
-actix/actix-web,20552,259,127,56,5,12.602,0,0,2445,367,Rust,false,0,Libraries,Web programming,100.000,11,70
-saru-tora/anansi,112,1,1,1,0,8.929,1,433,630,2,Rust,false,0,Libraries,Web programming,10.000,0,0
-danclive/sincere,96,0,0,0,0,0.000,97,1332,2694,4,Rust,false,16,Libraries,Web programming,0.000,0,0
-GildedHonour/frank_jwt,250,0,0,0,0,0.000,153,199,3520,14,Rust,false,4,Libraries,Web programming,0.000,0,0
-gotham-rs/gotham,2228,7,4,1,0,3.142,4,54,2515,52,Rust,false,0,Libraries,Web programming,18.000,0,0
-graphul-rs/graphul,440,2,1,0,0,4.545,12,259,881,3,Rust,false,13,Libraries,Web programming,7.000,0,0
-sunng87/handlebars-rust,1211,10,4,1,0,8.258,5,18,3459,74,Rust,false,10,Libraries,Web programming,22.000,1,1
-hyperium/hyper,14005,139,75,40,4,9.925,0,7,3572,377,Rust,false,16,Libraries,Web programming,82.000,5,9
-iron/iron,6122,4,3,1,0,0.653,6,1186,3653,133,Rust,false,0,Libraries,Web programming,12.000,0,0
-graphql-rust/juniper,5590,40,15,4,1,7.156,0,5,2829,150,Rust,false,0,Libraries,Web programming,67.000,1,4
-miketang84/sapper,617,1,1,1,0,1.621,5,1546,2973,5,Rust,false,6,Libraries,Web programming,10.000,0,0
-poem-web/poem,3276,48,27,15,2,14.652,0,8,1034,97,Rust,false,28,Libraries,Web programming,62.000,4,6
-rwf2/Rocket,23649,227,111,56,9,9.599,0,0,3007,296,Rust,false,0,Libraries,Web programming,100.000,6,20
-rustless/rustless,616,2,0,0,0,3.247,23,2287,3549,16,Rust,false,18,Libraries,Web programming,4.000,0,0
-salvo-rs/salvo,2836,76,53,18,4,26.798,0,0,1677,46,Rust,false,115,Libraries,Web programming,100.000,6,46
-richerarc/saphir,90,0,0,0,0,0.000,107,27,2202,15,Rust,false,0,Libraries,Web programming,10.000,1,1
-seanmonstar/warp,9253,89,51,27,8,9.619,0,66,2161,177,Rust,false,24,Libraries,Web programming,62.000,0,0
-tiny-http/tiny-http,963,7,1,1,0,7.269,1,391,3619,44,Rust,false,9,Libraries,Web programming,12.000,0,0
-tokio-rs/axum,16952,473,203,92,18,27.902,0,1,1107,331,Rust,false,0,Libraries,Web programming,100.000,4,9
-tomaka/rouille,1087,11,3,3,0,10.120,4,0,3253,44,Rust,false,16,Libraries,Web programming,68.000,2,3
-zino-rs/zino,681,41,22,13,3,60.206,0,3,530,5,Rust,false,0,Libraries,Web programming,76.000,1,18
-cargonauts-rs/cargonauts,179,0,0,0,0,0.000,70,2515,2821,4,Rust,false,14,Libraries,Web programming,0.000,0,0
-juhaku/utoipa,1956,96,35,13,3,49.080,0,11,984,87,Rust,false,0,Libraries,Web programming,80.000,5,28
-pyrossh/rust-embed,1553,29,12,5,1,18.674,0,18,3116,54,Rust,false,13,Libraries,Web programming,47.000,3,4
-thewh1teagle/rookie,101,8,5,3,0,79.208,2,30,258,5,Rust,false,0,Libraries,Web programming,18.000,0,0
-softprops/openapi,125,1,1,0,0,8.000,13,1240,2702,10,Rust,false,7,Libraries,Web programming,5.000,0,0
-cobalt-org/cobalt.rs,1342,12,8,5,1,8.942,0,6,3513,46,Rust,false,43,Libraries,Web programming,67.000,2,11
-housleyjk/ws-rs,1456,3,2,2,0,2.060,5,297,3209,37,Rust,false,14,Libraries,Web programming,12.000,0,0
-iddm/urlshortener-rs,48,0,0,0,0,0.000,76,27,2898,7,Rust,false,2,Libraries,Web programming,12.000,1,2
-websockets-rs/rust-websocket,1493,15,8,2,0,10.047,1,267,3483,61,Rust,false,13,Libraries,Web programming,21.000,0,0
-snapview/tungstenite-rs,1767,39,25,11,2,22.071,0,8,2642,71,Rust,false,16,Libraries,Web programming,62.000,3,6
-vi/websocat,6660,109,53,25,2,16.366,0,32,2756,14,Rust,false,40,Libraries,Web programming,66.000,0,0
-w4/chartered,129,0,0,0,0,0.000,74,597,1018,2,Rust,false,0,Registries,,0.000,0,0
-TeXitoi/benchmarksgame-rs,68,0,0,0,0,0.000,37,1622,3439,10,Rust,false,0,Resources,,0.000,0,0
-cognitive-engineering-lab/aquascope,1837,51,26,16,5,27.763,0,75,634,3,Rust,false,0,Resources,,40.000,0,0
-jamesmunns/awesome-rust-streaming,682,3,2,1,0,4.399,2,785,1505,21,,false,0,Resources,,12.000,0,0
-Dhghomon/easy_rust,7855,23,8,6,1,2.928,0,506,1431,47,Shell,false,0,Resources,,35.000,0,0
-mre/idiomatic-rust,6066,104,49,27,4,17.145,0,31,2595,19,Rust,false,0,Resources,,56.000,0,0
-cuppar/rtd,424,43,19,11,0,101.415,0,279,322,1,Rust,false,2,Resources,,25.000,0,0
-ad-si/Rust-Flashcards,498,26,6,2,0,52.209,2,5,99,5,Rust,false,0,Resources,,57.000,2,4
-warycat/rustgym,848,3,1,0,0,3.538,11,735,1812,5,Rust,false,0,Resources,,7.000,0,0
-jondot/rust-how-do-i-start,1035,8,4,2,0,7.729,3,495,797,3,,false,0,Resources,,12.000,0,0
-ctjhoa/rust-learning,11209,78,43,17,1,6.959,0,14,3322,111,,false,0,Resources,,62.000,5,9
-rust-lang/rustlings,50544,953,398,211,26,18.855,0,12,3192,404,Rust,false,11,Resources,,87.000,4,9
-AbdesamedBendjeddou/Rusty-CS,867,8,2,0,0,9.227,12,154,805,7,,false,0,Resources,,7.000,0,0
-brson/stdx,2011,6,3,0,0,2.984,7,1946,3264,18,Rust,false,31,Resources,,7.000,0,0
-rust-unofficial/patterns,7779,53,29,13,1,6.813,0,48,3162,96,Handlebars,false,0,Resources,,46.000,0,0
-sger/RustBooks,4164,86,41,26,4,20.653,0,34,2872,36,,false,0,Resources,,56.000,0,0
-rustviz/rustviz,2650,23,10,4,1,8.679,0,242,1344,13,HTML,false,0,Resources,,35.000,0,0
+alacritty/alacritty,54025,1011,453,247,34,18.714,0,3,3037,425,Rust,false,0,Applications,,100.000,7,8
+cch123/asm-cli-rust,303,2,2,1,0,6.601,5,22,1972,5,Rust,false,9,Applications,,24.000,2,2
+cloudflare/boringtun,5899,53,20,9,0,8.985,1,231,2069,87,Rust,false,0,Applications,,25.000,0,0
+apache/datafusion,5356,208,100,56,20,38.835,0,0,1151,595,Rust,false,53,Applications,,100.000,64,229
+defguard/defguard,714,53,19,10,0,74.230,1,14,601,9,TypeScript,false,0,Applications,,35.000,1,1
+denoland/deno,93243,382,186,97,12,4.097,0,0,2220,927,Rust,false,140,Applications,,100.000,39,189
+doprz/dipc,169,5,0,0,0,29.586,17,308,423,4,Rust,false,9,Applications,,4.000,0,0
+EasyTier/EasyTier,406,140,58,38,11,344.828,0,1,256,3,Rust,false,0,Applications,,100.000,2,30
+snowplow/factotum,219,1,1,0,0,4.566,10,1220,3028,41,Rust,false,17,Applications,,5.000,0,0
+fcsonline/drill,2004,32,15,7,2,15.968,0,295,2581,25,Rust,false,18,Applications,,35.000,0,0
+printfn/fend,569,41,18,8,6,72.056,0,18,1411,26,Rust,false,1,Applications,,49.000,2,5
+fractalide/fractalide,856,2,0,0,0,2.336,27,1881,3110,13,Racket,false,0,Applications,,4.000,0,0
+habitat-sh/habitat,2583,15,8,4,0,5.807,1,0,3308,180,Rust,false,0,Applications,,81.000,4,83
+imjacobclark/Herd,110,1,0,0,0,9.091,18,474,3299,3,Rust,false,7,Applications,,2.000,0,0
+tonarino/innernet,4873,27,16,7,0,5.541,1,49,1170,31,Rust,false,0,Applications,,31.000,0,0
+awslabs/flowgger,816,7,1,0,0,8.578,7,19,3229,23,Rust,false,16,Applications,,19.000,3,5
+PaddiM8/kalker,1574,24,11,4,0,15.248,1,21,1468,21,Rust,false,0,Applications,,37.000,2,2
+hcavarsan/kftray,589,151,139,51,12,256.367,0,0,199,4,Rust,false,0,Applications,,100.000,3,40
+changlan/kytan,467,6,0,0,0,12.848,14,264,3059,6,Rust,false,13,Applications,,4.000,0,0
+linkerd/linkerd2-proxy,1941,13,4,2,0,6.698,1,0,2166,57,Rust,false,0,Applications,,76.000,2,44
+rust-lang/mdBook,17030,235,111,56,12,13.799,0,26,3263,312,Rust,false,28,Applications,,82.000,3,37
+metalbear-co/mirrord,3478,69,30,14,0,19.839,1,0,861,30,Rust,false,38,Applications,,90.000,5,38
+nicohman/eidolon,125,0,0,0,0,0.000,86,1696,2396,3,Rust,false,10,Applications,,0.000,0,0
+withoutboats/notty,2294,6,1,0,0,2.616,13,2633,3131,13,Rust,false,5,Applications,,7.000,0,0
+sebadob/rauthy,211,22,16,13,2,104.265,0,0,347,6,Rust,false,76,Applications,,95.000,2,159
+raphamorim/rio,3102,163,111,97,14,52.547,0,0,615,51,Rust,false,29,Applications,,100.000,6,110
+cloudhead/rx,3048,27,11,6,2,8.858,0,345,1763,17,Rust,false,19,Applications,,35.000,0,0
+servo/servo,26326,225,112,53,10,8.547,0,0,4507,1188,HTML,false,0,Applications,,100.000,20,152
+cfal/shoes,173,8,3,3,1,46.243,0,278,864,1,Rust,false,30,Applications,,22.000,0,0
+shuttle-hq/shuttle,5717,115,55,33,7,20.115,0,5,843,103,Rust,false,76,Applications,,98.000,4,19
+GyulyVGC/sniffnet,14190,257,120,68,10,18.111,0,5,681,39,Rust,false,18,Applications,,100.000,3,37
+swc-project/swc,30262,211,110,54,11,6.972,0,0,2363,271,Rust,false,99,Applications,,100.000,4,169
+osa1/tiny,979,9,5,2,0,9.193,4,39,3080,19,Rust,false,0,Applications,,18.000,0,0
+upvpn/upvpn-app,155,9,6,5,0,58.065,1,108,363,1,Rust,false,0,Applications,,17.000,0,0
+wasmerio/wasmer,18089,181,75,42,7,10.006,0,0,2070,179,Rust,false,28,Applications,,100.000,11,292
+serayuzgur/weld,293,4,2,0,0,13.652,10,187,2630,4,Rust,false,13,Applications,,7.000,0,0
+wez/wezterm,14599,662,290,143,26,45.346,0,2,2317,282,Rust,false,0,Applications,,100.000,9,53
+wasmerio/winterjs,2887,90,44,20,4,31.174,0,0,264,80,JavaScript,false,1,Applications,,100.000,2,16
+zellij-org/zellij,18938,963,410,212,23,50.850,0,0,1379,137,Rust,false,8,Applications,,100.000,3,12
+kimono-koans/dano,132,4,1,0,0,30.303,13,56,666,1,Rust,false,10,Applications,Audio and Music,13.000,0,0
+DasEtwas/enginesound,290,4,1,1,0,13.793,5,493,1878,2,Rust,false,21,Applications,Audio and Music,12.000,0,0
+hinto-janai/festival,259,8,4,2,0,30.888,3,76,446,1,Rust,false,30,Applications,Audio and Music,12.000,0,0
+chaosprint/glicol,2045,44,22,14,0,21.516,1,0,1429,5,Rust,false,0,Applications,Audio and Music,80.000,1,1
+hrkfdn/ncspot,4741,81,37,18,1,17.085,0,1,2040,80,Rust,false,34,Applications,Audio and Music,92.000,3,5
+madeofpendletonwool/PinePods,149,35,6,2,0,234.899,2,4,648,5,Rust,false,0,Applications,Audio and Music,65.000,3,57
+agersant/polaris,1393,17,8,2,1,12.204,0,33,2858,16,Rust,false,36,Applications,Audio and Music,37.000,0,0
+aome510/spotify-player,1343,91,46,23,2,67.759,0,10,1070,44,Rust,false,0,Applications,Audio and Music,72.000,2,3
+Spotifyd/spotifyd,9630,57,30,13,3,5.919,0,29,3471,114,Rust,false,0,Applications,Audio and Music,50.000,1,1
+tramhao/termusic,919,63,37,21,5,68.553,0,0,1106,16,Rust,false,74,Applications,Audio and Music,100.000,2,97
+sergree/whatbpm,66,1,0,0,0,15.152,21,396,582,1,Rust,false,11,Applications,Audio and Music,2.000,0,0
+paradigmxyz/artemis,2127,34,16,10,1,15.985,0,251,413,29,Rust,false,2,Applications,Blockchain,35.000,0,0
+eigerco/beerus,238,11,6,3,0,46.218,4,1,580,42,Rust,false,8,Applications,Blockchain,67.000,4,17
+starkware-libs/cairo,1444,45,29,20,1,31.163,0,1,754,168,Rust,false,59,Applications,Blockchain,90.000,21,194
+lambdaclass/cairo-vm,484,13,7,4,0,26.860,1,4,777,71,Rust,false,33,Applications,Blockchain,57.000,4,20
+chainx-org/ChainX,321,2,0,0,0,6.231,18,97,2070,14,Rust,false,1,Applications,Blockchain,4.000,0,0
+citahub/cita,1308,1,1,0,0,0.765,12,1244,2518,54,Rust,false,0,Applications,Blockchain,5.000,0,0
+inv2004/coinbase-pro-rs,144,1,1,1,1,6.944,0,648,2122,19,Rust,false,17,Applications,Blockchain,20.000,0,0
+diem/diem,16712,17,7,3,1,1.017,0,357,1897,188,Rust,false,0,Applications,Blockchain,31.000,0,0
+romanz/electrs,1006,29,12,6,0,28.827,1,1,2256,55,Rust,false,18,Applications,Blockchain,67.000,3,5
+rust-ethereum/ethabi,509,5,4,2,0,9.823,4,321,2962,55,Rust,false,0,Applications,Blockchain,12.000,0,0
+Limeth/ethaddrgen,173,0,0,0,0,0.000,38,1830,2567,1,Rust,false,11,Applications,Blockchain,0.000,0,0
+gakonst/ethers-rs,2414,35,13,5,3,14.499,0,57,1479,266,Rust,false,57,Applications,Blockchain,41.000,0,0
+quilt/etk,348,4,2,0,0,11.494,7,17,1219,10,Rust,false,0,Applications,Blockchain,19.000,2,4
+ChainSafe/forest,608,9,6,3,0,14.803,1,0,1674,60,Rust,false,159,Applications,Blockchain,77.000,9,54
+foundry-rs/foundry,7758,164,80,36,7,21.139,0,0,1007,389,Rust,false,97,Applications,Blockchain,100.000,25,117
+holochain/holochain,1128,12,6,3,0,10.638,1,0,1611,45,Rust,false,0,Applications,Blockchain,81.000,6,112
+hyperlane-xyz/hyperlane-monorepo,221,10,4,2,0,45.249,5,0,911,47,Rust,false,0,Applications,Blockchain,72.000,17,54
+informalsystems/hermes,427,6,4,1,0,14.052,4,0,1569,131,Rust,false,92,Applications,Blockchain,72.000,7,29
+interlay/interbtc,244,2,0,0,0,8.197,28,12,1533,16,Rust,false,0,Applications,Blockchain,26.000,2,3
+Joystream/joystream,1422,2,1,0,0,1.406,7,47,1922,58,Rust,false,0,Applications,Blockchain,13.000,0,0
+sigp/lighthouse,2782,36,21,13,3,12.940,0,1,2167,185,Rust,false,138,Applications,Blockchain,90.000,12,47
+keep-starknet-strange/madara,512,8,7,5,2,15.625,0,5,487,107,Rust,false,148,Applications,Blockchain,63.000,10,16
+flashbots/mev-inspect-rs,541,4,3,1,0,7.394,6,1052,1311,10,Rust,false,16,Applications,Blockchain,12.000,0,0
+near/nearcore,2295,25,11,7,2,10.893,0,0,2079,166,Rust,false,248,Applications,Blockchain,95.000,29,167
+nervosnetwork/ckb,1127,7,1,0,0,6.211,12,4,2031,50,Rust,false,5,Applications,Blockchain,39.000,2,8
+gakonst/opensea-rs,241,0,0,0,0,0.000,43,1016,1033,3,Rust,false,0,Applications,Blockchain,0.000,0,0
+paritytech/parity-bitcoin,727,1,0,0,0,1.376,29,922,2857,51,Rust,false,20,Applications,Blockchain,2.000,0,0
+Phala-Network/phala-blockchain,328,1,0,0,0,3.049,23,12,1617,35,Rust,false,0,Applications,Blockchain,32.000,2,31
+paritytech/polkadot-sdk,1567,105,51,22,6,67.007,0,0,312,290,Rust,false,13,Applications,Blockchain,100.000,55,150
+bluealloy/revm,1439,42,19,10,1,29.187,0,0,986,118,Rust,false,0,Applications,Blockchain,95.000,16,67
+rust-bitcoin/rust-bitcoin,1948,50,22,12,2,25.667,0,0,3616,135,Rust,false,0,Applications,Blockchain,100.000,12,141
+ergoplatform/sigma-rust,69,0,0,0,0,0.000,115,3,1532,30,Rust,false,48,Applications,Blockchain,32.000,2,10
+solana-labs/solana,12541,201,100,56,7,16.027,0,81,2310,498,Rust,false,293,Applications,Blockchain,62.000,0,0
+subspace/subspace,363,13,5,2,1,35.813,0,0,1024,35,Rust,false,0,Applications,Blockchain,86.000,10,190
+MystenLabs/sui,5816,70,35,12,0,12.036,1,0,946,331,Rust,false,351,Applications,Blockchain,100.000,65,358
+alloy-rs/svm-rs,233,4,1,0,0,17.167,8,18,1004,18,Rust,false,6,Applications,Blockchain,19.000,2,5
+informalsystems/tendermint-rs,583,12,1,0,0,20.583,7,11,1786,121,Rust,false,0,Applications,Blockchain,37.000,8,12
+zcash/zcash,4921,15,6,3,0,3.048,3,19,3490,491,C++,false,0,Applications,Blockchain,37.000,7,20
+cozodb/cozo,3207,79,51,24,1,24.634,0,0,606,15,Rust,false,0,Applications,Database,100.000,1,2
+datafuselabs/databend,7344,121,51,31,14,16.476,0,0,1341,186,Rust,false,191,Applications,Database,100.000,23,206
+dbpunk-labs/db3,344,4,1,0,0,11.628,13,33,810,11,Rust,false,7,Applications,Database,13.000,0,0
+erikgrinaker/toydb,5930,34,18,12,1,5.734,0,3,1871,8,Rust,false,20,Applications,Database,75.000,1,43
+KipData/FnckSQL,510,17,6,2,0,33.333,1,44,373,13,Rust,false,33,Applications,Database,27.000,0,0
+lucid-kv/lucid,371,2,1,0,0,5.391,8,683,1781,5,Rust,false,23,Applications,Database,7.000,0,0
+MaterializeInc/materialize,5627,53,18,9,2,9.419,0,0,1936,133,Rust,false,0,Applications,Database,95.000,38,827
+neondatabase/neon,12996,600,458,62,6,46.168,0,0,1173,108,Rust,false,182,Applications,Database,100.000,29,203
+paritytech/parity-db,263,6,2,1,1,22.814,0,39,1534,42,Rust,false,13,Applications,Database,28.000,0,0
+PumpkinDB/PumpkinDB,1372,2,2,1,0,1.458,3,2493,2687,10,Rust,false,0,Applications,Database,12.000,0,0
+qdrant/qdrant,18517,435,173,80,12,23.492,0,0,1473,111,Rust,false,68,Applications,Database,100.000,15,172
+RisingWaveLabs/risingwave,6471,112,65,42,6,17.308,0,0,865,156,Rust,false,109,Applications,Database,100.000,34,246
+seppo0010/rsedis,1760,5,1,1,1,2.841,0,371,3350,9,Rust,false,9,Applications,Database,22.000,0,0
+skytable/skytable,2315,20,8,4,0,8.639,1,10,1442,9,Rust,false,0,Applications,Database,47.000,1,14
+orbitinghail/sqlsync,1954,226,210,196,110,115.660,0,92,382,2,Rust,false,28,Applications,Database,70.000,0,0
+surrealdb/surrealdb,25890,310,154,86,15,11.974,0,0,915,106,Rust,false,42,Applications,Database,100.000,11,50
+terminusdb/terminusdb-store,359,2,1,1,0,5.571,4,92,1785,12,Rust,false,26,Applications,Database,12.000,0,0
+tikv/tikv,14645,102,50,22,1,6.965,0,0,3086,422,Rust,false,156,Applications,Database,100.000,17,27
+unum-cloud/usearch,1813,93,42,32,7,51.296,0,43,475,37,C++,false,0,Applications,Database,58.000,0,0
+naomijub/wooridb,131,1,0,0,0,7.634,27,352,1234,5,Rust,false,0,Applications,Database,2.000,0,0
+ColinEberhardt/wasm-rust-chip8,256,0,0,0,0,0.000,48,1849,2377,5,Rust,false,0,Applications,Emulators,0.000,0,0
+starrhorne/chip8-rust,140,1,1,1,1,7.143,0,2533,2533,1,Rust,false,2,Applications,Emulators,20.000,0,0
+kondrak/rust64,256,1,1,0,0,3.906,11,339,3210,4,Rust,false,6,Applications,Emulators,5.000,0,0
+ruffle-rs/ruffle,14695,176,95,40,4,11.977,0,1,1874,170,Rust,false,26,Applications,Emulators,100.000,15,239
+Gekkio/mooneye-gb,885,5,3,0,0,5.650,12,764,3463,6,Rust,false,15,Applications,Emulators,7.000,0,0
+joamag/boytacean,612,5,2,0,0,8.170,11,3,575,1,Rust,false,3,Applications,Emulators,43.000,1,13
+mohanson/gameboy,1338,6,4,1,0,4.484,1,156,1881,9,Rust,false,5,Applications,Emulators,12.000,0,0
+mvdnes/rboy,577,3,1,0,0,5.199,9,60,3791,7,Rust,false,5,Applications,Emulators,7.000,0,0
+michelhe/rustboyadvance-ng,585,4,1,1,0,6.838,6,121,1817,5,Rust,false,0,Applications,Emulators,12.000,0,0
+OpenGMK/OpenGMK,263,5,1,0,0,19.011,11,33,1934,12,Rust,false,0,Applications,Emulators,13.000,0,0
+dbalsom/martypc,491,16,11,8,3,32.587,0,2,751,4,Rust,false,27,Applications,Emulators,73.000,2,10
+mohanson/i8080,108,0,0,0,0,0.000,50,156,1872,1,Rust,false,1,Applications,Emulators,0.000,0,0
+touchHLE/touchHLE,2557,31,18,3,0,12.124,4,3,558,16,Rust,false,18,Applications,Emulators,61.000,2,20
+daniel5151/clicky,156,3,3,0,0,19.231,7,14,1737,2,Rust,false,0,Applications,Emulators,19.000,2,10
+koute/pinky,766,2,0,0,0,2.611,19,197,2788,4,Rust,false,0,Applications,Emulators,4.000,0,0
+pcwalton/sprocketnes,748,0,0,0,0,0.000,44,1959,4258,9,Rust,false,4,Applications,Emulators,0.000,0,0
+gopher64/gopher64,77,13,7,1,0,168.831,6,7,258,1,Rust,false,15,Applications,Emulators,43.000,2,10
+kelpsyberry/dust,188,5,2,0,0,26.596,7,33,348,3,Rust,false,0,Applications,Emulators,13.000,0,0
+obhq/obliteration,573,11,5,2,1,19.197,0,9,636,7,Rust,false,0,Applications,Emulators,48.000,2,8
+rustzx/rustzx,195,4,2,1,0,20.513,5,416,3053,4,Rust,false,5,Applications,Emulators,12.000,0,0
+Canop/broot,10260,111,46,28,3,10.819,0,5,2035,81,Rust,false,46,Applications,File manager,82.000,2,8
+kamiyaa/joshuto,3319,45,27,22,0,13.558,1,23,2161,69,Rust,false,37,Applications,File manager,42.000,3,4
+sayanarijit/xplr,4020,60,33,18,4,14.925,0,33,1203,33,Rust,false,28,Applications,File manager,56.000,0,0
+sxyazi/yazi,9606,1111,319,149,13,115.657,0,3,339,70,Rust,false,0,Applications,File manager,100.000,8,35
+thomas-mauran/chess-tui,334,12,4,4,0,35.928,2,30,210,12,Rust,false,6,Applications,Games,22.000,0,0
+citybound/citybound,7658,25,11,4,0,3.265,1,1299,2929,20,Rust,false,6,Applications,Games,25.000,0,0
+cristicbz/rust-doom,2321,4,2,1,0,1.723,1,960,3554,11,Rust,false,8,Applications,Games,12.000,0,0
+doukutsu-rs/doukutsu-rs,839,25,9,3,0,29.797,1,14,1394,18,Rust,false,34,Applications,Games,37.000,2,3
+garkimasera/rusted-ruins,477,0,0,0,0,0.000,46,483,2299,5,Rust,false,0,Applications,Games,0.000,0,0
+gorilla-devs/ferium,1047,13,7,5,2,12.416,0,0,1011,12,Rust,false,17,Applications,Games,83.000,1,10
+lifthrasiir/angolmois-rust,100,0,0,0,0,0.000,158,3478,4034,3,Rust,false,3,Applications,Games,0.000,0,0
+maras-archive/rsnake,127,1,0,0,0,7.874,24,276,1878,3,Rust,false,3,Applications,Games,2.000,0,0
+mcthesw/game-save-manager,420,36,17,9,1,85.714,0,5,867,5,Vue,false,0,Applications,Games,75.000,1,22
+mtkennerly/ludusavi,1984,113,67,36,5,56.956,0,0,1452,11,Rust,false,42,Applications,Games,100.000,1,35
+ozkriff/zemeroth,1385,7,1,0,0,5.054,12,368,2526,14,Rust,false,14,Applications,Games,7.000,0,0
+dpc/rhex,153,1,0,0,0,6.536,26,911,3407,9,Rust,false,11,Applications,Games,2.000,0,0
+rsaarelm/magog,366,0,0,0,0,0.000,57,1011,4658,3,Rust,false,15,Applications,Games,0.000,0,0
+SoftbearStudios/mk48,314,3,2,1,0,9.554,3,187,1130,7,Rust,false,0,Applications,Games,12.000,0,0
+swatteau/sokoban-rs,151,2,1,0,0,13.245,8,1749,3210,3,Rust,false,4,Applications,Games,7.000,0,0
+thetawavegame/thetawave-legacy,192,0,0,0,0,0.000,39,1055,1849,9,Rust,false,0,Applications,Games,0.000,0,0
+Thinkofname/rust-quake,69,0,0,0,0,0.000,112,1777,2502,1,Rust,false,10,Applications,Games,0.000,0,0
+ozkriff/zoc,375,1,1,1,0,2.667,3,1674,3400,7,Rust,false,11,Applications,Games,10.000,0,0
+dps/rust-raytracer,230,2,1,0,0,8.696,7,889,901,1,Rust,false,0,Applications,Graphics,7.000,0,0
+flxzt/rnote,6355,233,143,78,7,36.664,0,2,1041,133,Rust,false,65,Applications,Graphics,100.000,5,8
+ivanceras/svgbob,3757,31,9,5,3,8.251,0,92,2802,15,Rust,false,0,Applications,Graphics,35.000,0,0
+KaminariOS/rustracer,64,0,0,0,0,0.000,31,243,458,1,Rust,false,24,Applications,Graphics,0.000,0,0
+Limeth/euclider,212,0,0,0,0,0.000,156,2013,2949,1,Rust,false,20,Applications,Graphics,0.000,0,0
+RazrFalcon/resvg,2587,47,17,8,1,18.168,0,0,2784,54,Rust,false,0,Applications,Graphics,91.000,4,13
+rodrigorc/papercraft,109,5,1,1,0,45.872,3,3,757,1,Rust,false,24,Applications,Graphics,48.000,1,12
+rustq/vue-skia,253,3,2,1,0,11.858,3,45,528,5,Rust,false,3,Applications,Graphics,18.000,0,0
+Twinklebear/tray_rust,512,0,0,0,0,0.000,59,1161,3457,4,Rust,false,16,Applications,Graphics,0.000,0,0
+wahn/rs_pbrt,801,4,2,0,0,4.994,12,134,2729,3,Rust,false,22,Applications,Graphics,7.000,0,0
+imager-io/imager,621,23,4,0,0,37.037,7,1319,1682,2,Rust,false,0,Applications,Image processing,15.000,0,0
+locka99/opcua,464,7,4,2,1,15.086,0,8,2712,27,Rust,false,0,Applications,Industrial automation,42.000,1,1
+slowtec/tokio-modbus,368,5,2,1,0,13.587,6,49,2425,26,Rust,false,12,Applications,Industrial automation,18.000,0,0
+avito-tech/bioyino,225,0,0,0,0,0.000,69,487,2444,14,Rust,false,41,Applications,Observability,0.000,0,0
+openobserve/openobserve,10006,275,136,78,25,27.484,0,0,496,51,Rust,false,118,Applications,Observability,100.000,15,118
+quickwit-oss/quickwit,6753,588,346,165,11,87.072,0,0,1155,81,Rust,false,0,Applications,Observability,100.000,10,78
+hubblo-org/scaphandre,1519,20,6,2,0,13.167,5,120,1334,24,Rust,false,21,Applications,Observability,21.000,0,0
+vectordotdev/vector,16810,189,86,32,5,11.243,0,0,2115,444,Rust,false,168,Applications,Observability,100.000,14,83
+0x59616e/SteinsOS,114,3,1,1,0,26.316,5,971,1005,1,Rust,false,0,Applications,Operating systems,12.000,0,0
+Andy-Python-Programmer/aero,1102,11,4,4,1,9.982,0,53,1190,10,Rust,false,0,Applications,Operating systems,32.000,0,0
+DragonOS-Community/DragonOS,808,65,18,13,1,80.446,0,7,878,56,Rust,false,0,Applications,Operating systems,61.000,8,15
+thepowersgang/rust_os,706,3,3,1,0,4.249,3,70,3567,3,Rust,false,0,Applications,Operating systems,12.000,0,0
+theseus-os/Theseus,2766,19,10,4,1,6.869,0,159,2517,38,Rust,false,0,Applications,Operating systems,31.000,0,0
+tock/tock,5142,141,115,36,1,27.421,0,1,3302,182,Rust,false,0,Applications,Operating systems,100.000,10,85
+juspay/hyperswitch,10724,260,163,111,47,24.245,0,0,603,192,Rust,false,1,Applications,Payments,100.000,41,210
+ast-grep/ast-grep,6326,353,85,56,10,55.801,0,0,711,40,Rust,false,13,Applications,Productivity,100.000,4,90
+espanso/espanso,9343,143,66,29,5,15.306,0,28,1747,29,Rust,false,18,Applications,Productivity,70.000,1,1
+lakoliu/Furtherance,238,6,1,1,0,25.210,2,6,844,23,Rust,false,18,Applications,Productivity,44.000,1,4
+lldap/lldap,3609,81,37,19,3,22.444,0,2,1197,97,Rust,false,0,Applications,Productivity,90.000,1,1
+pier-cli/pier,511,6,4,2,1,11.742,0,29,1925,10,Rust,false,10,Applications,Productivity,34.000,2,2
+holo-routing/holo,220,21,13,12,1,95.455,0,14,426,4,Rust,false,47,Applications,Routing protocols,47.000,1,9
+osrg/rustybgp,465,1,0,0,0,2.151,21,347,1659,9,Rust,false,0,Applications,Routing protocols,2.000,0,0
+AFLplusplus/LibAFL,1881,28,16,8,3,14.886,0,0,1328,192,Rust,false,0,Applications,Security tools,95.000,16,103
+kongbytes/arp-scan-rs,79,5,2,2,0,63.291,1,150,1132,2,Rust,false,12,Applications,Security tools,12.000,0,0
+blst-security/cherrybomb,1067,11,5,3,0,10.309,1,195,937,14,Rust,false,14,Applications,Security tools,16.000,0,0
+replydev/cotp,214,9,1,0,0,42.056,11,1,1269,10,Rust,false,26,Applications,Security tools,53.000,3,14
+epi052/feroxbuster,5453,131,62,39,3,24.023,0,46,1389,29,Rust,false,27,Applications,Security tools,66.000,0,0
+inspektor-dev/inspektor,279,0,0,0,0,0.000,35,698,955,7,Rust,false,30,Applications,Security tools,0.000,0,0
+kpcyrd/authoscope,388,2,0,0,0,5.155,23,810,2280,6,Rust,false,33,Applications,Security tools,4.000,0,0
+kpcyrd/rshijack,446,11,5,2,0,24.664,3,122,2301,2,Rust,false,6,Applications,Security tools,16.000,0,0
+kpcyrd/sn0int,1893,28,10,5,0,14.791,1,139,2077,10,Rust,false,52,Applications,Security tools,25.000,0,0
+kpcyrd/sniffglue,1072,17,9,2,0,15.858,2,156,2464,11,Rust,false,26,Applications,Security tools,21.000,0,0
+0x727/ObserverWard,1023,52,23,14,6,50.831,0,8,1025,5,Rust,false,0,Applications,Security tools,68.000,2,14
+Raspirus/Raspirus,95,15,4,2,0,157.895,1,2,629,4,Rust,false,0,Applications,Security tools,66.000,3,57
+RustScan/RustScan,12949,285,110,53,12,22.009,0,3,1431,60,Rust,false,22,Applications,Security tools,94.000,4,10
+rustodon/rustodon,861,6,3,1,0,6.969,4,1602,2366,14,Rust,false,31,Applications,Social networks,12.000,0,0
+imsnif/bandwhich,8955,253,104,40,6,28.252,0,10,1740,48,Rust,false,21,Applications,System tools,82.000,1,1
+ClementTsang/bottom,9208,256,162,39,7,27.802,0,5,1749,54,Rust,false,27,Applications,System tools,94.000,1,6
+brocode/fblog,396,7,3,0,0,17.677,7,10,2532,9,Rust,false,12,Applications,System tools,29.000,2,4
+vrmiguel/bustd,210,1,1,1,0,4.762,3,225,1072,4,Rust,false,6,Applications,System tools,10.000,0,0
+buster/rrun,113,0,0,0,0,0.000,86,2305,3500,3,Rust,false,9,Applications,System tools,0.000,0,0
+cantino/mcfly,6733,84,26,9,1,12.476,0,11,2158,63,Rust,false,17,Applications,System tools,66.000,3,14
+sstadick/crabz,316,1,1,1,0,3.165,4,83,1024,4,Rust,false,12,Applications,System tools,10.000,0,0
+cristianoliveira/funzzy,222,1,1,0,0,4.505,10,29,3004,6,Rust,false,8,Applications,System tools,15.000,1,1
+dalance/procs,4865,68,21,8,1,13.977,0,1,1961,41,Rust,false,18,Applications,System tools,90.000,3,22
+darakian/ddh,439,3,1,1,0,6.834,1,576,2351,8,Rust,false,6,Applications,System tools,12.000,0,0
+imsnif/diskonaut,2240,67,21,10,2,29.911,0,843,1571,20,Rust,false,8,Applications,System tools,40.000,0,0
+bootandy/dust,7975,125,57,28,2,15.674,0,36,2279,47,Rust,false,16,Applications,System tools,66.000,0,0
+eza-community/eza,8403,728,311,155,20,86.636,0,6,319,76,Rust,false,22,Applications,System tools,98.000,7,12
+extrawurst/gitui,17681,625,125,62,9,35.349,0,0,1548,112,Rust,false,39,Applications,System tools,100.000,6,35
+amrdeveloper/gql,3111,66,49,31,5,21.215,0,0,372,15,Rust,false,8,Applications,System tools,100.000,1,41
+kimono-koans/httm,1223,14,5,2,0,11.447,4,19,827,3,Rust,false,21,Applications,System tools,26.000,1,1
+j0ru/kickoff,348,20,19,14,0,57.471,1,0,1268,4,Rust,false,22,Applications,System tools,77.000,2,11
+tbillington/kondo,1667,28,16,9,3,16.797,0,83,1598,31,Rust,false,0,Applications,System tools,35.000,0,0
+ilya-zlobintsev/LACT,947,64,24,12,1,67.582,0,3,1333,18,Rust,false,9,Applications,System tools,72.000,1,8
+lodosgroup/lpm,63,0,0,0,0,0.000,35,114,847,3,Rust,false,0,Applications,System tools,0.000,0,0
+lotabout/skim,4907,56,29,7,0,11.412,0,404,2935,58,Rust,false,21,Applications,System tools,30.000,0,0
+lsd-rs/lsd,12653,188,84,43,3,14.858,0,3,2026,149,Rust,false,0,Applications,System tools,92.000,2,2
+Luminarys/synapse,850,1,1,0,0,1.176,10,377,2487,33,Rust,false,38,Applications,System tools,5.000,0,0
+m4b/bingrep,1692,2,2,0,0,1.182,9,491,2662,7,Rust,false,12,Applications,System tools,7.000,0,0
+mdgaziur/findex,544,7,5,1,0,12.868,6,6,954,8,Rust,false,0,Applications,System tools,44.000,1,2
+mitnk/cicada,970,0,0,0,0,0.000,40,304,2651,8,Rust,false,16,Applications,System tools,0.000,0,0
+mmstick/concurr,103,0,0,0,0,0.000,63,2174,2448,2,Rust,false,17,Applications,System tools,0.000,0,0
+mmstick/fontfinder,276,0,0,0,0,0.000,35,424,2406,7,Rust,false,13,Applications,System tools,0.000,0,0
+mmstick/tv-renamer,148,0,0,0,0,0.000,156,2554,2957,2,Rust,false,4,Applications,System tools,0.000,0,0
+mxseev/logram,97,0,0,0,0,0.000,52,868,2410,4,Rust,false,16,Applications,System tools,0.000,0,0
+Chleba/netscanner,709,33,11,7,0,46.544,1,13,184,6,Rust,false,37,Applications,System tools,47.000,2,7
+nivekuil/rip,1308,23,11,4,0,17.584,1,1254,2842,6,Rust,false,4,Applications,System tools,25.000,0,0
+nushell/nushell,30646,446,225,107,18,14.553,0,0,1859,621,Rust,false,130,Applications,System tools,100.000,25,127
+orhun/kmon,2435,29,13,7,1,11.910,0,16,1680,15,Rust,false,8,Applications,System tools,47.000,2,4
+orhun/systeroid,1232,12,6,1,0,9.740,2,7,968,6,Rust,false,2,Applications,System tools,43.000,2,3
+ouch-org/ouch,2039,50,21,12,0,24.522,1,9,1180,28,Rust,false,24,Applications,System tools,52.000,1,3
+pkolaczk/fclones,1780,39,18,4,1,21.910,0,37,1466,13,Rust,false,0,Applications,System tools,41.000,0,0
+pop-os/popsicle,612,8,5,3,1,13.072,0,125,2443,47,Rust,false,14,Applications,System tools,22.000,0,0
+nukesor/pueue,4629,46,17,9,1,9.937,0,5,3203,37,Rust,false,15,Applications,System tools,71.000,2,19
+qarmin/czkawka,18136,469,200,94,17,25.860,0,105,1379,60,Rust,false,0,Applications,System tools,62.000,0,0
+redox-os/ion,1443,4,0,0,0,2.772,14,64,3170,119,Rust,false,0,Applications,System tools,4.000,0,0
+sharkdp/bat,47248,518,253,127,18,10.963,0,11,2243,334,Rust,false,30,Applications,System tools,88.000,4,11
+sharkdp/fd,32231,459,213,104,11,14.241,0,9,2590,170,Rust,false,18,Applications,System tools,84.000,3,10
+sitkevij/hex,499,5,4,1,0,10.020,5,161,2282,11,Rust,false,3,Applications,System tools,12.000,0,0
+supercilex/fuc,310,5,3,2,0,16.129,3,64,932,4,Rust,false,0,Applications,System tools,12.000,0,0
+fujiapple852/trippy,3138,101,58,41,2,32.186,0,1,806,11,Rust,false,9,Applications,System tools,100.000,3,39
+uutils/coreutils,17017,120,46,23,2,7.052,0,1,3966,491,Rust,false,186,Applications,System tools,100.000,11,93
+watchexec/watchexec,5005,76,41,20,3,15.185,0,27,2823,64,Rust,false,5,Applications,System tools,62.000,2,3
+XAMPPRocky/tokei,10389,317,72,40,2,30.513,0,29,3304,258,Rust,false,25,Applications,System tools,72.000,5,5
+ynqa/jnv,4503,137,97,34,3,30.424,0,9,85,6,Rust,false,8,Applications,System tools,86.000,1,17
+ynqa/sig,456,456,242,20,0,1000.000,1,10,18,2,Rust,false,11,Applications,System tools,80.000,2,41
+BinChengZhao/delicate,680,14,5,4,3,20.588,0,752,1206,2,Rust,false,0,Applications,Task scheduling,26.000,0,0
+emacs-ng/emacs-ng,1636,16,9,2,0,9.780,2,40,1388,956,Emacs Lisp,false,0,Applications,Text editors,27.000,0,0
+gchp/iota,1617,7,1,0,0,4.329,12,1749,3534,21,Rust,false,10,Applications,Text editors,7.000,0,0
+helix-editor/helix,30831,643,330,138,20,20.856,0,0,1472,860,Rust,false,3,Applications,Text editors,100.000,25,34
+ilai-deutel/kibi,1393,12,6,1,0,8.615,3,114,1583,21,Rust,false,1,Applications,Text editors,21.000,0,0
+lapce/lapce,33372,395,181,71,12,11.836,0,0,2317,167,Rust,false,45,Applications,Text editors,100.000,5,64
+mathall/rim,601,1,0,0,0,1.664,21,1242,3421,3,Rust,false,13,Applications,Text editors,2.000,0,0
+curlpipe/ox,3244,18,9,1,0,5.549,3,1297,1414,9,Rust,false,10,Applications,Text editors,21.000,0,0
+zed-industries/zed,35946,2144,945,491,83,59.645,0,0,1208,375,Rust,false,240,Applications,Text editors,100.000,86,470
+ashvardanian/StringZilla,1847,38,16,11,2,20.574,0,45,1397,22,C++,false,0,Applications,Text processing,41.000,0,0
+pemistahl/grex,6951,146,61,16,2,21.004,0,54,1711,9,Rust,false,8,Applications,Text processing,66.000,0,0
+Lisprez/so_stupid_search,161,2,2,1,1,12.422,0,510,2993,4,Rust,false,4,Applications,Text processing,22.000,0,0
+yoav-lavi/melody,4603,13,7,3,0,2.824,2,331,849,12,Rust,false,0,Applications,Text processing,21.000,0,0
+phiresky/ripgrep-all,6349,148,109,30,2,23.311,0,10,1834,24,Rust,false,41,Applications,Text processing,82.000,2,3
+replicadse/complate,35,0,0,0,0,0.000,36,181,1597,2,Rust,false,18,Applications,Text processing,0.000,0,0
+your-tools/ruplacer,417,3,1,1,0,7.194,4,38,2407,12,Rust,false,6,Applications,Text processing,18.000,0,0
+sstadick/hck,683,2,1,0,0,2.928,13,57,1083,8,Rust,false,17,Applications,Text processing,13.000,0,0
+vishaltelangre/ff,329,0,0,0,0,0.000,48,1532,1936,1,Rust,false,8,Applications,Text processing,0.000,0,0
+whitfin/runiq,205,0,0,0,0,0.000,36,123,2235,3,Rust,false,10,Applications,Text processing,0.000,0,0
+1History/1History,426,7,0,0,0,16.432,14,78,871,2,JavaScript,false,0,Applications,Utilities,4.000,0,0
+brycx/checkpwn,119,1,0,0,0,8.403,27,280,2209,5,Rust,false,8,Applications,Utilities,2.000,0,0
+AchetaGames/Epic-Asset-Manager,353,11,5,3,0,31.161,3,1,1207,6,Rust,false,28,Applications,Utilities,62.000,3,12
+evansmurithi/cloak,279,2,2,0,0,7.168,7,644,2160,3,Rust,false,9,Applications,Utilities,7.000,0,0
+fcsonline/tmux-thumbs,871,15,8,4,0,17.222,1,448,1954,24,Rust,false,6,Applications,Utilities,21.000,0,0
+guoxbin/dtool,364,1,1,1,0,2.747,1,266,1650,5,Rust,false,30,Applications,Utilities,10.000,0,0
+thewh1teagle/mobslide,330,7,4,2,0,21.212,3,19,206,2,TypeScript,false,0,Applications,Utilities,24.000,2,2
+pvolok/mprocs,1373,26,14,9,0,18.937,1,3,1016,17,Rust,false,0,Applications,Utilities,57.000,1,8
+nix-community/nix-init,763,21,14,7,1,27.523,0,113,510,9,Rust,false,39,Applications,Utilities,35.000,0,0
+nix-community/nix-melt,201,7,1,1,0,34.826,2,113,413,7,Rust,false,13,Applications,Utilities,12.000,0,0
+yaa110/nomino,549,4,2,1,1,7.286,0,5,1517,3,Rust,false,9,Applications,Utilities,54.000,1,2
+raftario/licensor,192,1,1,1,0,5.208,6,499,1727,4,Rust,false,6,Applications,Utilities,10.000,0,0
+aaronriekenberg/rust-parallel,116,18,5,3,1,155.172,0,2,568,3,Rust,false,11,Applications,Utilities,68.000,2,10
+rustdesk/rustdesk,65883,1521,706,312,74,23.086,0,0,1352,258,Rust,false,37,Applications,Utilities,100.000,16,119
+Skallwar/suckit,716,3,2,1,0,4.190,6,98,1687,19,Rust,false,14,Applications,Utilities,12.000,0,0
+shshemi/tabiew,102,79,14,3,1,774.510,0,0,45,3,Rust,false,7,Applications,Utilities,95.000,3,46
+tversteeg/emplace,249,3,0,0,0,12.048,26,1,1738,8,Rust,false,19,Applications,Utilities,50.000,4,16
+thewh1teagle/vibe,322,166,42,23,2,515.528,0,0,156,6,TypeScript,false,0,Applications,Utilities,100.000,3,389
+warpdotdev/Warp,19490,539,310,195,109,27.655,0,41,1069,18,,false,0,Applications,Utilities,76.000,0,0
+alvaro17f/wrestic,76,3,2,2,0,39.474,6,50,312,2,Rust,false,17,Applications,Utilities,18.000,0,0
+gyroflow/gyroflow,6245,103,41,17,3,16.493,0,5,943,26,Rust,false,40,Applications,Video,90.000,3,51
+harlanc/xiu,1561,45,28,14,1,28.828,0,3,1395,15,Rust,false,0,Applications,Video,76.000,4,12
+TGotwig/vidmerger,109,3,1,0,0,27.523,9,16,1467,2,Rust,false,11,Applications,Video,19.000,1,6
+xiph/rav1e,3615,30,11,4,1,8.299,0,6,2452,121,Assembly,false,0,Applications,Video,67.000,4,6
+containers/youki,5932,95,55,17,3,16.015,0,1,1172,120,Rust,false,0,Applications,Virtualization,100.000,8,30
+firecracker-microvm/firecracker,24373,218,103,61,12,8.944,0,0,2427,250,Rust,false,0,Applications,Virtualization,100.000,11,41
+kata-containers/kata-containers,5051,111,43,21,5,21.976,0,0,2379,352,Rust,false,0,Applications,Virtualization,100.000,35,272
+tailhook/vagga,1856,3,2,0,0,1.616,12,728,3598,34,Rust,false,40,Applications,Virtualization,7.000,0,0
+cfal/tobaru,164,2,2,2,1,12.195,0,288,1149,2,Rust,false,18,Applications,Web,22.000,0,0
+LemmyNet/lemmy,12905,96,42,24,4,7.439,0,4,1944,238,Rust,false,71,Applications,Web,90.000,8,62
+libreddit/libreddit,5008,29,14,4,0,5.791,1,40,1400,84,Rust,false,22,Applications,Web,31.000,0,0
+MASQ-Project/Node,167,1,0,0,0,5.988,14,13,1160,17,Rust,false,0,Applications,Web,24.000,2,3
+Plume-org/Plume,2075,6,4,0,0,2.892,8,356,2243,65,Rust,false,30,Applications,Web,7.000,0,0
+revoltchat/backend,1073,18,4,1,0,16.775,3,0,1092,21,Rust,false,0,Applications,Web,72.000,2,19
+cloudflare/pingora,19960,408,180,87,14,20.441,0,4,403,100,Rust,false,10,Applications,Web Servers,100.000,8,30
+emanuele-em/proxelar,363,7,2,1,0,19.284,6,50,509,8,Rust,false,0,Applications,Web Servers,18.000,0,0
+mu-arch/skyfolder,113,3,0,0,0,26.549,14,246,389,1,Rust,false,14,Applications,Web Servers,4.000,0,0
+mufeedvh/binserve,964,8,3,2,0,8.299,1,115,1349,9,Rust,false,23,Applications,Web Servers,12.000,0,0
+orhun/rustypaste,702,21,6,5,1,29.915,0,2,1050,21,Rust,false,30,Applications,Web Servers,77.000,3,10
+ronanyeah/rust-hasura,139,0,0,0,0,0.000,133,785,1765,1,Rust,false,13,Applications,Web Servers,0.000,0,0
+static-web-server/static-web-server,1261,57,27,8,0,45.202,1,0,1744,30,Rust,false,33,Applications,Web Servers,90.000,3,24
+svenstaro/miniserve,5711,95,35,13,1,16.635,0,2,2238,52,Rust,false,39,Applications,Web Servers,96.000,2,11
+thecoshman/http,438,5,2,1,0,11.416,5,8,2738,9,Rust,false,21,Applications,Web Servers,42.000,1,135
+TheWaWaR/simple-http-server,2497,36,17,8,0,14.417,1,86,2572,21,Rust,false,21,Applications,Web Servers,25.000,0,0
+wyhaya/see,202,1,0,0,0,4.950,19,425,1922,4,Rust,false,16,Applications,Web Servers,2.000,0,0
+Julien-cpsn/ATAC,1188,126,37,22,2,106.061,0,15,127,9,Rust,false,34,Development tools,,62.000,2,6
+Canop/bacon,1551,89,38,17,2,57.382,0,8,1321,24,Rust,false,16,Development tools,,72.000,2,7
+clog-tool/clog-cli,835,2,1,1,0,2.395,1,2648,3560,18,Rust,false,5,Development tools,,12.000,0,0
+comtrya/comtrya,461,6,2,1,0,13.015,3,29,1195,25,Rust,false,0,Development tools,,22.000,1,1
+Wulf/create-rust-app,1481,19,7,2,2,12.829,0,22,1130,9,Rust,false,0,Development tools,,41.000,1,1
+dan-t/rusty-tags,401,3,0,0,0,7.481,18,98,3474,20,Rust,false,12,Development tools,,4.000,0,0
+datanymizer/datanymizer,497,8,2,2,1,16.097,0,174,1295,8,Rust,false,0,Development tools,,22.000,0,0
+dotenv-linter/dotenv-linter,1776,15,7,3,1,8.446,0,53,1655,90,Rust,false,3,Development tools,,37.000,0,0
+envio-cli/envio,753,11,3,1,0,14.608,5,64,449,6,Rust,false,18,Development tools,,16.000,0,0
+FrolicOrg/Frolic,179,2,0,0,0,11.173,14,302,321,2,Rust,false,0,Development tools,,4.000,0,0
+brocode/fw,521,0,0,0,0,0.000,62,10,2637,14,Rust,false,18,Development tools,,22.000,2,2
+geiger-rs/cargo-geiger,1349,33,13,10,1,24.463,0,83,2183,33,Rust,false,0,Development tools,,35.000,0,0
+orhun/git-cliff,7837,144,76,40,12,18.374,0,0,1108,58,Rust,false,6,Development tools,,100.000,6,35
+rksm/hot-lib-reloader-rs,559,26,17,8,0,46.512,1,43,681,5,Rust,false,8,Development tools,,31.000,0,0
+lasantosr/intelli-shell,197,3,1,0,0,15.228,13,234,508,3,Rust,false,21,Development tools,,7.000,0,0
+casey/just,18154,632,292,154,23,34.813,0,0,2917,157,Rust,false,34,Development tools,,100.000,15,81
+jacobdeichert/mask,1018,18,2,1,1,17.682,0,16,1802,14,Rust,false,0,Development tools,,38.000,1,2
+fiatjaf/module-linker,250,1,0,0,0,4.000,26,1166,3030,6,JavaScript,false,9,Development tools,,2.000,0,0
+dalance/ptags,125,1,0,0,0,8.000,26,8,2283,4,Rust,false,11,Development tools,,28.000,3,16
+racer-rust/racer,3359,2,1,0,0,0.595,9,795,3753,168,Rust,false,10,Development tools,,7.000,0,0
+huhu/rust-search-extension,1180,11,2,0,0,9.322,12,4,2050,27,JavaScript,false,0,Development tools,,51.000,2,32
+rust-lang/rustup,5983,81,47,26,4,13.538,0,0,3182,391,Rust,false,53,Development tools,,100.000,7,153
+igor-petruk/scriptisto,853,252,246,40,2,295.428,0,3,1694,10,Rust,false,15,Development tools,,96.000,5,14
+frewsxcv/cargo-all-features,130,2,2,0,0,15.385,11,268,1479,8,Rust,false,4,Development tools,Build system,7.000,0,0
+cargo-generate/cargo-generate,1833,31,16,9,0,16.912,1,35,2205,86,Rust,false,33,Development tools,Build system,31.000,0,0
+dtolnay/cargo-expand,2485,34,21,13,2,13.682,0,26,2929,12,Rust,false,15,Development tools,Build system,52.000,1,7
+Devolutions/CMakeRust,167,1,1,1,0,5.988,1,824,2667,136,CMake,false,0,Development tools,Build system,10.000,0,0
+SiegeLord/RustCMake,109,0,0,0,0,0.000,90,3155,3817,3,CMake,false,0,Development tools,Build system,0.000,0,0
+icepuma/rust-action,78,0,0,0,0,0.000,156,377,1964,2,Dockerfile,false,0,Development tools,Build system,0.000,0,0
+peaceiris/actions-mdbook,282,4,3,1,0,14.184,4,64,1658,2,TypeScript,false,0,Development tools,Build system,12.000,0,0
+nix-community/fenix,597,23,12,7,1,38.526,0,3,1256,18,Nix,false,0,Development tools,Build system,75.000,2,27
+cs01/gdbgui,9737,42,21,10,2,4.313,0,237,2785,43,TypeScript,false,0,Development tools,Debugging,40.000,0,0
+emk/rust-musl-builder,1525,9,4,2,0,5.902,1,38,2977,17,Dockerfile,false,0,Development tools,Deployment,18.000,0,0
+kpcyrd/mini-docker-rust,204,3,2,1,1,14.706,0,156,2601,4,Dockerfile,false,0,Development tools,Deployment,22.000,0,0
+liuchong/docker-rustup,92,1,0,0,0,10.870,28,1050,2979,2,Dockerfile,false,0,Development tools,Deployment,2.000,0,0
+LukeMathWalker/cargo-chef,1587,53,24,13,1,33.396,0,21,1331,57,Rust,false,13,Development tools,Deployment,50.000,1,1
+rust-cross/rust-musl-cross,587,11,4,3,0,18.739,1,10,2435,11,Shell,false,0,Development tools,Deployment,38.000,2,5
+rust-lang/docker-rust,422,7,3,2,1,16.588,0,19,2506,23,Dockerfile,false,0,Development tools,Deployment,34.000,2,2
+Stavrospanakakis/is_ready,122,3,0,0,0,24.590,14,40,352,2,Rust,false,2,Development tools,Deployment,10.000,0,0
+emk/heroku-buildpack-rust,519,2,1,1,0,3.854,3,1882,3666,14,Shell,false,0,Development tools,Deployment,12.000,0,0
+avr-rust/ruduino,692,4,2,2,1,5.780,0,713,2897,6,Rust,false,5,Development tools,Embedded,22.000,0,0
+japaric/rust-cross,2486,8,3,1,0,3.218,3,2455,3064,7,Shell,false,0,Development tools,Embedded,12.000,0,0
+japaric/xargo,1086,4,3,2,1,3.683,0,726,2999,27,Rust,false,9,Development tools,Embedded,22.000,0,0
+oreboot/oreboot,1498,12,5,4,0,8.011,1,8,1926,434,Rust,false,0,Development tools,Embedded,38.000,1,7
+nrf-rs/nrf-hal,478,6,4,1,0,12.552,2,14,2119,63,Rust,false,0,Development tools,Embedded,32.000,4,30
+mozilla/cbindgen,2242,30,12,6,0,13.381,1,8,2617,129,Rust,false,11,Development tools,FFI,51.000,9,18
+Sean1708/rusty-cheddar,191,0,0,0,0,0.000,35,2173,3165,5,Rust,false,3,Development tools,FFI,0.000,0,0
+Cysharp/csbindgen,591,20,12,6,1,33.841,0,55,471,17,Rust,false,0,Development tools,FFI,37.000,0,0
+dtolnay/cxx,5616,74,37,19,4,13.177,0,1,1629,57,Rust,false,2,Development tools,FFI,96.000,2,15
+rust-lang/rust-bindgen,4188,51,25,10,2,12.178,0,21,2911,356,Rust,false,0,Development tools,FFI,52.000,2,2
+rusterlium/rustler,4207,46,13,6,1,10.934,0,3,3220,74,Rust,false,0,Development tools,FFI,71.000,3,16
+benanders/rjni,72,0,0,0,0,0.000,55,2731,3476,1,Rust,false,1,Development tools,FFI,0.000,0,0
+drrb/java-rust-example,335,0,0,0,0,0.000,71,2491,3890,1,Java,false,0,Development tools,FFI,0.000,0,0
+jcmoyer/rust-lua53,158,1,1,1,1,6.329,0,207,3505,15,C,false,0,Development tools,FFI,20.000,0,0
+lilyball/rust-lua,126,0,0,0,0,0.000,156,1603,3842,4,Rust,false,1,Development tools,FFI,0.000,0,0
+mlua-rs/mlua,1396,63,28,10,2,45.129,0,3,1656,28,Rust,false,11,Development tools,FFI,72.000,1,6
+tomaka/hlua,500,3,1,1,0,6.000,5,56,3659,19,C,false,0,Development tools,FFI,18.000,0,0
+anima-engine/mrusty,205,0,0,0,0,0.000,66,2611,3049,5,Rust,false,1,Development tools,FFI,0.000,0,0
+infinyon/node-bindgen,486,6,5,4,0,12.346,1,5,1590,29,Rust,false,4,Development tools,FFI,44.000,2,4
+neon-bindings/neon,7832,47,25,15,2,6.001,0,8,3188,71,Rust,false,0,Development tools,FFI,66.000,1,17
+zhangyuang/node-ffi-rs,109,19,11,7,1,174.312,0,0,330,3,Rust,false,9,Development tools,FFI,91.000,1,26
+SSheldon/rust-objc,381,3,1,0,0,7.874,13,1488,3649,11,Rust,false,3,Development tools,FFI,7.000,0,0
+phper-framework/phper,262,5,4,0,0,19.084,8,105,1644,6,Rust,false,6,Development tools,FFI,7.000,0,0
+dgrunwald/rust-cpython,1800,5,4,1,1,2.778,0,253,3445,46,Rust,false,6,Development tools,FFI,22.000,0,0
+getsentry/milksnake,788,2,1,0,0,2.538,7,427,2443,23,Python,false,0,Development tools,FFI,7.000,0,0
+PyO3/PyO3,11304,207,84,44,8,18.312,0,1,2587,314,Rust,false,22,Development tools,FFI,100.000,14,34
+RustPython/RustPython,17967,292,91,36,8,16.252,0,15,2206,380,Rust,false,62,Development tools,FFI,78.000,7,14
+d-unsed/ruru,827,1,0,0,0,1.209,16,2367,3110,11,Rust,false,2,Development tools,FFI,2.000,0,0
+danielpclark/rutie,914,5,2,1,0,5.470,4,177,2184,25,Rust,false,2,Development tools,FFI,12.000,0,0
+rhysd/wain,413,9,1,1,0,21.792,4,45,1576,5,Rust,false,5,Development tools,FFI,18.000,0,0
+rustwasm/wasm-bindgen,7391,78,31,10,1,10.553,0,10,2367,437,Rust,false,4,Development tools,FFI,72.000,7,7
+rustwasm/wasm-pack,6024,64,34,9,3,10.624,0,87,2311,134,Rust,false,24,Development tools,FFI,50.000,0,0
+dprint/dprint,3023,63,31,20,8,20.840,0,3,1823,35,Rust,false,0,Development tools,Formatters,84.000,1,7
+jinxdash/prettier-plugin-rust,170,0,0,0,0,0.000,31,382,686,1,Rust,false,0,Development tools,Formatters,0.000,0,0
+rust-lang/rustfmt,5826,51,27,14,0,8.754,1,8,3384,489,Rust,false,23,Development tools,Formatters,52.000,5,5
+eclipse-corrosion/corrosion,217,1,0,0,0,4.608,26,11,2381,14,Java,false,0,Development tools,IDEs,24.000,1,10
+racer-rust/emacs-racer,399,1,1,0,0,2.506,12,1193,3206,32,Emacs Lisp,false,0,Development tools,IDEs,5.000,0,0
+flycheck/flycheck-rust,119,0,0,0,0,0.000,92,35,3590,20,Emacs Lisp,false,0,Development tools,IDEs,6.000,0,0
+rust-lang/rust-mode,1092,11,5,3,1,10.073,0,22,3422,122,Emacs Lisp,false,0,Development tools,IDEs,38.000,3,5
+brotzeit/rustic,708,8,3,3,1,11.299,0,482,2378,123,Emacs Lisp,false,0,Development tools,IDEs,22.000,0,0
+intellij-rust/intellij-rust,4528,12,6,2,0,2.650,3,151,3191,176,Kotlin,false,0,Development tools,IDEs,21.000,0,0
+lapce/lapce,33372,395,181,71,12,11.836,0,0,2317,167,Rust,false,45,Development tools,IDEs,100.000,5,64
+madeso/ride,172,0,0,0,0,0.000,53,90,3420,1,C++,false,0,Development tools,IDEs,0.000,0,0
+rust-lang/rust-enhanced,771,2,1,0,0,2.594,7,50,3807,11,Python,false,0,Development tools,IDEs,13.000,0,0
+autozimu/LanguageClient-neovim,3546,1,0,0,0,0.282,20,735,2678,118,Rust,false,25,Development tools,IDEs,2.000,0,0
+Saecki/crates.nvim,785,15,5,2,0,19.108,4,5,1022,15,Lua,false,0,Development tools,IDEs,52.000,2,13
+rust-lang/rust.vim,3811,22,9,6,0,5.773,2,562,3422,146,Vim Script,false,0,Development tools,IDEs,25.000,0,0
+racer-rust/vim-racer,628,0,0,0,0,0.000,54,1165,3192,50,Vim Script,false,0,Development tools,IDEs,0.000,0,0
+ZoeyR/rls-vs2017,110,0,0,0,0,0.000,156,1838,2380,2,C#,false,0,Development tools,IDEs,0.000,0,0
+PistonDevelopers/VisualRust,701,0,0,0,0,0.000,100,2564,3591,138,C#,false,0,Development tools,IDEs,0.000,0,0
+serayuzgur/crates,232,4,1,1,1,17.241,0,138,2228,21,TypeScript,false,0,Development tools,IDEs,22.000,0,0
+bencherdev/bencher,430,37,20,8,2,86.047,0,0,1417,9,MDX,false,0,Development tools,Profiling,95.000,2,180
+bheisler/criterion.rs,4228,45,22,9,2,10.643,0,71,3669,108,Rust,false,22,Development tools,Profiling,40.000,0,0
+koute/bytehound,4360,502,50,14,3,115.138,0,319,1853,8,C,false,0,Development tools,Profiling,50.000,0,0
+nvzqz/divan,803,35,18,7,3,43.587,0,17,348,6,Rust,false,7,Development tools,Profiling,47.000,3,3
+ellisonch/rust-stopwatch,80,0,0,0,0,0.000,156,2394,3451,6,Rust,false,1,Development tools,Profiling,0.000,0,0
+llogiq/flame,688,2,1,1,0,2.907,2,1106,3164,17,Rust,false,5,Development tools,Profiling,12.000,0,0
+mrhooray/torch,131,0,0,0,0,0.000,88,2396,3214,2,Perl,false,0,Development tools,Profiling,0.000,0,0
+sharkdp/hyperfine,20503,395,206,71,7,19.265,0,10,2341,96,Rust,false,12,Development tools,Profiling,84.000,1,2
+deps-rs/deps.rs,419,5,3,2,0,11.933,4,13,2329,19,Sass,false,0,Development tools,Services,34.000,2,4
+facebookexperimental/mirai,975,13,6,5,0,13.333,1,206,2044,28,Rust,false,0,Development tools,Static analysis,21.000,0,0
+japaric/trust,1251,1,0,0,0,0.799,28,1657,2813,12,Shell,false,0,Development tools,Testing,2.000,0,0
+AlKass/polish,52,0,0,0,0,0.000,156,507,2600,2,Rust,false,3,Development tools,Testing,0.000,0,0
+wfxr/rlt,118,6,3,0,0,50.847,7,45,80,2,Rust,false,22,Development tools,Testing,13.000,0,0
+cksac/fake-rs,833,16,10,4,1,19.208,0,34,2904,43,Rust,false,0,Development tools,Testing,37.000,0,0
+alexliesenfeld/httpmock,434,7,2,0,0,16.129,7,33,1737,19,Rust,false,25,Development tools,Testing,13.000,0,0
+rust-fuzz/afl.rs,1586,13,10,4,0,8.197,2,1,3352,44,Rust,false,0,Development tools,Testing,63.000,3,10
+BayesWitnesses/m2cgen,2737,20,7,1,0,7.307,1,615,1977,12,Python,false,0,Development tools,Transpiling,21.000,0,0
+immunant/c2rust,3736,43,18,6,1,11.510,0,40,2245,62,Rust,false,0,Development tools,Transpiling,41.000,0,0
+jameysharp/corrode,2142,0,0,0,0,0.000,47,2617,2959,21,Haskell,false,0,Development tools,Transpiling,0.000,0,0
+larksuite/perf-monitor-rs,195,1,1,1,0,5.128,3,349,1149,5,Rust,false,2,Libraries,,10.000,0,0
+innoave/genevo,167,3,2,1,0,17.964,1,821,2546,3,Rust,false,5,Libraries,Artificial Intelligence,12.000,0,0
+m-decoster/RsGenetic,76,0,0,0,0,0.000,80,1236,3104,8,Rust,false,2,Libraries,Artificial Intelligence,0.000,0,0
+Martin1887/oxigen,161,2,1,0,0,12.422,13,1199,2126,3,Rust,false,0,Libraries,Artificial Intelligence,7.000,0,0
+pkalivas/radiate,145,2,1,0,0,13.793,13,875,1668,5,Rust,false,0,Libraries,Artificial Intelligence,7.000,0,0
+willi-kappler/darwin-rs,113,1,0,0,0,8.850,19,701,3087,4,Rust,false,3,Libraries,Artificial Intelligence,2.000,0,0
+autumnai/leaf,5556,4,4,2,1,0.720,0,2340,3151,14,Rust,false,9,Libraries,Artificial Intelligence,22.000,0,0
+tracel-ai/burn,7527,330,151,51,7,43.842,0,0,694,113,Rust,false,81,Libraries,Artificial Intelligence,100.000,23,64
+coreylowman/dfdx,1655,37,10,5,0,22.356,1,138,974,39,Rust,false,6,Libraries,Artificial Intelligence,25.000,0,0
+huggingface/tokenizers,8598,112,52,32,5,13.026,0,0,1684,239,Rust,false,0,Libraries,Artificial Intelligence,100.000,5,5
+LaurentMazare/tch-rs,3969,87,39,23,2,21.920,0,39,1942,75,Rust,false,15,Libraries,Artificial Intelligence,56.000,0,0
+maciejkula/rustlearn,611,0,0,0,0,0.000,37,1452,3113,8,Rust,false,4,Libraries,Artificial Intelligence,0.000,0,0
+rust-ml/linfa,3488,60,30,16,1,17.202,0,73,2259,46,Rust,false,9,Libraries,Artificial Intelligence,40.000,0,0
+smartcorelib/smartcore,663,11,4,2,0,16.591,2,99,1862,20,Rust,false,8,Libraries,Artificial Intelligence,16.000,0,0
+tensorflow/rust,5065,47,29,18,5,9.279,0,192,3050,57,Rust,false,11,Libraries,Artificial Intelligence,40.000,0,0
+cds-astro/aladin-lite,92,2,1,0,0,21.739,13,0,2470,13,JavaScript,false,9,Libraries,Astronomy,63.000,5,20
+saurvs/astro-rust,258,2,0,0,0,7.752,24,2167,3140,5,Rust,false,0,Libraries,Astronomy,4.000,0,0
+dpc/mioco,145,0,0,0,0,0.000,97,1920,2609,4,Rust,false,8,Libraries,Asynchronous,0.000,0,0
+tokio-rs/mio,6127,39,21,13,2,6.365,0,1,3583,231,Rust,false,1,Libraries,Asynchronous,90.000,1,23
+rust-lang/futures-rs,5267,29,13,5,2,5.506,0,40,2995,348,Rust,false,0,Libraries,Asynchronous,41.000,0,0
+TeaEntityLab/fpRust,115,0,0,0,0,0.000,54,1025,2171,2,Rust,false,2,Libraries,Asynchronous,0.000,0,0
+tokio-rs/tokio,25148,309,130,51,8,12.287,0,1,2832,808,Rust,false,0,Libraries,Asynchronous,100.000,23,38
+Xudong-Huang/may,1826,89,69,6,0,48.740,1,7,2637,9,Rust,false,10,Libraries,Asynchronous,72.000,1,2
+zonyitoo/coio-rs,454,0,0,0,0,0.000,35,2118,3221,8,Rust,false,11,Libraries,Asynchronous,0.000,0,0
+jhasse/ears,89,0,0,0,0,0.000,52,1520,3830,1,Rust,false,2,Libraries,Audio and Music,0.000,0,0
+musitdev/portmidi-rs,75,0,0,0,0,0.000,156,334,3804,15,Rust,false,0,Libraries,Audio and Music,0.000,0,0
+ozankasikci/rust-music-theory,616,0,0,0,0,0.000,35,747,1609,7,Rust,false,5,Libraries,Audio and Music,0.000,0,0
+pdeljanov/Symphonia,2173,47,23,13,1,21.629,0,93,1936,40,Rust,false,0,Libraries,Audio and Music,40.000,0,0
+RustAudio/cpal,2482,48,14,7,1,19.339,0,30,3470,148,Rust,false,1,Libraries,Audio and Music,41.000,0,0
+RustAudio/rodio,1639,33,15,5,0,20.134,1,5,3247,94,Rust,false,8,Libraries,Audio and Music,61.000,2,17
+RustAudio/rust-portaudio,366,2,1,0,0,5.464,7,37,3932,50,Rust,false,4,Libraries,Audio and Music,13.000,0,0
+Keats/jsonwebtoken,1585,26,12,4,0,16.404,1,67,3145,74,Rust,false,5,Libraries,Authentication,25.000,0,0
+ramosbugs/oauth2-rs,852,14,4,0,0,16.432,8,35,3632,55,Rust,false,12,Libraries,Authentication,17.000,0,0
+HeroicKatora/oxide-auth,643,12,2,1,0,18.663,5,9,2386,25,Rust,false,0,Libraries,Authentication,42.000,2,18
+sgrust01/jwtvault,67,0,0,0,0,0.000,156,1478,1579,3,Rust,false,9,Libraries,Authentication,0.000,0,0
+dermesser/yup-oauth2,210,5,0,0,0,23.810,18,0,3393,55,Rust,false,20,Libraries,Authentication,60.000,5,18
+aisk/rust-memcache,128,3,1,1,0,23.438,4,68,3989,17,Rust,false,6,Libraries,Caching,12.000,0,0
+al8n/stretto,400,1,0,0,0,2.500,28,39,1050,11,Rust,false,14,Libraries,Caching,8.000,0,0
+jaemk/cached,1421,26,15,6,2,18.297,0,35,2628,45,Rust,false,17,Libraries,Caching,41.000,0,0
+moka-rs/moka,1400,37,17,4,1,26.429,0,3,1528,17,Rust,false,16,Libraries,Caching,71.000,2,13
+zkat/cacache-rs,492,26,8,6,2,52.846,0,0,1849,16,Rust,false,19,Libraries,Caching,85.000,1,1
+awslabs/aws-sdk-rust,2899,40,23,9,2,13.798,0,0,1156,146,Rust,false,0,Libraries,Cloud,100.000,5,72
+rusoto/rusoto,2723,11,5,4,0,4.040,1,779,3255,167,Rust,false,0,Libraries,Cloud,16.000,0,0
+bparli/convey,333,0,0,0,0,0.000,65,1090,1995,4,Rust,false,19,Libraries,Cloud,0.000,0,0
+Qovery/engine,2239,15,6,3,0,6.699,3,97,1329,6,Rust,false,74,Libraries,Cloud,21.000,0,0
+ivanceras/titik,120,0,0,0,0,0.000,44,837,1557,1,Rust,false,9,Libraries,Command-line,0.000,0,0
+dropbox/rust-brotli,792,5,4,1,0,6.313,1,15,2978,34,Rust,false,4,Libraries,Compression,32.000,2,26
+ende76/brotli-rs,64,2,0,0,0,31.250,23,1527,3156,6,Rust,false,0,Libraries,Compression,4.000,0,0
+alexcrichton/bzip2-rs,93,0,0,0,0,0.000,35,523,3550,21,C,false,0,Libraries,Compression,0.000,0,0
+rust-lang/flate2-rs,845,10,6,3,0,11.834,1,43,3617,98,Rust,false,6,Libraries,Compression,23.000,0,0
+alexcrichton/tar-rs,608,7,6,2,0,11.513,1,7,3617,65,Rust,false,1,Libraries,Compression,39.000,4,8
+gyscos/zstd-rs,468,8,3,1,0,17.094,1,18,3035,48,Rust,false,1,Libraries,Compression,24.000,2,3
+mikkyang/rust-blas,82,0,0,0,0,0.000,156,3019,3594,6,Rust,false,2,Libraries,Computation,0.000,0,0
+calebwin/emu,1596,7,5,3,0,4.386,3,1173,1902,8,Rust,false,0,Libraries,Computation,12.000,0,0
+dimforge/nalgebra,3795,45,19,11,2,11.858,0,37,4046,196,Rust,false,33,Libraries,Computation,41.000,0,0
+GuillaumeGomez/rust-GSL,189,0,0,0,0,0.000,30,72,3606,21,Rust,false,2,Libraries,Computation,0.000,0,0
+blas-lapack-rs/lapack,80,0,0,0,0,0.000,111,1150,3536,8,Rust,false,3,Libraries,Computation,0.000,0,0
+arrayfire/arrayfire-rust,809,4,3,3,0,4.944,4,471,3312,34,Rust,false,5,Libraries,Computation,12.000,0,0
+autumnai/collenchyma,474,1,1,1,0,2.110,4,2984,3128,9,Rust,false,8,Libraries,Computation,10.000,0,0
+luqmana/rust-opencl,170,1,1,1,0,5.882,4,2712,4252,14,Rust,false,2,Libraries,Computation,10.000,0,0
+cpmech/russell,83,10,3,2,0,120.482,2,8,1087,1,Rust,false,0,Libraries,Computation,42.000,1,54
+indigits/scirust,262,0,0,0,0,0.000,36,1817,3523,5,Rust,false,0,Libraries,Computation,0.000,0,0
+statrs-dev/statrs,535,20,7,3,0,37.383,3,4,3014,37,Rust,false,4,Libraries,Computation,61.000,6,54
+crossbeam-rs/crossbeam,6934,75,31,17,4,10.816,0,18,3317,136,Rust,false,5,Libraries,Concurrency,62.000,2,4
+rayon-rs/rayon,10440,137,46,28,5,13.123,0,40,3540,134,Rust,false,3,Libraries,Concurrency,56.000,0,0
+rustcc/coroutine-rs,413,0,0,0,0,0.000,35,1017,3394,20,Rust,false,3,Libraries,Concurrency,0.000,0,0
+zonyitoo/coio-rs,454,0,0,0,0,0.000,35,2118,3221,8,Rust,false,11,Libraries,Concurrency,0.000,0,0
+softprops/envy,810,9,7,5,1,11.111,0,4,2906,15,Rust,false,1,Libraries,Configuration,59.000,2,10
+arkworks-rs/circom-compat,224,3,1,1,0,13.393,4,321,1051,20,Rust,false,21,Libraries,Cryptography,12.000,0,0
+briansmith/ring,3615,38,17,8,2,10.512,0,0,3247,263,Assembly,false,0,Libraries,Cryptography,95.000,5,42
+briansmith/webpki,456,3,1,0,0,6.579,13,114,3211,18,Rust,false,2,Libraries,Cryptography,7.000,0,0
+DaGenix/rust-crypto,1374,7,3,0,0,5.095,9,2835,3899,50,Rust,false,4,Libraries,Cryptography,7.000,0,0
+dalek-cryptography/curve25519-dalek,844,11,7,5,0,13.033,1,8,2742,104,Rust,false,0,Libraries,Cryptography,41.000,1,1
+dalek-cryptography/ed25519-dalek,668,5,2,2,0,7.485,4,304,2742,42,Rust,false,8,Libraries,Cryptography,12.000,0,0
+dalek-cryptography/x25519-dalek,326,4,3,2,0,12.270,4,304,2464,24,Rust,false,4,Libraries,Cryptography,12.000,0,0
+debris/tiny-keccak,190,0,0,0,0,0.000,40,1461,3119,13,Rust,false,1,Libraries,Cryptography,0.000,0,0
+facebook/opaque-ke,278,4,3,3,2,14.388,0,146,1469,124,Rust,false,14,Libraries,Cryptography,22.000,0,0
+iddm/randomorg,8,0,0,0,0,0.000,156,189,2541,2,Rust,false,6,Libraries,Cryptography,0.000,0,0
+klutzy/suruga,124,0,0,0,0,0.000,42,3067,3649,6,Rust,false,4,Libraries,Cryptography,0.000,0,0
+kornelski/rust-security-framework,228,4,2,0,0,17.544,7,21,3218,50,Rust,false,0,Libraries,Cryptography,19.000,2,2
+libOctavo/octavo,140,0,0,0,0,0.000,156,2432,3242,10,Rust,false,4,Libraries,Cryptography,0.000,0,0
+orion-rs/orion,536,1,0,0,0,1.866,18,21,2317,14,Rust,false,6,Libraries,Cryptography,14.000,1,3
+RustCrypto/hashes,1724,40,15,6,1,23.202,0,15,2762,71,Rust,false,0,Libraries,Cryptography,47.000,4,6
+rustls/rustls,5614,83,33,20,1,14.784,0,1,2962,142,Rust,false,0,Libraries,Cryptography,100.000,8,102
+sfackler/rust-native-tls,462,7,4,3,0,15.152,1,15,2978,37,Rust,false,0,Libraries,Cryptography,24.000,2,4
+sfackler/rust-openssl,1336,10,3,2,0,7.485,3,35,3818,349,Rust,false,0,Libraries,Cryptography,18.000,0,0
+w3f/schnorrkel,304,5,1,0,0,16.447,13,43,2038,26,Rust,false,14,Libraries,Cryptography,13.000,0,0
+amv-dev/yata,299,7,4,2,0,23.411,3,96,1363,8,Rust,false,1,Libraries,Data processing,12.000,0,0
+rust-ndarray/ndarray,3395,51,23,13,2,15.022,0,15,3599,92,Rust,false,10,Libraries,Data processing,52.000,3,10
+kernelmachine/utah,142,1,0,0,0,7.042,15,2149,2823,2,Rust,false,8,Libraries,Data processing,2.000,0,0
+pola-rs/polars,27097,636,287,148,41,23.471,0,0,1490,416,Rust,false,83,Libraries,Data processing,100.000,36,376
+weld-project/weld,2986,3,2,0,0,1.005,12,1529,2921,43,Rust,false,0,Libraries,Data processing,7.000,0,0
+ArroyoSystems/arroyo,3389,71,35,16,2,20.950,0,0,438,17,Rust,false,20,Libraries,Data streaming,100.000,2,16
+infinyon/fluvio,2734,59,29,12,1,21.580,0,1,1747,62,Rust,false,125,Libraries,Data streaming,90.000,7,28
+ashvardanian/SimSIMD,765,35,10,3,0,45.752,5,12,455,18,C,false,0,Libraries,Data structures,55.000,2,30
+danielpclark/array_tool,75,0,0,0,0,0.000,65,759,3156,3,Rust,false,0,Libraries,Data structures,0.000,0,0
+fizyk20/generic-array,399,3,1,0,0,7.519,12,76,3183,38,Rust,false,5,Libraries,Data structures,7.000,0,0
+mrhooray/kdtree-rs,218,4,1,1,0,18.349,1,130,3241,16,Rust,false,4,Libraries,Data structures,12.000,0,0
+RoaringBitmap/roaring-rs,704,16,13,10,0,22.727,1,4,3455,64,Rust,false,3,Libraries,Data structures,57.000,3,20
+rust-itertools/itertools,2583,38,11,6,0,14.712,3,15,3606,155,Rust,false,1,Libraries,Data structures,45.000,3,28
+milliams/plotlib,461,1,1,1,1,2.169,0,790,2651,12,Rust,false,2,Libraries,Data visualization,20.000,0,0
+plotly/plotly.rs,993,24,12,6,1,24.169,0,15,1598,110,Rust,false,0,Libraries,Data visualization,47.000,3,4
+plotters-rs/plotters,3627,73,44,30,4,20.127,0,6,1875,85,Rust,false,0,Libraries,Data visualization,82.000,3,9
+rerun-io/rerun,5492,231,90,47,6,42.061,0,0,795,52,Rust,false,201,Libraries,Data visualization,100.000,11,152
+saresend/Gust,131,1,0,0,0,7.634,15,2321,2443,4,Rust,false,4,Libraries,Data visualization,2.000,0,0
+krojew/cdrs-tokio,130,3,1,1,0,23.077,4,22,1303,33,Rust,false,7,Libraries,Database,24.000,3,5
+Metaswitch/cassandra-rs,128,5,3,2,0,39.062,4,81,2556,42,Rust,false,8,Libraries,Database,12.000,0,0
+softprops/dynomite,214,0,0,0,0,0.000,39,923,2302,13,Rust,false,0,Libraries,Database,0.000,0,0
+driftluo/InfluxDBClient-rs,82,0,0,0,0,0.000,83,736,2557,15,Rust,false,5,Libraries,Database,0.000,0,0
+skade/leveldb,182,1,1,1,0,5.495,4,1360,3734,8,Rust,false,3,Libraries,Database,10.000,0,0
+seladb/pickledb-rs,249,1,0,0,0,4.016,24,505,1982,7,Rust,false,5,Libraries,Database,2.000,0,0
+PoloDB/PoloDB,791,19,9,4,0,24.020,1,7,1410,11,Rust,false,0,Libraries,Database,41.000,1,1
+cberner/redb,2996,54,26,12,3,18.024,0,2,2088,20,Rust,false,2,Libraries,Database,82.000,1,4
+redis-rs/redis-rs,3486,36,15,9,4,10.327,0,1,3817,187,Rust,false,0,Libraries,Database,85.000,10,35
+rust-rocksdb/rust-rocksdb,1749,19,13,7,1,10.863,0,4,3495,167,Rust,false,3,Libraries,Database,63.000,3,7
+surrealdb/surrealdb,25890,310,154,85,15,11.974,0,0,915,106,Rust,false,42,Libraries,Database,100.000,11,50
+zitsen/unqlite.rs,109,0,0,0,0,0.000,95,1286,3096,8,Rust,false,2,Libraries,Database,0.000,0,0
+Brendonovich/prisma-client-rust,1724,42,21,10,2,24.362,0,33,1114,37,Rust,false,15,Libraries,Database,46.000,0,0
+diesel-rs/diesel,12139,150,67,26,5,12.357,0,1,3209,342,Rust,false,0,Libraries,Database,100.000,12,87
+ivanceras/rustorm,249,1,1,0,0,4.016,13,1194,2372,6,Rust,false,25,Libraries,Database,5.000,0,0
+njord-rs/njord,261,13,2,1,0,49.808,5,0,430,5,Rust,false,0,Libraries,Database,76.000,3,33
+rbatis/rbatis,2170,30,17,10,4,13.825,0,9,1923,23,Rust,false,13,Libraries,Database,65.000,1,24
+SeaQL/sea-orm,6490,137,62,32,8,21.109,0,4,1218,202,Rust,false,20,Libraries,Database,100.000,4,24
+SeaQL/seaography,351,9,1,0,0,25.641,7,39,730,9,Rust,false,6,Libraries,Database,13.000,0,0
+sfackler/r2d2,1456,13,6,3,1,8.929,0,327,3599,29,Rust,false,3,Libraries,Database,31.000,0,0
+launchbadge/sqlx,12186,253,109,46,10,20.762,0,4,1627,399,Rust,false,18,Libraries,Database,98.000,14,16
+SeaQL/sea-query,1045,25,8,6,1,23.923,0,8,1274,83,Rust,false,14,Libraries,Database,57.000,2,3
+SeaQL/sea-schema,176,4,1,1,1,22.727,0,37,1185,17,Rust,false,7,Libraries,Database,28.000,0,0
+prisma/tiberius,302,4,2,1,0,13.245,2,5,1538,52,Rust,false,30,Libraries,Database,42.000,1,1
+AgilData/mysql-proxy-rs,193,1,0,0,0,5.181,19,2800,2834,8,Rust,false,5,Libraries,Database,2.000,0,0
+rusqlite/rusqlite,2825,56,30,17,3,19.823,0,19,3507,111,Rust,false,13,Libraries,Database,52.000,3,9
+chronotope/chrono,3186,46,18,13,2,14.438,0,0,3728,203,Rust,false,5,Libraries,Date and time,87.000,5,6
+time-rs/time,1037,21,9,3,0,20.251,1,13,3501,67,Rust,false,19,Libraries,Date and time,37.000,2,2
+kafka-rust/kafka-rust,1166,14,9,2,0,12.007,3,225,3323,22,Rust,false,11,Libraries,Distributed systems,21.000,0,0
+aya-rs/aya,2819,104,63,26,5,36.893,0,4,1238,69,Rust,false,44,Libraries,eBPF,92.000,3,9
+libbpf/libbpf-rs,665,17,5,2,0,25.564,5,0,1521,74,Rust,false,0,Libraries,eBPF,76.000,4,28
+gsquire/sendgrid-rs,103,1,0,0,0,9.709,22,82,3172,31,Rust,false,6,Libraries,Email,2.000,0,0
+jdrouet/catapulte,136,1,0,0,0,7.353,25,41,1480,4,Rust,false,16,Libraries,Email,8.000,0,0
+jdrouet/jolimail,134,1,1,0,0,7.463,13,507,1482,4,TypeScript,false,0,Libraries,Email,5.000,0,0
+jdrouet/mrml,314,4,1,0,0,12.739,7,5,1492,11,HTML,false,0,Libraries,Email,39.000,2,3
+lettre/lettre,1737,26,10,3,0,14.968,3,0,3781,82,Rust,false,36,Libraries,Email,77.000,2,3
+mailtutan/mailtutan,159,7,3,2,0,44.025,2,112,395,4,Rust,false,2,Libraries,Email,12.000,0,0
+meli/meli,620,15,6,4,1,24.194,0,3,1828,13,Rust,false,0,Libraries,Email,71.000,2,44
+tweedegolf/mailcrab,667,8,5,3,0,11.994,2,7,599,16,Rust,false,0,Libraries,Email,34.000,2,2
+alex/rust-asn1,96,1,0,0,0,10.417,28,9,3251,8,Rust,false,1,Libraries,Encoding,24.000,2,3
+bincode-org/bincode,2569,29,15,9,1,11.288,0,14,3556,98,Rust,false,3,Libraries,Encoding,45.000,1,1
+mongodb/bson-rust,382,2,0,0,0,5.236,26,6,3352,560,Rust,false,16,Libraries,Encoding,36.000,2,4
+BurntSushi/byteorder,944,6,4,3,0,6.356,1,71,3416,50,Rust,false,0,Libraries,Encoding,12.000,0,0
+capnproto/capnproto-rust,1972,15,9,4,1,7.606,0,10,3995,79,Rust,false,0,Libraries,Encoding,57.000,2,16
+lifthrasiir/rust-encoding,283,1,0,0,0,3.534,24,2527,3970,34,Rust,false,6,Libraries,Encoding,2.000,0,0
+mrhooray/crc-rs,181,1,0,0,0,5.525,25,64,3376,19,Rust,false,1,Libraries,Encoding,2.000,0,0
+BurntSushi/rust-csv,1624,13,5,4,0,8.005,1,245,3734,49,Rust,false,4,Libraries,Encoding,16.000,0,0
+frol/flatc-rust,105,3,0,0,0,28.571,14,122,1974,5,Rust,false,1,Libraries,Encoding,4.000,0,0
+servo/html5ever,2016,25,15,9,0,12.401,2,6,3744,119,Rust,false,0,Libraries,Encoding,57.000,1,3
+3Hren/msgpack-rust,1096,16,11,3,0,14.599,3,42,3371,46,Rust,false,0,Libraries,Encoding,27.000,0,0
+stepancheg/rust-protobuf,2707,37,16,7,2,13.668,0,107,3971,123,Rust,false,0,Libraries,Encoding,35.000,0,0
+tokio-rs/prost,3594,56,32,14,2,15.582,0,1,2555,174,Rust,false,0,Libraries,Encoding,96.000,9,19
+ron-rs/ron,3176,37,21,10,3,11.650,0,0,3340,61,Rust,false,6,Libraries,Encoding,90.000,1,1
+toml-rs/toml,641,17,7,4,0,26.521,1,8,2538,133,Rust,false,0,Libraries,Encoding,47.000,2,19
+Florob/RustyXML,102,0,0,0,0,0.000,46,1010,3971,3,Rust,false,1,Libraries,Encoding,0.000,0,0
+media-io/yaserde,171,1,0,0,0,5.848,22,7,2255,28,Rust,false,0,Libraries,Encoding,24.000,2,4
+netvl/xml-rs,459,0,0,0,0,0.000,117,72,3657,62,Rust,false,0,Libraries,Encoding,0.000,0,0
+shepmaster/sxd-document,152,0,0,0,0,0.000,125,1518,3496,11,Rust,false,2,Libraries,Encoding,0.000,0,0
+shepmaster/sxd-xpath,118,0,0,0,0,0.000,100,995,3496,10,Rust,false,3,Libraries,Encoding,0.000,0,0
+tafia/quick-xml,1116,16,4,0,0,14.337,7,1,3058,97,Rust,false,6,Libraries,Encoding,61.000,6,30
+chyh1990/yaml-rust,598,1,1,0,0,1.672,9,1065,3305,31,Rust,false,1,Libraries,Encoding,5.000,0,0
+webdesus/fs_extra,238,4,2,0,0,16.807,9,494,2681,12,Rust,false,0,Libraries,Filesystem,7.000,0,0
+Stebalien/tempfile,1095,18,3,0,0,16.438,7,32,3348,60,Rust,false,2,Libraries,Filesystem,17.000,0,0
+JasonShin/fp-core.rs,1310,11,6,3,0,8.397,2,1628,1840,11,Rust,false,0,Libraries,Functional Programming,21.000,0,0
+myrrlyn/tap,369,5,4,3,0,13.550,1,1215,1367,1,Rust,false,0,Libraries,Functional Programming,12.000,0,0
+SiegeLord/RustAllegro,95,0,0,0,0,0.000,59,16,4079,6,Rust,false,0,Libraries,Game development,12.000,1,2
+ozkriff/awesome-quads,169,6,4,2,0,35.503,2,60,1230,14,,false,0,Libraries,Game development,12.000,0,0
+rofrol/awesome-wgpu,402,8,3,2,0,19.900,1,1392,1611,3,,false,0,Libraries,Game development,12.000,0,0
+amethyst/specs,2432,16,12,6,1,6.579,0,4,2989,112,Rust,false,12,Libraries,Game development,63.000,3,4
+amethyst/legion,1590,15,9,4,1,9.434,0,982,1922,71,Rust,false,15,Libraries,Game development,31.000,0,0
+bevyengine/bevy,33132,610,288,149,26,18.411,0,0,1606,980,Rust,false,1,Libraries,Game development,100.000,83,225
+ggez/ggez,4147,26,14,4,1,6.270,0,337,3055,191,Rust,false,23,Libraries,Game development,35.000,0,0
+Ruddle/oxidator,292,1,1,0,0,3.425,13,1562,1711,1,Rust,false,26,Libraries,Game development,5.000,0,0
+unrust/unrust,374,0,0,0,0,0.000,51,2130,2325,4,Rust,false,17,Libraries,Game development,0.000,0,0
+brson/rust-sdl,178,0,0,0,0,0.000,131,3304,4504,40,Rust,false,3,Libraries,Game development,0.000,0,0
+Rust-SDL2/rust-sdl2,2636,20,11,6,0,7.587,2,60,3951,287,Rust,false,6,Libraries,Game development,21.000,0,0
+jeremyletang/rust-sfml,623,6,3,2,0,9.631,1,1,4031,42,Rust,false,5,Libraries,Game development,54.000,2,8
+tomassedovic/tcod-rs,229,0,0,0,0,0.000,90,1228,3647,30,C,false,0,Libraries,Game development,0.000,0,0
+iddm/toornament-rs,4,0,0,0,0,0.000,131,189,2567,2,Rust,false,5,Libraries,Game development,0.000,0,0
+maplibre/martin,1963,53,27,12,2,26.999,0,1,2446,43,Rust,false,57,Libraries,Geospatial,90.000,3,32
+gx0r/rrgeo,118,1,1,0,0,8.475,13,67,3085,4,Rust,false,0,Libraries,Geospatial,5.000,0,0
+neo4j-labs/graph,356,4,3,2,0,11.236,1,204,1096,8,Rust,false,47,Libraries,Graph algorithms,12.000,0,0
+petgraph/petgraph,2730,47,22,7,1,17.216,0,34,3459,104,Rust,false,6,Libraries,Graph algorithms,46.000,0,0
+RazrFalcon/rustybuzz,466,4,1,1,0,8.584,4,32,1612,16,Rust,false,9,Libraries,Graphics,18.000,0,0
+redox-os/rusttype,606,5,3,0,0,8.251,7,461,3049,32,Rust,false,5,Libraries,Graphics,7.000,0,0
+gfx-rs/gfx,5345,10,5,1,0,1.871,5,1043,3883,255,Rust,false,0,Libraries,Graphics,12.000,0,0
+gfx-rs/wgpu,11331,272,115,47,10,24.005,0,0,2098,412,Rust,false,91,Libraries,Graphics,100.000,23,70
+brendanzab/gl-rs,678,1,1,1,0,1.475,1,1495,4164,72,Rust,false,0,Libraries,Graphics,10.000,0,0
+glium/glium,3425,24,9,6,1,7.007,0,86,3539,172,Rust,false,8,Libraries,Graphics,35.000,0,0
+PistonDevelopers/glfw-rs,640,10,4,4,0,15.625,1,21,4288,207,Rust,false,7,Libraries,Graphics,24.000,2,4
+fschutt/printpdf,775,10,7,3,0,12.903,2,90,2590,43,Rust,false,9,Libraries,Graphics,17.000,0,0
+J-F-Liu/lopdf,1524,27,14,4,1,17.717,0,50,2738,53,Rust,false,16,Libraries,Graphics,41.000,0,0
+kaj/rust-pdf,143,0,0,0,0,0.000,40,855,3183,1,Rust,false,2,Libraries,Graphics,0.000,0,0
+autopilot-rs/autopilot-rs,368,4,1,0,0,10.870,7,321,2254,17,Rust,false,4,Libraries,GUI,7.000,0,0
+servo/core-foundation-rs,942,22,10,4,0,23.355,2,15,4303,177,Rust,false,0,Libraries,GUI,37.000,4,7
+dioxuslabs/dioxus,19019,482,231,61,9,25.343,0,0,1244,230,Rust,false,66,Libraries,GUI,100.000,16,43
+emilk/egui,20401,445,206,89,9,21.813,0,1,1976,405,Rust,false,35,Libraries,GUI,100.000,19,72
+emoon/rust_minifb,970,11,6,4,1,11.340,0,0,3124,69,Rust,false,1,Libraries,GUI,83.000,2,5
+fltk-rs/fltk-rs,1551,33,19,8,0,21.277,1,0,1692,40,Rust,false,0,Libraries,GUI,81.000,3,14
+cunarist/rinf,1634,152,102,41,4,93.023,0,0,482,19,Dart,false,0,Libraries,GUI,100.000,4,148
+flutter-rs/flutter-rs,2100,3,2,0,0,1.429,12,1398,2009,11,Rust,false,0,Libraries,GUI,7.000,0,0
+fzyzcjy/flutter_rust_bridge,3664,80,37,16,2,21.834,0,0,982,98,Dart,false,0,Libraries,GUI,100.000,4,3659
+fschutt/azul,5832,20,10,5,1,3.429,0,13,2338,37,Rust,false,0,Libraries,GUI,53.000,1,8
+gtk-rs/gtk4-rs,1713,38,14,10,3,22.183,0,3,1856,154,Rust,false,25,Libraries,GUI,75.000,8,39
+antoyo/relm,2410,4,0,0,0,1.660,14,53,2679,39,Rust,false,8,Libraries,GUI,10.000,0,0
+imgui-rs/imgui-rs,2583,29,11,3,0,11.227,1,4,3222,112,Rust,false,0,Libraries,GUI,57.000,3,7
+KISS-UI/kiss-ui,342,0,0,0,0,0.000,93,2304,3334,10,Rust,false,2,Libraries,GUI,0.000,0,0
+ivanceras/sauron-native,631,1,0,0,0,1.585,20,1160,1783,2,Rust,false,20,Libraries,GUI,2.000,0,0
+rust-native-ui/libui-rs,926,1,0,0,0,1.080,26,516,2345,21,Rust,false,0,Libraries,GUI,2.000,0,0
+snuk182/nuklear-rust,357,2,1,1,1,5.602,0,1331,2829,3,Rust,false,2,Libraries,GUI,22.000,0,0
+redox-os/orbtk,3780,5,2,1,0,1.323,2,607,3102,50,Rust,false,0,Libraries,GUI,12.000,0,0
+cyndis/qmlrs,435,0,0,0,0,0.000,67,2990,3468,8,Rust,false,1,Libraries,GUI,0.000,0,0
+woboq/qmetaobject-rs,613,9,4,0,0,14.682,7,104,2197,41,Rust,false,0,Libraries,GUI,7.000,0,0
+rise-ui/rise,72,0,0,0,0,0.000,129,1950,2274,4,Rust,false,24,Libraries,GUI,0.000,0,0
+saurvs/nfd-rs,155,1,0,0,0,6.452,14,1908,3022,5,Rust,false,0,Libraries,GUI,2.000,0,0
+sciter-sdk/rust-sciter,802,3,2,0,0,3.741,7,841,3018,20,Rust,false,2,Libraries,GUI,7.000,0,0
+tauri-apps/tauri,78837,1135,530,231,35,14.397,0,0,1795,366,Rust,false,0,Libraries,GUI,100.000,21,75
+tauri-apps/wry,3315,72,41,15,3,21.719,0,0,1430,89,Rust,false,0,Libraries,GUI,100.000,11,23
+linebender/xilem,3077,177,98,65,3,57.524,0,0,573,162,Rust,false,18,Libraries,GUI,100.000,8,32
+abonander/img_hash,297,1,0,0,0,3.367,21,1134,3493,10,Rust,false,5,Libraries,Image processing,2.000,0,0
+image-rs/image,4730,75,28,12,0,15.856,1,9,3670,299,Rust,false,18,Libraries,Image processing,52.000,4,6
+image-rs/imageproc,711,17,6,3,0,23.910,3,2,3180,90,Rust,false,12,Libraries,Image processing,71.000,7,37
+rust-cv/cv,779,15,7,5,0,19.255,2,327,1529,11,Rust,false,0,Libraries,Image processing,21.000,0,0
+twistedfall/opencv-rust,1837,33,13,7,2,17.964,0,14,3346,41,Rust,false,4,Libraries,Image processing,51.000,2,11
+shnewto/bnf,249,1,1,1,0,4.016,3,138,2424,13,Rust,false,8,Libraries,Language specification,10.000,0,0
+estk/log4rs,955,9,3,1,0,9.424,3,71,3423,47,Rust,false,20,Libraries,Logging,12.000,0,0
+rbatis/fast_log,212,2,0,0,0,9.434,14,94,1564,1,Rust,false,12,Libraries,Logging,4.000,0,0
+rust-lang/log,2084,21,13,4,0,10.077,1,71,3468,120,Rust,false,4,Libraries,Logging,25.000,0,0
+seanmonstar/pretty-env-logger,467,3,2,0,0,6.424,7,390,2792,18,Rust,false,2,Libraries,Logging,7.000,0,0
+slog-rs/slog,1551,12,6,2,0,7.737,3,158,2921,55,Rust,false,3,Libraries,Logging,21.000,0,0
+tokio-rs/tracing,5048,82,35,12,2,16.244,0,17,1978,304,Rust,false,0,Libraries,Logging,62.000,4,4
+mattgathu/cute,336,2,0,0,0,5.952,14,1900,2523,2,Rust,false,0,Libraries,Macro,4.000,0,0
+StardustDL/Linq-in-Rust,125,3,0,0,0,24.000,24,350,1947,3,Rust,false,0,Libraries,Macro,4.000,0,0
+pulldown-cmark/pulldown-cmark,1956,18,11,4,0,9.202,2,1,3296,79,Rust,false,0,Libraries,Markup language,67.000,3,14
+ivnsch/rust_android_ios,235,1,1,1,0,4.255,4,896,1771,2,Rust,false,2,Libraries,Mobile,10.000,0,0
+Geal/rust_on_mobile,170,1,1,1,0,5.882,4,2872,2913,1,Objective-C,false,0,Libraries,Mobile,10.000,0,0
+TimNN/cargo-lipo,519,7,4,2,0,13.487,4,15,3186,18,Rust,false,6,Libraries,Mobile,24.000,2,2
+Covertness/coap-rs,201,2,0,0,0,9.950,28,63,3257,21,Rust,false,17,Libraries,Network programming,4.000,0,0
+fussybeaver/bollard,759,17,10,7,0,22.398,1,30,2184,76,Rust,false,35,Libraries,Network programming,27.000,0,0
+mattnenterprise/rust-ftp,178,1,0,0,0,5.618,24,980,3490,16,Rust,false,5,Libraries,Network programming,2.000,0,0
+hyperium/tonic,9196,149,83,53,7,16.203,0,0,1768,231,Rust,false,0,Libraries,Network programming,100.000,10,28
+tikv/grpc-rs,1783,7,4,2,0,3.926,1,36,2608,126,Rust,false,10,Libraries,Network programming,18.000,0,0
+Orange-OpenSource/hurl,12083,447,107,46,7,36.994,0,0,1386,193,Rust,false,0,Libraries,Network programming,100.000,9,112
+achanda/ipnetwork,119,3,1,0,0,25.210,13,41,3343,26,Rust,false,2,Libraries,Network programming,13.000,0,0
+canndrew/netsim,134,2,1,1,0,14.925,4,1862,2356,3,Rust,false,19,Libraries,Network programming,12.000,0,0
+actix/actix,8426,40,19,8,0,4.747,0,2,2459,144,Rust,false,0,Libraries,Network programming,67.000,4,10
+dylanmckay/protocol,184,2,1,1,0,10.870,4,640,2831,5,Rust,false,0,Libraries,Network programming,12.000,0,0
+libpnet/libpnet,2210,27,18,9,2,12.217,0,8,3572,127,Rust,false,6,Libraries,Network programming,65.000,4,25
+smoltcp-rs/smoltcp,3609,37,15,9,1,10.252,0,15,2748,121,Rust,false,8,Libraries,Network programming,51.000,3,13
+lemunozm/message-io,1051,13,7,2,1,12.369,0,1,1439,14,Rust,false,11,Libraries,Network programming,71.000,1,1
+bytebeamio/rumqtt,1509,20,10,4,2,13.254,0,1,1701,88,Rust,false,0,Libraries,Network programming,73.000,7,9
+thehydroimpulse/nanomsg.rs,386,0,0,0,0,0.000,35,222,3930,26,Rust,false,2,Libraries,Network programming,0.000,0,0
+nats-io/nats.rs,968,15,6,4,0,15.496,4,15,1569,83,Rust,false,0,Libraries,Network programming,37.000,3,14
+libp2p/rust-libp2p,4240,47,26,12,2,11.085,0,0,2636,295,Rust,false,60,Libraries,Network programming,100.000,12,64
+aws/s2n-quic,1090,18,3,2,0,16.514,1,0,1447,56,Rust,false,0,Libraries,Network programming,76.000,4,26
+cloudflare/quiche,9042,89,37,18,3,9.843,0,0,2082,130,Rust,false,0,Libraries,Network programming,100.000,4,6
+mozilla/neqo,1780,17,5,2,0,9.551,1,1,1940,47,Rust,false,2,Libraries,Network programming,62.000,5,20
+quinn-rs/quinn,3538,67,28,12,0,18.937,1,3,2261,117,Rust,false,0,Libraries,Network programming,70.000,7,42
+Tencent/tquic,920,22,13,4,0,23.913,4,7,230,17,Rust,false,20,Libraries,Network programming,51.000,4,17
+b23r0/rust-raknet,214,1,1,0,0,4.673,11,561,823,3,Rust,false,3,Libraries,Network programming,5.000,0,0
+smallnest/rpcx-rs,123,1,0,0,0,8.130,29,90,1780,3,Rust,false,0,Libraries,Network programming,2.000,0,0
+alexcrichton/ssh2-rs,465,4,3,1,0,8.602,1,54,3555,69,Rust,false,4,Libraries,Network programming,18.000,0,0
+zslayton/stomp-rs,89,0,0,0,0,0.000,124,2167,3699,5,Rust,false,7,Libraries,Network programming,0.000,0,0
+DefGuard/wireguard-rs,116,6,2,0,0,51.724,10,19,292,7,Rust,false,4,Libraries,Network programming,19.000,2,2
+erickt/rust-zmq,883,6,5,2,1,6.795,0,507,4563,54,Rust,false,3,Libraries,Network programming,22.000,0,0
+Folyd/robotstxt,83,0,0,0,0,0.000,55,1214,1532,1,Rust,false,0,Libraries,Parsing,0.000,0,0
+freestrings/jsonpath,121,2,1,0,0,16.529,11,1008,1995,6,Rust,false,3,Libraries,Parsing,7.000,0,0
+igumnoff/shiva,137,12,6,2,0,87.591,2,1,85,18,Rust,false,0,Libraries,Parsing,71.000,7,65
+kevinmehall/rust-peg,1410,18,8,4,0,12.766,3,9,3950,50,Rust,false,2,Libraries,Parsing,41.000,1,1
+lalrpop/lalrpop,2923,31,13,4,0,10.606,2,4,3287,142,Rust,false,4,Libraries,Parsing,57.000,3,7
+m4rw3r/chomp,242,1,1,0,0,4.132,9,762,3131,8,Rust,false,7,Libraries,Parsing,5.000,0,0
+Marwes/combine,1273,4,3,1,0,3.142,5,62,3438,56,Rust,false,11,Libraries,Parsing,12.000,0,0
+pest-parser/pest,4443,59,17,10,1,13.279,0,41,2970,122,Rust,false,0,Libraries,Parsing,41.000,0,0
+ptal/oak,141,0,0,0,0,0.000,103,1246,3628,6,Rust,false,4,Libraries,Parsing,0.000,0,0
+replicadse/wavefront_rs,4,0,0,0,0,0.000,504,433,1507,2,Rust,false,0,Libraries,Parsing,0.000,0,0
+rust-bakery/nom,9133,91,39,21,2,9.964,0,29,3488,343,Rust,false,1,Libraries,Parsing,60.000,1,1
+s-panferov/queryst,71,0,0,0,0,0.000,84,395,3548,11,Rust,false,5,Libraries,Parsing,0.000,0,0
+tree-sitter/tree-sitter,16987,344,142,80,16,20.251,0,1,3870,276,Rust,false,44,Libraries,Parsing,100.000,8,26
+hannobraun/inotify-rs,250,4,3,1,0,16.000,1,123,3715,48,Rust,false,5,Libraries,Platform specific,12.000,0,0
+nix-rust/nix,2554,22,6,3,0,8.614,4,0,3596,386,Rust,false,5,Libraries,Platform specific,85.000,6,33
+bytecodealliance/rustix,1366,28,16,8,2,20.498,0,0,1366,86,Rust,false,5,Libraries,Platform specific,87.000,2,4
+zargony/fuse-rs,1039,6,1,0,0,5.775,12,1413,3899,23,Rust,false,5,Libraries,Platform specific,7.000,0,0
+retep998/winapi-rs,1814,10,8,4,0,5.513,1,948,3563,150,Rust,false,0,Libraries,Platform specific,17.000,0,0
+rustq/3body-lang,164,4,1,0,0,24.390,11,32,489,8,Rust,false,3,Libraries,Scripting,13.000,0,0
+fleabitdev/glsp,389,0,0,0,0,0.000,42,826,1461,3,Rust,false,0,Libraries,Scripting,0.000,0,0
+gluon-lang/gluon,3140,23,13,6,1,7.325,0,178,3236,55,Rust,false,29,Libraries,Scripting,35.000,0,0
+kcl-lang/kcl,1378,47,23,13,4,34.107,0,0,768,31,Rust,false,0,Libraries,Scripting,100.000,8,68
+mun-lang/mun,1784,23,11,8,1,12.892,0,7,1788,20,Rust,false,0,Libraries,Scripting,55.000,1,1
+murarth/ketos,747,1,0,0,0,1.339,19,1607,3046,8,Rust,false,9,Libraries,Scripting,2.000,0,0
+PistonDevelopers/dyon,1734,8,3,2,2,4.614,0,104,3063,144,Rust,false,8,Libraries,Scripting,22.000,0,0
+rhaiscript/rhai,3554,46,12,6,1,12.943,0,6,3025,51,Rust,false,20,Libraries,Scripting,75.000,2,23
+rune-rs/rune,1607,40,21,6,1,24.891,0,13,1417,36,Rust,false,0,Libraries,Scripting,62.000,1,2
+BinChengZhao/delay-timer,295,7,6,0,0,23.729,7,23,1471,5,Rust,false,15,Libraries,Task scheduling,24.000,2,3
+sunng87/handlebars-rust,1212,11,5,2,1,9.076,0,19,3460,74,Rust,false,10,Libraries,Template engine,36.000,1,1
+zzau13/yarte,278,1,0,0,0,3.597,15,316,1802,2,Rust,false,11,Libraries,Template engine,2.000,0,0
+djc/askama,3197,76,44,22,2,23.772,0,0,2728,116,Rust,false,0,Libraries,Template engine,100.000,3,25
+kaj/ructe,429,4,3,2,0,9.324,0,2,2826,13,Rust,false,7,Libraries,Template engine,58.000,1,13
+Keats/tera,3289,55,28,13,3,16.722,0,13,3252,141,Rust,false,14,Libraries,Template engine,62.000,7,8
+lambda-fairy/maud,1965,25,15,7,1,12.723,0,8,3464,51,Rust,false,0,Libraries,Template engine,55.000,1,1
+Stebalien/horrorshow-rs,315,1,1,0,0,3.175,8,274,3328,10,Rust,false,0,Libraries,Template engine,5.000,0,0
+rustache/rustache,210,0,0,0,0,0.000,178,2397,3553,13,Rust,false,3,Libraries,Template engine,0.000,0,0
+BurntSushi/suffix,254,0,0,0,0,0.000,33,245,3454,6,Rust,false,0,Libraries,Text processing,0.000,0,0
+BurntSushi/tabwriter,244,0,0,0,0,0.000,53,167,3565,11,Rust,false,1,Libraries,Text processing,0.000,0,0
+probablykasper/cpc,117,3,2,1,1,25.641,0,150,1650,7,Rust,false,2,Libraries,Text processing,22.000,0,0
+greyblake/whatlang-rs,957,3,2,0,0,3.135,9,87,2775,23,Rust,false,5,Libraries,Text processing,7.000,0,0
+ps1dr3x/easy_reader,84,0,0,0,0,0.000,55,846,2235,3,Rust,false,2,Libraries,Text processing,0.000,0,0
+rust-lang/regex,3388,30,17,13,3,8.855,0,2,3470,186,Rust,false,4,Libraries,Text processing,81.000,3,11
+meilisearch/MeiliSearch,44101,586,289,163,29,13.288,0,1,2241,163,Rust,false,0,Libraries,Text search,100.000,8,105
+nathanbabcock/ffmpeg-sidecar,189,2,0,0,0,10.582,22,58,488,7,Rust,false,1,Libraries,Video,10.000,0,0
+beneills/quantum,264,2,0,0,0,7.576,18,2867,2885,1,Rust,false,2,Libraries,Virtualization,4.000,0,0
+bytecodealliance/wasmtime,14716,179,79,42,10,12.164,0,0,2478,498,Rust,false,131,Libraries,Virtualization,100.000,29,119
+oxidecomputer/propolis,169,1,0,0,0,5.917,16,14,1345,73,Rust,false,107,Libraries,Virtualization,14.000,3,4
+saurvs/hypervisor-rs,60,0,0,0,0,0.000,55,2631,3000,1,Rust,false,1,Libraries,Virtualization,0.000,0,0
+leptos-rs/leptos,15054,310,127,84,18,20.593,0,9,681,261,Rust,false,14,Libraries,Web programming,84.000,5,9
+ivanceras/sauron,1927,8,4,2,0,4.152,6,10,1884,12,Rust,false,3,Libraries,Web programming,32.000,1,1
+seed-rs/seed,3790,4,1,0,0,1.055,12,462,2019,57,Rust,false,15,Libraries,Web programming,7.000,0,0
+alexcrichton/curl-rust,996,3,1,0,0,3.012,7,97,3660,108,Rust,false,3,Libraries,Web programming,7.000,0,0
+async-graphql/async-graphql,3260,25,13,7,1,7.669,0,4,1563,215,Rust,false,52,Libraries,Web programming,75.000,6,26
+ducaale/xh,4882,97,41,17,4,19.869,0,3,1370,38,Rust,false,34,Libraries,Web programming,82.000,4,9
+graphql-rust/graphql-client,1118,7,4,2,0,6.261,1,77,2201,57,Rust,false,0,Libraries,Web programming,12.000,0,0
+hyperium/hyper,14007,135,72,37,2,9.638,0,8,3573,377,Rust,false,16,Libraries,Web programming,82.000,5,9
+seanmonstar/reqwest,9320,121,51,24,3,12.983,0,0,2903,316,Rust,false,12,Libraries,Web programming,100.000,5,14
+actix/actix-web,20559,262,125,58,10,12.744,0,1,2446,367,Rust,false,0,Libraries,Web programming,100.000,11,70
+saru-tora/anansi,112,1,1,1,0,8.929,2,434,631,2,Rust,false,0,Libraries,Web programming,10.000,0,0
+danclive/sincere,96,0,0,0,0,0.000,98,1333,2695,4,Rust,false,16,Libraries,Web programming,0.000,0,0
+GildedHonour/frank_jwt,250,0,0,0,0,0.000,154,200,3521,14,Rust,false,4,Libraries,Web programming,0.000,0,0
+gotham-rs/gotham,2230,9,6,3,2,4.036,0,55,2516,52,Rust,false,0,Libraries,Web programming,33.000,0,0
+graphul-rs/graphul,440,1,1,0,0,2.273,13,260,882,3,Rust,false,13,Libraries,Web programming,5.000,0,0
+sunng87/handlebars-rust,1212,11,5,2,1,9.076,0,19,3460,74,Rust,false,10,Libraries,Web programming,36.000,1,1
+hyperium/hyper,14007,135,72,37,2,9.638,0,8,3573,377,Rust,false,16,Libraries,Web programming,82.000,5,9
+iron/iron,6122,4,2,0,0,0.653,7,1187,3654,133,Rust,false,0,Libraries,Web programming,7.000,0,0
+graphql-rust/juniper,5593,42,15,7,3,7.509,0,6,2830,150,Rust,false,0,Libraries,Web programming,67.000,1,4
+miketang84/sapper,617,1,1,1,0,1.621,6,1547,2974,5,Rust,false,6,Libraries,Web programming,10.000,0,0
+poem-web/poem,3280,52,29,17,4,15.854,0,0,1035,97,Rust,false,28,Libraries,Web programming,92.000,5,7
+rwf2/Rocket,23657,232,111,55,11,9.807,0,1,3008,296,Rust,false,0,Libraries,Web programming,100.000,6,20
+rustless/rustless,616,1,0,0,0,1.623,24,2288,3550,16,Rust,false,18,Libraries,Web programming,2.000,0,0
+salvo-rs/salvo,2840,78,54,17,4,27.465,0,1,1678,46,Rust,false,115,Libraries,Web programming,100.000,6,46
+richerarc/saphir,90,0,0,0,0,0.000,108,28,2203,15,Rust,false,0,Libraries,Web programming,10.000,1,1
+seanmonstar/warp,9260,93,52,30,7,10.043,0,67,2162,177,Rust,false,24,Libraries,Web programming,62.000,0,0
+tiny-http/tiny-http,963,7,1,1,0,7.269,2,392,3620,44,Rust,false,9,Libraries,Web programming,12.000,0,0
+tokio-rs/axum,16968,477,206,100,16,28.112,0,2,1108,331,Rust,false,0,Libraries,Web programming,100.000,4,9
+tomaka/rouille,1087,11,3,2,0,10.120,5,1,3254,44,Rust,false,16,Libraries,Web programming,58.000,2,3
+zino-rs/zino,681,40,21,10,0,58.737,1,4,531,5,Rust,false,0,Libraries,Web programming,66.000,1,18
+cargonauts-rs/cargonauts,179,0,0,0,0,0.000,71,2516,2822,4,Rust,false,14,Libraries,Web programming,0.000,0,0
+juhaku/utoipa,1961,98,36,18,5,49.975,0,12,985,87,Rust,false,0,Libraries,Web programming,80.000,5,28
+pyrossh/rust-embed,1553,25,10,3,0,16.098,1,19,3117,54,Rust,false,13,Libraries,Web programming,37.000,3,4
+thewh1teagle/rookie,102,7,6,4,1,68.627,0,31,259,5,Rust,false,0,Libraries,Web programming,33.000,0,0
+softprops/openapi,125,1,0,0,0,8.000,14,1241,2703,10,Rust,false,7,Libraries,Web programming,2.000,0,0
+cobalt-org/cobalt.rs,1342,12,8,5,0,8.942,1,7,3514,46,Rust,false,43,Libraries,Web programming,47.000,2,11
+housleyjk/ws-rs,1456,3,2,1,0,2.060,6,298,3210,37,Rust,false,14,Libraries,Web programming,12.000,0,0
+iddm/urlshortener-rs,48,0,0,0,0,0.000,77,28,2899,7,Rust,false,2,Libraries,Web programming,12.000,1,2
+websockets-rs/rust-websocket,1490,15,8,1,0,10.067,2,268,3484,61,Rust,false,13,Libraries,Web programming,21.000,0,0
+snapview/tungstenite-rs,1767,39,24,8,0,22.071,1,9,2643,71,Rust,false,16,Libraries,Web programming,52.000,3,6
+vi/websocat,6663,111,50,24,3,16.659,0,33,2757,14,Rust,false,40,Libraries,Web programming,56.000,0,0
+w4/chartered,129,0,0,0,0,0.000,75,598,1019,2,Rust,false,0,Registries,,0.000,0,0
+TeXitoi/benchmarksgame-rs,68,0,0,0,0,0.000,38,1623,3440,10,Rust,false,0,Resources,,0.000,0,0
+cognitive-engineering-lab/aquascope,1837,50,25,15,0,27.218,1,76,635,3,Rust,false,0,Resources,,30.000,0,0
+jamesmunns/awesome-rust-streaming,682,3,1,1,0,4.399,3,786,1506,21,,false,0,Resources,,12.000,0,0
+Dhghomon/easy_rust,7856,21,9,5,1,2.673,0,507,1432,47,Shell,false,0,Resources,,35.000,0,0
+mre/idiomatic-rust,6069,102,49,27,3,16.807,0,32,2596,19,Rust,false,0,Resources,,56.000,0,0
+cuppar/rtd,425,44,18,11,1,103.529,0,280,323,1,Rust,false,2,Resources,,35.000,0,0
+ad-si/Rust-Flashcards,499,27,6,3,1,54.108,0,6,100,5,Rust,false,0,Resources,,67.000,2,4
+warycat/rustgym,848,3,1,0,0,3.538,12,736,1813,5,Rust,false,0,Resources,,7.000,0,0
+jondot/rust-how-do-i-start,1036,9,5,3,1,8.687,0,496,798,3,,false,0,Resources,,22.000,0,0
+ctjhoa/rust-learning,11216,83,49,22,8,7.400,0,15,3323,111,,false,0,Resources,,64.000,5,9
+rust-lang/rustlings,50560,948,390,180,22,18.750,0,13,3193,404,Rust,false,11,Resources,,87.000,2,2
+AbdesamedBendjeddou/Rusty-CS,868,9,2,1,1,10.369,0,155,806,7,,false,0,Resources,,22.000,0,0
+brson/stdx,2011,6,2,0,0,2.984,8,1947,3265,18,Rust,false,31,Resources,,7.000,0,0
+rust-unofficial/patterns,7780,51,23,12,1,6.555,0,0,3163,97,Handlebars,false,0,Resources,,92.000,2,2
+sger/RustBooks,4164,83,39,23,1,19.933,0,35,2873,36,,false,0,Resources,,56.000,0,0
+rustviz/rustviz,2650,21,8,4,0,7.925,1,243,1345,13,HTML,false,0,Resources,,25.000,0,0
