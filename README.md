@@ -31,3 +31,9 @@ This project offers a comprehensive analysis of repositories curated in the list
 ## Stars Timeline 30d
 
 <img width="1509" alt="Screenshot 2023-11-05 at 19 31 08" src="https://github.com/emanuelef/awesome-rust-repo-stats/assets/48717/b39e49bd-5ddf-4919-b69f-c0a3a24f7011">
+
+## Bubble Chart
+
+<img width="1496" alt="Screenshot 2024-07-13 at 17 15 25" src="https://github.com/user-attachments/assets/bd828b59-3cff-40eb-89e2-d93b24e173bc">
+
+
