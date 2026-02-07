@@ -601,6 +601,12 @@ function App() {
               <h2 style={{ color: "black" }}>Awesome Rust Stats</h2>
             </MenuItem>
             <MenuItem
+              component={<Link to="/" className="link" />}
+              icon={<BubbleChartRoundedIcon />}
+            >
+              Bubble (default)
+            </MenuItem>
+            <MenuItem
               component={<Link to="/table" className="link" />}
               icon={<ViewListRoundedIcon />}
             >
