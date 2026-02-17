@@ -70,7 +70,6 @@ func writeGoDepsMapFile(ctx context.Context, deps map[string]int, restyClient *r
 	}
 
 	err = csvWriter.Write(headerRow)
-
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -111,7 +110,6 @@ func writeGoDepsMapFile(ctx context.Context, deps map[string]int, restyClient *r
 				fmt.Sprintf("%d", recentDownloads),
 				data.Crate.RepoUrl,
 			})
-
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -174,7 +172,6 @@ func main() {
 	}
 
 	err = csvWriter.Write(headerRow)
-
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -277,7 +274,6 @@ func main() {
 						fmt.Sprintf("%d", result.DifferentAuthors),
 						fmt.Sprintf("%d", result.CommitsHistory.AddedLast30d),
 					})
-
 					if err != nil {
 						log.Fatal(err)
 					}

@@ -5,4 +5,4 @@ go get -u
 gofumpt -l -w ../
 go mod tidy
 
-(cd ./website && ncu -u && npm i)
+(cd ./website && npx npm-check-updates -u && npm i --force)
